@@ -32,14 +32,16 @@ footprints=zeros(3,N);
 footprint0_sx = [0,deltay,0]';
 footprint0_dx = [0,0,0]';  
 
+max_height = 0;
+
 
 for i=1:N
     if i==1
         footprints(:,i)=footprint0_dx;
     elseif mod(i,2)~=0
-        footprints(:,i)=[deltax*(i-1); 0; 0];
+        footprints(:,i)=[deltax*(i-1); 0; rand*max_height];
     else
-        footprints(:,i)=[deltax*(i-1); deltay; 0];
+        footprints(:,i)=[deltax*(i-1); deltay; rand*max_height];
     end
 end
 
@@ -119,5 +121,75 @@ for j=1:3
         title("dotDCM z component");
     end
 end
+%% CoM from diff eq
+% syms CoMx(t) DCMx(t) CoMy(t) DCMy(t) CoMz(t) DCMz(t)
+% syms ETA real
+% odex = diff(CoMx,t) == -ETA*(CoMx-DCMx);
+% odey = diff(CoMy,t) == -ETA*(CoMy-DCMy);
+% odez = diff(CoMz,t) == -ETA*(CoMz-DCMz);
+% condx = [CoMx(0) == 0];
+% condy = [CoMy(0) == deltay/2];
+% condz = [CoMz(0) == z_com];
+% Solx(t) = dsolve(odex,condx)
+% Soly(t) = dsolve(odey,condy)
+% Solz(t) = dsolve(odez,condz)
 
 %% CoM reference generation and plot
+
+CoM_trajectories=zeros(3,N,length(t));
+CoM_start = [0, deltay/2, z_com]';
+
+for i=1:N
+    cumsum = 0;
+    if i > 1
+        CoM_start = CoM_trajectories(:,i-1,length(t));
+    end
+    for k=1:length(t)
+        CoM_trajectories(:,i,k) = exp(-eta*t(k))*(CoM_start + cumsum);
+        cumsum = cumsum + eta*exp(eta*t(k))*DCM_trajectories(:,i,k)*t(2);
+    end
+end
+
+for j=1:3
+    figure(j+6);
+    for i=1:N
+        plot(t+t_step*(i-1),reshape(CoM_trajectories(j,i,:),1,[]),colors(j),...
+             t+t_step*(i-1),reshape(DCM_trajectories(j,i,:),1,[]),[colors(j),'--']);
+        hold on;
+    end
+    hold off;
+    if j==1
+        title("CoM vs DCM x component");
+    elseif j==2
+        title("CoM vs DCM y component");
+    else
+        title("CoM vs DCM z component");
+    end
+end
+
+%% dot CoM reference generation and plot
+
+dot_CoM_trajectories=zeros(3,N,length(t));
+
+for i=1:N
+    for k=1:length(t)
+        dot_CoM_trajectories(:,i,k) = -eta*(CoM_trajectories(:,i,k)-DCM_trajectories(:,i,k));
+    end
+end
+
+for j=1:3
+    figure(j+9);
+    for i=1:N
+        plot(t+t_step*(i-1),reshape(dot_CoM_trajectories(j,i,:),1,[]),colors(j));
+        hold on;
+    end
+    hold off;
+    if j==1
+        title("dot CoM x component");
+    elseif j==2
+        title("dot CoM y component");
+    else
+        title("dot CoM z component");
+    end
+end
+
