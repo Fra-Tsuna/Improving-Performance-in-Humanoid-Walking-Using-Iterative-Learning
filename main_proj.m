@@ -20,6 +20,7 @@ T=N*t_step;
 
 colors=['r','g','b'];
 
+imgs=0;
 %% Footprints Generation
 
 %-robot feet are point feet
@@ -73,8 +74,12 @@ for k=1:length(t)
     end
 end
 
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
 for j=1:3
-    figure(j);
+    subplot(1,3,j);
     for i=1:N
         plot(t+t_step*(i-1),reshape(DCM_trajectories(j,i,:),1,[]),colors(j));
         hold on;
@@ -99,8 +104,12 @@ for k=1:length(t)
     end
 end
 
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
 for j=1:3
-    figure(j+3);
+    subplot(1,3,j);
     for i=1:N
         tx=t+t_step*(i-1);
         plot(tx,reshape(dot_DCM_trajectories(j,i,:),1,[]),colors(j));
@@ -150,8 +159,12 @@ for i=1:N
     end
 end
 
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
 for j=1:3
-    figure(j+6);
+    subplot(1,3,j);
     for i=1:N
         plot(t+t_step*(i-1),reshape(CoM_trajectories(j,i,:),1,[]),colors(j),...
              t+t_step*(i-1),reshape(DCM_trajectories(j,i,:),1,[]),[colors(j),'--']);
@@ -177,8 +190,12 @@ for i=1:N
     end
 end
 
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
 for j=1:3
-    figure(j+9);
+    subplot(1,3,j);
     for i=1:N
         plot(t+t_step*(i-1),reshape(dot_CoM_trajectories(j,i,:),1,[]),colors(j));
         hold on;
