@@ -147,99 +147,18 @@ end
 
 %% CoM reference generation and plot
 
-CoM_trajectories=zeros(3,N,length(t));
-CoM_start = [0, deltay/2, z_com]';
-
-for i=1:N
-    cumsum = 0;
-    if i > 1
-        CoM_start = CoM_trajectories(:,i-1,length(t));
-    end
-    for k=1:length(t)
-        CoM_trajectories(:,i,k) = exp(-eta*t(k))*(CoM_start + cumsum);
-        cumsum = cumsum + eta*exp(eta*t(k))*DCM_trajectories(:,i,k)*t(2);
-    end
-end
-
-imgs=imgs+1;
-f=figure(imgs);
-f.Position = [20 200 1500 400];
-
-for j=1:3
-    subplot(1,3,j);
-    for i=1:N
-        plot(t+t_step*(i-1),reshape(CoM_trajectories(j,i,:),1,[]),colors(j),...
-             t+t_step*(i-1),reshape(DCM_trajectories(j,i,:),1,[]),[colors(j),'--']);
-        hold on;
-    end
-    grid on;
-    hold off;
-    if j==1
-        title("CoM(line) vs DCM(dotted) x component");
-    elseif j==2
-        title("CoM(line) vs DCM(dotted) y component");
-    else
-        title("CoM(line) vs DCM(dotted) z component");
-    end
-end
-
-%% dot CoM reference generation and plot
-
-dot_CoM_trajectories=zeros(3,N,length(t));
-
-for i=1:N
-    for k=1:length(t)
-        dot_CoM_trajectories(:,i,k) = -eta*(CoM_trajectories(:,i,k)-DCM_trajectories(:,i,k));
-    end
-end
-
-imgs=imgs+1;
-f=figure(imgs);
-f.Position = [20 200 1500 400];
-
-for j=1:3
-    subplot(1,3,j);
-    for i=1:N
-        plot(t+t_step*(i-1),reshape(dot_CoM_trajectories(j,i,:),1,[]),colors(j));
-        hold on;
-    end
-    grid on;
-    hold off;
-    if j==1
-        title("dot CoM x component");
-    elseif j==2
-        title("dot CoM y component");
-    else
-        title("dot CoM z component");
-    end
-end
-
-%% Checking CoM consistency
-close all;
-%controllare se soddisfa eq LIP xc"=eta * (xc - xz)
-
-CoMdotdot_temp=zeros(3,5,100);
-for i=1:N
-    CoMdotdot_temp(:,i,:)=diff(dot_CoM_trajectories(:,i,:), 1, 3);
-end
-
-CoMdotdot=zeros(3,5,101);
-CoMdotdot(:,:,[2:101])=CoMdotdot_temp;
-
-
-
-% imgs=imgs+1;
-% f=figure(imgs);
-% f.Position = [20 200 1500 400];
-
-%for j=1:3
-%     subplot(1,3,j);
-%     for i=1:N
-%         plot(t+t_step*(i-1),reshape(100*CoMdotdot(j,i,:),1,[]),colors(j))
-%         hold on;
+% CoM_trajectories=zeros(3,N,length(t));
+% CoM_start = [0, deltay/2, z_com]';
+% 
+% for i=1:N
+%     cumsum = 0;
+%     if i > 1
+%         CoM_start = CoM_trajectories(:,i-1,length(t));
 %     end
-%     grid on;
-%     hold off;
+%     for k=1:length(t)
+%         CoM_trajectories(:,i,k) = exp(-eta*t(k))*(CoM_start + cumsum);
+%         cumsum = cumsum + eta*exp(eta*t(k))*DCM_trajectories(:,i,k)*t(2);
+%     end
 % end
 % 
 % imgs=imgs+1;
@@ -249,12 +168,53 @@ CoMdotdot(:,:,[2:101])=CoMdotdot_temp;
 % for j=1:3
 %     subplot(1,3,j);
 %     for i=1:N
-%         plot(t+t_step*(i-1),reshape((eta*eta)*(CoM_trajectories(j,i,:)-VRP_des(j,i)),1,[]),colors(j))
+%         plot(t+t_step*(i-1),reshape(CoM_trajectories(j,i,:),1,[]),colors(j),...
+%              t+t_step*(i-1),reshape(DCM_trajectories(j,i,:),1,[]),[colors(j),'--']);
 %         hold on;
 %     end
 %     grid on;
 %     hold off;
+%     if j==1
+%         title("CoM(line) vs DCM(dotted) x component");
+%     elseif j==2
+%         title("CoM(line) vs DCM(dotted) y component");
+%     else
+%         title("CoM(line) vs DCM(dotted) z component");
+%     end
 % end
+
+%% dot CoM reference generation and plot
+
+% dot_CoM_trajectories=zeros(3,N,length(t));
+% 
+% for i=1:N
+%     for k=1:length(t)
+%         dot_CoM_trajectories(:,i,k) = -eta*(CoM_trajectories(:,i,k)-DCM_trajectories(:,i,k));
+%     end
+% end
+% 
+% imgs=imgs+1;
+% f=figure(imgs);
+% f.Position = [20 200 1500 400];
+% 
+% for j=1:3
+%     subplot(1,3,j);
+%     for i=1:N
+%         plot(t+t_step*(i-1),reshape(dot_CoM_trajectories(j,i,:),1,[]),colors(j));
+%         hold on;
+%     end
+%     grid on;
+%     hold off;
+%     if j==1
+%         title("dot CoM x component");
+%     elseif j==2
+%         title("dot CoM y component");
+%     else
+%         title("dot CoM z component");
+%     end
+% end
+
+%% CoM trajectory
 
 CoM=zeros(3,N,length(t));
 
@@ -263,19 +223,19 @@ prevDCM=DCM_trajectories(:,1,1);
 
 for i=1:N
     if i > 1
-        prev = CoM(:,i-1,length(t))
-        prevDCM = DCM_trajectories(:,i-1,length(t))
+        prev = CoM(:,i-1,length(t));
+        prevDCM = DCM_trajectories(:,i-1,length(t));
     end
     for k=1:length(t)
-        if k > 1
+        if k==1
+           CoM(:,i,k) = prev;
+        else
             prev = CoM(:,i,k-1);
             prevDCM = DCM_trajectories(:,i,k-1);
+            CoM(:,i,k) = prev - eta*(prev - prevDCM)*t(2);
         end
-        CoM(:,i,k) = prev - eta*(prev - prevDCM)*t(2);
     end
 end
-
-
 
 imgs=imgs+1;
 f=figure(imgs);
@@ -289,4 +249,86 @@ for j=1:3
     end
     grid on;
     hold off;
+    if j==1
+        title("CoM x component");
+    elseif j==2
+        title("CoM y component");
+    else
+        title("CoM z component");
+    end
 end
+
+%% dot_CoM trajectory
+
+dot_CoM = zeros(3,N,length(t));
+
+for i=1:N
+    for k=1:length(t)
+        dot_CoM(:,i,k) = -eta*(CoM(:,i,k)-DCM_trajectories(:,i,k));
+    end
+end
+
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
+for j=1:3
+    subplot(1,3,j);
+    for i=1:N
+        plot(t+t_step*(i-1),reshape(dot_CoM(j,i,:),1,[]),colors(j));
+        hold on;
+    end
+    grid on;
+    hold off;
+    if j==1
+        title("dot CoM x component");
+    elseif j==2
+        title("dot CoM y component");
+    else
+        title("dot CoM z component");
+    end
+end
+
+%% CoM consistency check
+%controllare se soddisfa eq LIP xc"=eta * (xc - xz)
+
+CoMdotdot=zeros(3,5,101);
+for i=1:N
+    CoMdotdot(:,i,2:101) = diff(dot_CoM(:,i,:), 1, 3)/t(2);
+    CoMdotdot(:,i,1) = CoMdotdot(:,i,2);
+end
+
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
+for j=1:3
+    subplot(1,3,j);
+    for i=1:N
+        plot(t+t_step*(i-1),reshape(CoMdotdot(j,i,:)-(eta*eta)*(CoM(j,i,:)-VRP_des(j,i)),1,[]),colors(j))
+        hold on;
+    end
+    grid on;
+    hold off;
+    if j==1
+        title("double dot CoM - eta^2*(CoM-VRP) x component");
+    elseif j==2
+        title("double dot CoM - eta^2*(CoM-VRP) y component");
+    else
+        title("double dot CoM - eta^2*(CoM-VRP) z component");
+    end
+end
+
+% imgs=imgs+1;
+% f=figure(imgs);
+% f.Position = [20 200 1500 400];
+% 
+% for j=1:3
+%     subplot(1,3,j);
+%     for i=1:N
+%         plot(t+t_step*(i-1),reshape((eta*eta)*(CoM(j,i,:)-VRP_des(j,i)),1,[]),colors(j))
+%         hold on;
+%     end
+%     grid on;
+%     hold off;
+% end
