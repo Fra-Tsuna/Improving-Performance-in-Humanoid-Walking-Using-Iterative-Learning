@@ -9,14 +9,26 @@ g=[0; 0; -g0];
 b=sqrt(z_com/g0); %s, time constant.
 eta=1/b;
 
-N=5; % # foot positions.
-t_step=1;
+N=20; % # foot positions.
+t_step=1.2;
 
 deltax=0.3;
 deltay=0.25;
 
-t=(0:0.01:t_step); 
+R_delta=eye(2);
+
+kl=1;
+kf=1;
+k_DCM=4;
+
+Ts=0.001;
+T_ILC=0.01;
+T_iter=2*t_step;
+
+t=(0:Ts:t_step-Ts); 
 T=N*t_step;
+
+Tg=(0:Ts:T+2);
 
 colors=['r','g','b'];
 
@@ -47,7 +59,7 @@ for i=1:N
     end
 end
 
-%% DCM reference generation and plot
+%% DCM "measured"
 
 eCMPs = footprints;
 ZMPs = footprints;
@@ -96,7 +108,7 @@ for j=1:3
     end
 end
 
-%% Derivative of DCM reference generation and plot
+%% dot DCM "measured"
 
 dot_DCM_trajectories=zeros(3,N,length(t));
 for k=1:length(t)
@@ -134,7 +146,7 @@ for j=1:3
     end
 end
 
-%% CoM trajectory
+%% CoM "measured"
 %Euler integration
 
 CoM=zeros(3,N,length(t));
@@ -179,7 +191,7 @@ for j=1:3
     end
 end
 
-%% dot_CoM trajectory
+%% dot CoM "measured"
 
 dot_CoM = zeros(3,N,length(t));
 
@@ -210,7 +222,7 @@ for j=1:3
     end
 end
 
-%% VRP trajectory
+%% VRP desired trajectory
 
 VRP_trajectory = zeros(3,N,length(t));
 
@@ -244,4 +256,77 @@ for j=1:3
         title("VRP trajectory z component");
     end
 end
+%% DCM desired trajectory
 
+DCM_trajectory = zeros(3,N,length(t));
+
+for i=1:N
+    j=N+1-i;
+    if i==1
+        DCM_eos_des(:,j) = VRP_des(:,j);
+    else
+    DCM_eos_des(:,j)= VRP_des(:,j+1) +... 
+        exp(-eta*t_step)*(DCM_eos_des(:,j+1) - VRP_des(:,j+1));
+    end
+end
+
+DCM_trajectories=zeros(3,N,length(t));
+
+for k=1:length(t)
+    for i=1:N
+        DCM_trajectories(:,i,k)=VRP_des(:,i)+exp(eta*(t(k)-t_step))*...
+              (DCM_eos_des(:,i)-VRP_des(:,i));
+    end
+end
+
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
+for j=1:3
+    subplot(1,3,j);
+    for i=1:N
+        plot(t+t_step*(i-1),reshape(DCM_trajectories(j,i,:),1,[]),colors(j));
+        hold on;
+    end
+    grid on;
+    hold off;
+    if j==1
+        title("DCM x component");
+    elseif j==2
+        title("DCM y component");
+    else
+        title("DCM z component");
+    end
+end
+
+
+%% VRP_OILC
+
+VRP_traj_des=reshape(reshape(VRP_trajectory,3,[]),3,N/2,[]);
+DCM_traj_des=reshape(reshape(DCM_trajectories,3,[]),3,N/2,[]);
+
+VRP_adj=zeros(2,N/2,T_iter/Ts);
+DCM_adj=zeros(2,N/2,T_iter/Ts);
+
+phi_c=1;
+n_phi=N; %Numero transizioni = 2 transizione per iterazione
+
+for s=1:length(Tg)
+    i=floor(Tg(s)/T_iter)+1;
+    tt=mod(Tg(s),T_iter);
+    if (i==1 && tt==0)
+        Vl=VRP_traj_des(1:2,i,1:T_ILC/Ts:(T_iter-T_ILC)/Ts+1);
+        VRP_adj(:,i,tt/Ts+1)=Vl(1);
+        DCM_adj(:,i,tt/Ts+1)=DCM_traj_des(:,i,tt/Ts+1);
+    else
+        k = floor(tt/T_ILC);
+        t_passed = mod(t,T_ILC);
+        if (t_passed == 0)
+            if (phi_c + 2 <= n_phi)
+                VRP_adj(:,i,tt/Ts)=Vl(2);
+                VRP_adj(:,i+1,tt/Ts)=VRP_traj_des(:,i+1,tt/Ts)+...
+                    kf*R_delta*(VRP_adj(:,i,tt/Ts)-VRP_traj_des(:,i+1,tt/Ts))+...
+                    kl*R_delta*(VRP_traj_des(:,i,tt/Ts)-)
+            end
+end
