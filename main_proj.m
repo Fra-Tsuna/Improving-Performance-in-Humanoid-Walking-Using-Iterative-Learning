@@ -15,7 +15,7 @@ t_step=1;
 deltax=0.3;
 deltay=0.25;
 
-t=[0:0.01:t_step]; 
+t=(0:0.01:t_step); 
 T=N*t_step;
 
 colors=['r','g','b'];
@@ -209,3 +209,39 @@ for j=1:3
         title("dot CoM z component");
     end
 end
+
+%% VRP trajectory
+
+VRP_trajectory = zeros(3,N,length(t));
+
+for i=1:N
+    for k=1:length(t)
+        if i < N
+            VRP_trajectory(:,i,k) = (1-t(k)/t_step)*VRP_des(:,i) + (t(k)/t_step)*VRP_des(:,i+1);
+        else
+            VRP_trajectory(:,i,k) = VRP_des(:,i);
+        end
+    end
+end
+
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
+for j=1:3
+    subplot(1,3,j);
+    for i=1:N
+        plot(t+t_step*(i-1),reshape(VRP_trajectory(j,i,:),1,[]),colors(j));
+        hold on;
+    end
+    grid on;
+    hold off;
+    if j==1
+        title("VRP trajectory x component");
+    elseif j==2
+        title("VRP trajectory y component");
+    else
+        title("VRP trajectory z component");
+    end
+end
+
