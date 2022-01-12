@@ -15,20 +15,20 @@ t_step=1.2;
 deltax=0.3;
 deltay=0.25;
 
-R_delta=eye(2);
+R_delta=eye(2); %Rotation matrix from step to step
 
-kl=1;
-kf=1;
+kl=1; %Learning factor
+kf=1; %Forgetting factor
 k_DCM=4;
 
-Ts=0.001;
-T_ILC=0.01;
-T_iter=2*t_step;
+Ts=0.001; %Discrete time sampling interval
+T_ILC=0.01; %Learning time
+T_iter=2*t_step; %Duration of walking cycle
 
-t=(0:Ts:t_step-Ts); 
+t=(0:Ts:t_step-Ts); %Time in a step
 T=N*t_step;
 
-Tg=(0:Ts:T-Ts);
+Tg=(0:Ts:T-Ts); %Global time
 
 colors=['r','g','b'];
 
@@ -59,7 +59,7 @@ for i=1:N
     end
 end
 
-%% DCM "measured"
+%% DCM of paper 1, treated as "measured"
 
 eCMPs = footprints;
 ZMPs = footprints;
@@ -108,7 +108,7 @@ for j=1:3
     end
 end
 
-%% dot DCM "measured"
+%% dot DCM of paper 1, treated as "measured"
 
 dot_DCM_trajectories=zeros(3,N,length(t));
 for k=1:length(t)
@@ -146,7 +146,7 @@ for j=1:3
     end
 end
 
-%% CoM "measured"
+%% CoM of paper 1, treated as "measured"
 %Euler integration
 
 CoM=zeros(3,N,length(t));
@@ -191,7 +191,7 @@ for j=1:3
     end
 end
 
-%% dot CoM "measured"
+%% dot CoM of paper 1, treated as "measured"
 
 dot_CoM = zeros(3,N,length(t));
 
@@ -222,7 +222,7 @@ for j=1:3
     end
 end
 
-%% VRP desired trajectory
+%% VRP desired trajectory of paper 2
 
 VRP_trajectory = zeros(3,N,length(t));
 
@@ -256,7 +256,7 @@ for j=1:3
         title("VRP desired trajectory z component");
     end
 end
-%% DCM desired trajectory
+%% DCM desired trajectory of paper 2
 
 DCM_trajectory = zeros(3,N,length(t));
 
@@ -298,70 +298,72 @@ for j=1:3
     end
 end
 
-%% VRP_OILC
+%% VRP_OILC of paper 2
 
 VRP_traj_des=reshape(reshape(VRP_trajectory,3,[]),3,N/2,[]);
 DCM_traj_des=reshape(reshape(DCM_trajectory,3,[]),3,N/2,[]);
 VRP_c_traj = VRP_trajectory + (1 + k_DCM*b)*(DCM_trajectories - DCM_trajectory);
-VRP_c_traj = reshape(reshape(VRP_c_traj,3,[]),3,N/2,[]);
+VRP_c_traj = reshape(reshape(VRP_c_traj,3,[]),3,N/2,[]); %commanded VRP, computed from measured DCM,
+                                                         %desired VRP and
+                                                         %desired DCM.
 
-VRP_adj=zeros(2,N/2,T_iter/Ts);
-DCM_adj=zeros(2,N/2,T_iter/Ts);
+VRP_adj=zeros(2,N/2,T_iter/Ts); %Structure for VRP adjusted
+DCM_adj=zeros(2,N/2,T_iter/Ts); %Structure for DCM adjusted
 
 phi_c=1;
-n_phi=N; %Numero transizioni = 2 transizione per iterazione
+n_phi=N; %Number of transitions, 2 transitions for step so N.
 
-for s=1:length(Tg)
-    i=floor(Tg(s)/T_iter)+1;
-    tt=mod(Tg(s),T_iter);
+for s=1:length(Tg) 
+    i=floor(Tg(s)/T_iter)+1; %1
+    tt=mod(Tg(s),T_iter); %2
     phi_c = 1+floor((i-1+tt/T_iter)*2);
-    if (i==1 && tt==0)
-        Vl=VRP_traj_des(1:2,i,1:T_ILC/Ts:(T_iter-T_ILC)/Ts+1);
-        VRP_adj(:,i,tt/Ts+1)=Vl(:,1);
-        DCM_adj(:,i,tt/Ts+1)=DCM_traj_des(1:2,i,tt/Ts+1);
-    else
+    if (i==1 && tt==0) %3
+        Vl=VRP_traj_des(1:2,i,1:T_ILC/Ts:(T_iter-T_ILC)/Ts+1); %4
+        VRP_adj(:,i,tt/Ts+1)=Vl(:,1); %5
+        DCM_adj(:,i,tt/Ts+1)=DCM_traj_des(1:2,i,tt/Ts+1); %6
+    else %7
         tt_fixed = floor(tt/Ts)+1;
-        k = floor(tt/T_ILC);
-        t_passed = mod(tt,T_ILC);
-        if (t_passed == 0)
-            if (phi_c + 2 <= n_phi)
-                VRP_adj(:,i,tt_fixed)=Vl(:,2);
+        k = floor(tt/T_ILC); %8
+        t_passed = mod(tt,T_ILC); %9
+        if (t_passed == 0) %10
+            if (phi_c + 2 <= n_phi) %11
+                VRP_adj(:,i,tt_fixed)=Vl(:,2); %12
                 decreased = 0;
                 if tt_fixed>1
                     tt_fixed = tt_fixed-1;
                     decreased = 1;
                 end
-                    VRP_adj(:,i+1,tt_fixed)=VRP_traj_des(1:2,i+1,tt_fixed)+...
-                        kf*R_delta*(VRP_adj(:,i,tt_fixed)-VRP_traj_des(1:2,i,tt_fixed))+...
-                        kl*R_delta*(VRP_traj_des(1:2,i,tt_fixed)-VRP_c_traj(1:2,i,tt_fixed));
-                    Vl_l=[Vl(:,2:end),VRP_adj(:,i+1,tt_fixed)];
+                VRP_adj(:,i+1,tt_fixed)=VRP_traj_des(1:2,i+1,tt_fixed)+...
+                    kf*R_delta*(VRP_adj(:,i,tt_fixed)-VRP_traj_des(1:2,i,tt_fixed))+...
+                    kl*R_delta*(VRP_traj_des(1:2,i,tt_fixed)-VRP_c_traj(1:2,i,tt_fixed)); %13
+                Vl_l=[Vl(:,2:end),VRP_adj(:,i+1,tt_fixed)]; %14
                 if decreased == 1
                     tt_fixed = tt_fixed+1;
                 end
-            else
-                Vl_l=[Vl(:,2:end),Vl(:,end)];
+            else %15
+                Vl_l=[Vl(:,2:end),Vl(:,end)]; %16
             end
-            Vl=Vl_l;
+            Vl=Vl_l; %17
         end
-        VRP_adj(:,i,tt_fixed)=(1-t_passed/T_ILC)*Vl(:,1)+t_passed/T_ILC*Vl(:,2);
-        if phi_c + 2 <= n_phi
-            DCM_f = DCM_traj_des(1:2,i+1,k+1);
-        else
-            DCM_f = Vl(:,end);
+        VRP_adj(:,i,tt_fixed)=(1-t_passed/T_ILC)*Vl(:,1)+t_passed/T_ILC*Vl(:,2); %18
+        if phi_c + 2 <= n_phi %19
+            DCM_f = DCM_traj_des(1:2,i+1,k+1); %20
+        else %21
+            DCM_f = Vl(:,end); %22
         end
-        DCM_mid = DCM_f;
+        DCM_mid = DCM_f; %23
         alpha_0 = 1 - b/T_ILC + exp(-T_ILC/b)*b/T_ILC;
         beta_0 = b/T_ILC - exp(-T_ILC/b)*(1+b/T_ILC);
         gamma_0 = exp(-T_ILC/b);
-        for j=(T_iter/T_ILC):-1:3
+        for j=(T_iter/T_ILC):-1:3 %24
             DCM_mid = alpha_0*Vl(:,j-1)+...
-                beta_0*Vl(:,j)+gamma_0*DCM_mid;
+                beta_0*Vl(:,j)+gamma_0*DCM_mid; %25
         end
         alpha_t = 1-t_passed/T_ILC - b/T_ILC + exp((t_passed-T_ILC)/b)*b/T_ILC;
         beta_t = t_passed/T_ILC + b/T_ILC - exp((t_passed-T_ILC)/b)*(1+b/T_ILC);
         gamma_t = exp((t_passed-T_ILC)/b);
         DCM_adj(:,i,tt_fixed) = alpha_t*Vl(:,1)+...
-            beta_t*Vl(:,2)+gamma_t*DCM_mid;
+            beta_t*Vl(:,2)+gamma_t*DCM_mid; %26
     end
 end
 
