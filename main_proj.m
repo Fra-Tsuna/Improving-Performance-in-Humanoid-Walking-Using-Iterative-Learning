@@ -320,16 +320,24 @@ for s=1:length(Tg)
         VRP_adj(:,i,tt/Ts+1)=Vl(:,1);
         DCM_adj(:,i,tt/Ts+1)=DCM_traj_des(1:2,i,tt/Ts+1);
     else
-        tt_fixed = fix(tt/Ts)+1;
+        tt_fixed = floor(tt/Ts)+1;
         k = floor(tt/T_ILC);
         t_passed = mod(tt,T_ILC);
         if (t_passed == 0)
             if (phi_c + 2 <= n_phi)
                 VRP_adj(:,i,tt_fixed)=Vl(:,2);
-                VRP_adj(:,i+1,tt_fixed)=VRP_traj_des(1:2,i+1,tt_fixed)+...
-                    kf*R_delta*(VRP_adj(:,i,tt_fixed)-VRP_traj_des(1:2,i,tt_fixed))+...
-                    kl*R_delta*(VRP_traj_des(1:2,i,tt_fixed)-VRP_c_traj(1:2,i,tt_fixed));
-                Vl_l=[Vl(:,2:end),VRP_adj(:,i+1,tt_fixed)];
+                decreased = 0;
+                if tt_fixed>1
+                    tt_fixed = tt_fixed-1;
+                    decreased = 1;
+                end
+                    VRP_adj(:,i+1,tt_fixed)=VRP_traj_des(1:2,i+1,tt_fixed)+...
+                        kf*R_delta*(VRP_adj(:,i,tt_fixed)-VRP_traj_des(1:2,i,tt_fixed))+...
+                        kl*R_delta*(VRP_traj_des(1:2,i,tt_fixed)-VRP_c_traj(1:2,i,tt_fixed));
+                    Vl_l=[Vl(:,2:end),VRP_adj(:,i+1,tt_fixed)];
+                if decreased == 1
+                    tt_fixed = tt_fixed+1;
+                end
             else
                 Vl_l=[Vl(:,2:end),Vl(:,end)];
             end

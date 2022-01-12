@@ -326,10 +326,15 @@ for s=1:length(Tg)
         if (t_passed == 0)
             if (phi_c + 2 <= n_phi)
                 VRP_adj(:,i,tt_fixed)=Vl(:,2);
-                VRP_adj(:,i+1,tt_fixed)=VRP_traj_des(1:2,i+1,tt_fixed)+...
-                    kf*R_delta*(VRP_adj(:,i,tt_fixed)-VRP_traj_des(1:2,i,tt_fixed))+...
-                    kl*R_delta*(VRP_traj_des(1:2,i,tt_fixed)-VRP_c_traj(1:2,i,tt_fixed));
-                Vl_l=[Vl(:,2:end),VRP_adj(:,i+1,tt_fixed)];
+                decreased = false;
+                if tt_fixed>1
+                    tt_fixed = tt_fixed-1;
+                end
+                    VRP_adj(:,i+1,tt_fixed)=VRP_traj_des(1:2,i+1,tt_fixed)+...
+                        kf*R_delta*(VRP_adj(:,i,tt_fixed)-VRP_traj_des(1:2,i,tt_fixed))+...
+                        kl*R_delta*(VRP_traj_des(1:2,i,tt_fixed)-VRP_c_traj(1:2,i,tt_fixed));
+                    Vl_l=[Vl(:,2:end),VRP_adj(:,i+1,tt_fixed)];
+                if tt_fixed
             else
                 Vl_l=[Vl(:,2:end),Vl(:,end)];
             end
@@ -366,7 +371,7 @@ f.Position = [20 200 1500 400];
 for j=1:2
     subplot(1,2,j);
     for i=1:N/2
-        plot(Tg(fix((i-1)*T_iter/Ts+1):fix(i*T_iter/Ts)),reshape(VRP_adj(j,i,:),1,[]),colors(j));
+        plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(DCM_adj(j,i,:),1,[]),colors(j));
         hold on;
     end
     grid on;
