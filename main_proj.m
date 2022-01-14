@@ -520,7 +520,27 @@ e_c = zeros(2,N/2);
 for i = 1:N/2
     e_c(:,i) = sum(abs(VRP_traj_des(1:2,i,:)-VRP_adj(:,i,:))*Ts,3)/T_iter;
 end
-e_c
+
+imgs=imgs+1;
+f=figure(imgs);
+f.Position = [20 200 1500 400];
+
+for j=1:2
+    subplot(1,2,j);
+      
+    scatter(1:N/2,e_c(j,:), colors(j));
+    line(1:N/2,e_c(j,:),'Color',colors(j),'LineStyle','--');
+    hold on;
+  
+    
+    grid on;
+    hold off;
+    if j == 1
+        title("Commanded Error with ILC on x axis");
+    elseif j == 2
+        title("Commanded Error with ILC on y axis");
+    end
+end
 
 %% plots
 
