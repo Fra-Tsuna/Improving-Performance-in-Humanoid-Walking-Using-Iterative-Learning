@@ -516,29 +516,42 @@ toc
 
 %% error measurments
 e_c = zeros(2,N/2);
+e_c_no_ILC = zeros(2,N/2);
+VRP_c_no_ILC = VRP_traj_des(1:2,:,:) + (1 + k_DCM*b)*(DCM_adj_dis - DCM_traj_des(1:2,:,:));
 
 for i = 1:N/2
-    e_c(:,i) = sum(abs(VRP_traj_des(1:2,i,:)-VRP_adj(:,i,:))*Ts,3)/T_iter;
+    e_c(:,i) = sum(abs(VRP_traj_des(1:2,i,:)-VRP_c_traj(1:2,i,:))*Ts,3)/T_iter;
+    e_c_no_ILC(:,i) = sum(abs(VRP_traj_des(1:2,i,:)-VRP_c_no_ILC(1:2,i,:))*Ts,3)/T_iter;
 end
+
+e_c_norm = vecnorm(e_c, 2, 1);
+e_c_no_ILC_norm = vecnorm(e_c_no_ILC, 2, 1);
 
 imgs=imgs+1;
 f=figure(imgs);
-f.Position = [20 200 1500 400];
+f.Position = [20 200 1800 400];
 
-for j=1:2
-    subplot(1,2,j);
-      
-    scatter(1:N/2,e_c(j,:), colors(j));
-    line(1:N/2,e_c(j,:),'Color',colors(j),'LineStyle','--');
+for j=1:3
+    subplot(1,3,j);
     hold on;
-  
+    if j<3
+        plot(1:N/2,e_c(j,:), [colors(1), '-o']);
+        plot(1:N/2,e_c_no_ILC(j,:), [colors(2), '--o']);
+    else
+        plot(1:N/2,e_c_norm, [colors(1), '-o']);
+        plot(1:N/2,e_c_no_ILC_norm, [colors(2), '--o']);
+    end
+    
+    legend('e_{c,ILC}','e_{c,no-ILC}');
     
     grid on;
     hold off;
     if j == 1
-        title("Commanded Error with ILC on x axis");
+        title("Commanded Error with and without ILC on x axis");
     elseif j == 2
-        title("Commanded Error with ILC on y axis");
+        title("Commanded Error with and without ILC on y axis");
+    else
+        title("Commanded Error norm with and without ILC");
     end
 end
 
