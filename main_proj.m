@@ -347,7 +347,7 @@ for j=1:3
     end
 end
 
-%% 3-cycles
+%% VRP_OILC based on 3 Cycles
 tic
 VRP_traj_des = permute(reshape(permute(VRP_trajectory, [1 3 2]),3, T_iter/Ts,[]),[1 3 2]);
 DCM_traj_des = permute(reshape(permute(DCM_trajectory, [1 3 2]),3, T_iter/Ts,[]),[1 3 2]);
@@ -446,7 +446,7 @@ for i=1:N/2 %1
 end
 toc
 
-%% error measurments
+%% Error measurements
 e_c = zeros(2,N/2);
 e_c_no_ILC = zeros(2,N/2);
 VRP_c_no_ILC = VRP_traj_des(1:2,:,:) + (1 + k_DCM*b)*(DCM_adj_dis - DCM_traj_des(1:2,:,:));
@@ -487,11 +487,11 @@ for j=1:3
     end
 end
 
-%% plots
+%% Final plots
 
 imgs=imgs+1;
 f=figure(imgs);
-f.Position = [20 200 1500 800];
+f.Position = [20 100 1300 600];
 
 for j=1:4
     subplot(2,2,j);
@@ -500,22 +500,25 @@ for j=1:4
         if j<3
             plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(VRP_adj(j,i,:),1,[]),colors(j));
             plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(VRP_traj_des(j,i,:),1,[]),[colors(j),'--']);
+            legend('VRP_{adj}','VRP_{des}');
         else
-            j = j-2; %#ok
+            j = j-2;
             plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(DCM_adj(j,i,:),1,[]),colors(j));
             plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(DCM_traj_des(j,i,:),1,[]),[colors(j),'--']);
-            j = j+2; %#ok
+            j = j+2;
+            legend('DCM_{adj}','DCM_{des}');
         end
     end
+
     grid on;
     hold off;
     if j==1
-        title("VRP adjusted trajectory x component");
+        title("VRP desired vs adjusted trajectory  x component");
     elseif j==2
-        title("VRP adjusted trajectory y component");
+        title("VRP desired vs adjusted trajectory y component");
     elseif j==3
-        title("DCM adjusted trajectory x component");
+        title("DCM desired vs adjusted trajectory x component");
     elseif j==4
-        title("DCM adjusted trajectory y component");
+        title("DCM desired vs adjusted trajectory y component");
     end
 end
