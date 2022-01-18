@@ -226,7 +226,7 @@ VRP_des = footprints + [0; 0; z_com];
 %     end
 % end
 
-%% VRP desired trajectory of paper 2
+%% VRP desired trajectory of paper 2 (to convert in DS-SS)
 
 VRP_trajectory = zeros(3,N,length(t));
 
@@ -260,7 +260,7 @@ for j=1:3
         title("VRP desired trajectory z component");
     end
 end
-%% DCM desired trajectory of paper 2
+%% DCM desired trajectory of paper 2 (put this before
 
 DCM_trajectory = zeros(3,N,length(t));
 
@@ -377,6 +377,9 @@ alpha_0_dis = 1 - c_dis + exp(-c_inv_dis)*c_dis;
 beta_0_dis = c_dis - exp(-c_inv_dis)*(1+c_dis);
 gamma_0_dis = exp(-c_inv_dis);
 
+zeta = 1+k_DCM*b;
+a_3 = -kl*zeta;
+
 for i=1:N/2 %1
     for k = 1:N_k %8
         for index_t_p = 1:N_ILC
@@ -435,11 +438,18 @@ for i=1:N/2 %1
                 DCM_adj(:,i,index_tt) = alpha_t*Vl(:,1)+...
                     beta_t*Vl(:,2)+gamma_t*DCM_mid; %26
                 
+                % CoM commanded from VRP_c_traj through DCM "commanded"
+                a_4 = kf+kl*(zeta*alpha_t-1);
+                
+                % CoM actual measurement
+                
+                % DCM measurement from CoM
+                
                 % disturbed values
                 DCM_adj_dis(:,i,index_tt) = alpha_t_dis*Vl(:,1)+...
                     beta_t_dis*Vl(:,2)+gamma_t_dis*DCM_mid_dis;
                 VRP_c_traj(1:2,i,index_tt) = VRP_adj(:,i,index_tt) +...
-                    (1+k_DCM*b)*(DCM_adj_dis(:,i,index_tt)-DCM_adj(:,i,index_tt));
+                    zeta*(DCM_adj_dis(:,i,index_tt)-DCM_adj(:,i,index_tt));
             end
         end
     end
@@ -486,6 +496,60 @@ for j=1:3
         title("Commanded Error norm with and without ILC");
     end
 end
+
+%% DS SS (from paper 1)
+
+% choose desired T_DS duration (fraction of t_step)
+% delta_T_DS_ini = alpha_DS_ini * T_DS % alpha=0.5
+% delta_T_DS_ini = (1-alpha_DS_ini) * T_DS % alpha=0.5
+
+% refine DCM trajectory:
+% for each step i:
+    % DS phase
+    % DCM_iniDS_i = VRP_i-1 +...
+        % exp(-eta*delta_T_DS_ini)*(DCM_ini_i - VRP_i-1) 
+    % DCM_eoDS_i = VRP_i + exp(eta*delta_T_DS_end)*(DCM_ini_i - VRP_i)
+    
+    % interpolate DCM using
+    % P =   [1/T_DS^3, 1/T_DS^2, -2/T_DS^3, 1/T_DS^2;...
+          %  -3/T_DS^2, -2/T_DS, 3/T_DS^2, -1/T_DS;...
+          %  0, 1, 0, 0;...
+          %  1, 0, 0, 0]*...
+          % [DCM_iniDS_i, DCM_iniDS_i_dot, DCM_eoDS_i, DCM_eoDS_i_dot]'
+    % for t from 0 to T_DS:
+        % [DCM_DS_i(t), DCM_DS_i_dot(t)]' = [t^3, t^2, t, 1;...
+                                       % 3*t^2, 2*t, 1, 0] * P
+        % VRP trajectory computed using 
+        % VRP_DS_i(t) = DCM_DS_i(t) - b*DCM_DS_i_dot(t)
+                                       
+    % SS phase
+    % VRP_i constant
+    % DCM_i interpolated exponentially % both already computed
+    
+    
+% results: refined VRP and DCM trajectories
+
+%% DS SS (from paper 2)
+% find VRP waypoints for start, end of each transition phase, interpolate,
+% compute DCM trajectory
+% divide t_step in T_DS+T_SS
+% for each step i = 1->N:
+    % VRP_SS_ini_i = VRP_SS_end_i 
+    % VRP_DS_ini_i+1 = VRP_SS_end_i
+    % VRP_DS_end_i = VRP_SS_ini_i+1
+    % VRP_SS_i(t) = VRP_i, t = 0->T_SS
+    % VRP_DS_i(t) = linear interpolation, t = 0->T_DS
+    
+% DCM_DS_end_N = VRP_DS_end_N
+% for each step i = N->1:
+    % DCM_SS_i(t) = (alpha(t) + beta(t))*VRP_i + gamma(t)*DCM_SS_end_i
+        % t = 0->T_SS
+    % note that alpha(t)+beta(t) = 1 - exp((t-T_SS)/b)
+    % DCM_DS_i(t) = alpha(t)*VRP_DS_ini_i + beta(t)*VRP_DS_end_i + gamma(t)*DCM_DS_end_i
+        % t = 0->T_DS
+    
+
+%% CoM
 
 %% Final plots
 
