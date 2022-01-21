@@ -595,7 +595,7 @@ for i=1:N/2 %1
 
             % simulated disturbed CoM measurements
 %             CoM_dis(:,i,index_tt) = prev_CoM - 1/b_dis*(prev_CoM - prev_DCM)*Ts;
-            CoM_dis(:,i,index_tt) = CoM(:,i,index_tt) + 0.005*rand(2,1);
+            CoM_dis(:,i,index_tt) = CoM(:,i,index_tt) + 0.002*rand(2,1);
             CoM_dot_dis(:,i,index_tt) = CoM_dot(:,i,index_tt);
 
             % DCM disturbed from CoM disturbed
