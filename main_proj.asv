@@ -261,46 +261,46 @@ VRP_des = footprints + [0; 0; z_com];
 %     end
 % end
 %% DCM desired trajectory of paper 2 (put this before
-
-DCM_trajectory = zeros(3,N,length(t));
-
-for i=1:N
-    j=N+1-i;
-    if i == 1
-        DCM_trajectory(:,j,length(t)) = VRP_trajectory(:,j,length(t));
-    else
-        DCM_trajectory(:,j,length(t)) = DCM_trajectory(:,j+1,1);
-    end
-    for k = 1:length(t)
-        alpha = 1-t(k)/t_step - b/t_step + exp((t(k)-t_step)/b)*b/t_step;
-        beta = t(k)/t_step + b/t_step - exp((t(k)-t_step)/b)*(1+b/t_step);
-        gamma = exp((t(k)-t_step)/b);
-        DCM_trajectory(:,j,k) = alpha*VRP_trajectory(:,j,1) +...
-            beta*VRP_trajectory(:,j,length(t))+...
-            gamma*DCM_trajectory(:,j,length(t));
-    end
-end
-
-imgs=imgs+1;
-f=figure(imgs);
-f.Position = [20 200 1500 400];
-
-for j=1:3
-    subplot(1,3,j);
-    for i=1:N
-        plot(t+t_step*(i-1),reshape(DCM_trajectory(j,i,:),1,[]),colors(j));
-        hold on;
-    end
-    grid on;
-    hold off;
-    if j==1
-        title("DCM desired x component");
-    elseif j==2
-        title("DCM desired y component");
-    else
-        title("DCM desired z component");
-    end
-end
+% 
+% DCM_trajectory = zeros(3,N,length(t));
+% 
+% for i=1:N
+%     j=N+1-i;
+%     if i == 1
+%         DCM_trajectory(:,j,length(t)) = VRP_trajectory(:,j,length(t));
+%     else
+%         DCM_trajectory(:,j,length(t)) = DCM_trajectory(:,j+1,1);
+%     end
+%     for k = 1:length(t)
+%         alpha = 1-t(k)/t_step - b/t_step + exp((t(k)-t_step)/b)*b/t_step;
+%         beta = t(k)/t_step + b/t_step - exp((t(k)-t_step)/b)*(1+b/t_step);
+%         gamma = exp((t(k)-t_step)/b);
+%         DCM_trajectory(:,j,k) = alpha*VRP_trajectory(:,j,1) +...
+%             beta*VRP_trajectory(:,j,length(t))+...
+%             gamma*DCM_trajectory(:,j,length(t));
+%     end
+% end
+% 
+% imgs=imgs+1;
+% f=figure(imgs);
+% f.Position = [20 200 1500 400];
+% 
+% for j=1:3
+%     subplot(1,3,j);
+%     for i=1:N
+%         plot(t+t_step*(i-1),reshape(DCM_trajectory(j,i,:),1,[]),colors(j));
+%         hold on;
+%     end
+%     grid on;
+%     hold off;
+%     if j==1
+%         title("DCM desired x component");
+%     elseif j==2
+%         title("DCM desired y component");
+%     else
+%         title("DCM desired z component");
+%     end
+% end
 
 %% VRP desired trajectory with DS
 
@@ -350,7 +350,8 @@ for j=1:3
 end
 
 %% DCM desired trajectory with DS
-    
+
+DCM_trajectory = zeros(3,N,length(t));
 DCM_DS_end_N = VRP_trajectory(:,end,end);
 for i = N:-1:1
     VRP_DS_end_i = VRP_trajectory(:,i,end);
@@ -423,8 +424,8 @@ title("VRP and DCM desired on 2d plane");
     
 
 %% DCM disturbed
-
-b = 0.9*b;
+b_dis = 0.5*b;
+b = b_dis;
 
 DCM_disturbed = zeros(3,N,length(t));
 DCM_DS_end_N = VRP_trajectory(:,end,end);
@@ -491,8 +492,12 @@ VRP_c_traj = permute(reshape(permute(VRP_c_traj, [1 3 2]),3, T_iter/Ts,[]),[1 3 
 
 VRP_adj=zeros(2,N/2,T_iter/Ts); %Structure for VRP adjusted
 DCM_adj=zeros(2,N/2,T_iter/Ts); %Structure for DCM adjusted
-DCM_adj_dis=zeros(2,N/2,T_iter/Ts);
 DCM = zeros(2,N/2,T_iter/Ts);
+CoM = zeros(2,N/2,T_iter/Ts);
+CoM_dot = zeros(2,N/2,T_iter/Ts);
+DCM_dis = zeros(2,N/2,T_iter/Ts);
+CoM_dis = zeros(2,N/2,T_iter/Ts);
+CoM_dot_dis = zeros(2,N/2,T_iter/Ts);
 
 phi_c=1;
 n_phi=N*2; %Number of transitions, 4 transitions for step so N*2.
@@ -505,24 +510,8 @@ alpha_0 = 1 - c + exp(-c_inv)*c;
 beta_0 = c - exp(-c_inv)*(1+c);
 gamma_0 = exp(-c_inv);
 
-c_dis = b_dis/T_ILC;
-c_inv_dis = T_ILC/b_dis;
-alpha_0_dis = 1 - c_dis + exp(-c_inv_dis)*c_dis;
-beta_0_dis = c_dis - exp(-c_inv_dis)*(1+c_dis);
-gamma_0_dis = exp(-c_inv_dis);
-
 zeta = 1+k_DCM*b;
-e_k_DCM_T = exp(-k_DCM*T_iter);
-
-a_3 = -kl*zeta;
-a_4 = kf+kl*(zeta*alpha_0-1);
-a_2 = alpha_0*a_4 - e_k_DCM_T*...
-    (alpha_0+a_4*(beta_0+gamma_0*alpha_0));
-a_1 = e_k_DCM_T+(alpha_0-e_k_DCM_T*...
-    (beta_0+gamma_0*alpha_0))*a_3;
-                
-syms s
-D_T = -eta*e_k_DCM_T*int(exp(k_DCM*s), s, 0, T_iter);
+e_k_DCM_T = exp(-k_DCM*T_iter);           
 
 for i=1:N/2 %1
     for k = 1:N_k %8
@@ -536,7 +525,6 @@ for i=1:N/2 %1
                 Vl=VRP_traj_des(1:2,i,1:N_ILC:N_iter-N_ILC+1); %4
                 VRP_adj(:,i,index_tt)=Vl(:,1); %5
                 DCM_adj(:,i,index_tt)=DCM_traj_des(1:2,i,index_tt); %6
-                DCM_adj_dis(:,i,index_tt)=DCM_traj_des(1:2,i,index_tt);
             else %7
                 if (t_passed == 0) %10
                     if (phi_c + 4 <= n_phi) %11
@@ -568,45 +556,53 @@ for i=1:N/2 %1
                 for j=N_k:-1:3 %24
                     DCM_mid = alpha_0*Vl(:,j-1)+...
                         beta_0*Vl(:,j)+gamma_0*DCM_mid; %25
-                    DCM_mid_dis = alpha_0_dis*Vl(:,j-1)+...
-                        beta_0_dis*Vl(:,j)+gamma_0_dis*DCM_mid;
+
                 end
                 alpha_t = 1-t_passed/T_ILC - c + exp((t_passed-T_ILC)/b)*c;
                 beta_t = t_passed/T_ILC + c - exp((t_passed-T_ILC)/b)*(1+c);
                 gamma_t = exp((t_passed-T_ILC)/b);
-                
-                alpha_t_dis = 1-t_passed/T_ILC - c_dis + exp((t_passed-T_ILC)/b_dis)*c_dis;
-                beta_t_dis = t_passed/T_ILC + c_dis - exp((t_passed-T_ILC)/b_dis)*(1+c_dis);
-                gamma_t_dis = exp((t_passed-T_ILC)/b_dis);
-                
+                  
                 DCM_adj(:,i,index_tt) = alpha_t*Vl(:,1)+...
                     beta_t*Vl(:,2)+gamma_t*DCM_mid; %26
-                
-                % CoM commanded from VRP_adj through DCM from the
-                % controller
-                
-                % FFT1 = (1 + kl*zeta*beta_0)*VRP_traj_des(:,i+1,1) +...
-                    % (kl-kf)*VRP_traj_des(:,i,1) +...
-                    % kl*gamma_0*zeta*DCM_traj_des(:,i+1,1)
-                % FFT2 = beta_0*VRP_traj_des(:,i+2,1) +...
-                    % gamma_0*DCM_traj_des(:,i+2,1)
-                % FFT3 = ?
-                % FFT4 = alpha_0*FFT1 + FFT2 - e_k_DCM_T*FFT3
-                
-%                 DCM(:,i+1,1) = a_2*VRP_adj(:,i,1)+...
-%                     a_1*DCM(:,i,1)-D_T/b; %+FFT4
-                
-                
-                % CoM actual measurement
-                
-                % DCM measurement from CoM
-                
-                % disturbed values
-                DCM_adj_dis(:,i,index_tt) = alpha_t_dis*Vl(:,1)+...
-                    beta_t_dis*Vl(:,2)+gamma_t_dis*DCM_mid_dis;
-                VRP_c_traj(1:2,i,index_tt) = VRP_adj(:,i,index_tt) +...
-                    zeta*(DCM_adj_dis(:,i,index_tt)-DCM_adj(:,i,index_tt));
             end
+            % for the DCM controller
+            DCM_adj_dot = eta*(DCM_adj(:,i,index_tt)-VRP_adj(:,i,index_tt));
+            if index_tt == 1
+                if i ==1
+                    prev_DCM = DCM_traj_des(1:2,1,1);
+                    prev_CoM = [0, deltay/2]';
+                    prev_CoM_dis = prev_CoM;
+                else
+                    prev_DCM = DCM(:,i-1,end);
+                    prev_CoM = CoM(:,i-1,end);
+                    prev_CoM_dis = CoM_dis(:,i-1,end);
+                end
+            else
+                prev_DCM = DCM(:,i,index_tt-1);
+                prev_CoM = CoM(:,i,index_tt-1);
+                prev_CoM_dis = CoM_dis(:,i,index_tt-1);
+            end
+            DCM_dot = -k_DCM*prev_DCM + k_DCM*DCM_adj(:,i,index_tt) +...
+                DCM_adj_dot;
+
+            %DCM controller
+            DCM(:,i,index_tt) = prev_DCM + DCM_dot*Ts;
+
+            % CoM commanded from VRP_adj through DCM from the
+            % controller
+            CoM(:,i,index_tt) = prev_CoM - eta*(prev_CoM - prev_DCM)*Ts;
+            CoM_dot(:,i,index_tt) = -eta*(CoM(:,i,index_tt)-DCM(:,i,index_tt));
+
+            % simulated disturbed CoM measurements
+%             CoM_dis(:,i,index_tt) = prev_CoM - 1/b_dis*(prev_CoM - prev_DCM)*Ts;
+            CoM_dis(:,i,index_tt) = CoM(:,i,index_tt) + 0.01*abs(Com(:,i,index_tt));
+            CoM_dot_dis(:,i,index_tt) = -1/b*(CoM_dis(:,i,index_tt)-DCM(:,i,index_tt));
+
+            % DCM disturbed from CoM disturbed
+            DCM_dis(:,i,index_tt) = CoM_dis(:,i,index_tt) + b*CoM_dot_dis(:,i,index_tt);
+
+            VRP_c_traj(1:2,i,index_tt) = VRP_adj(:,i,index_tt) +...
+                zeta*(DCM_dis(:,i,index_tt)-DCM_adj(:,i,index_tt));
         end
     end
 end
@@ -615,7 +611,8 @@ toc
 %% Error measurements
 e_c = zeros(2,N/2);
 e_c_no_ILC = zeros(2,N/2);
-VRP_c_no_ILC = VRP_traj_des(1:2,:,:) + (1 + k_DCM*b)*(DCM_adj_dis - DCM_traj_des(1:2,:,:));
+DCM_s_disturbed = permute(reshape(permute(DCM_disturbed, [1 3 2]),3, T_iter/Ts,[]),[1 3 2]);
+VRP_c_no_ILC = VRP_traj_des(1:2,:,:) + (1 + k_DCM*b)*(DCM_s_disturbed(1:2,:,:)- DCM_traj_des(1:2,:,:));
 
 for i = 1:N/2
     e_c(:,i) = sum(abs(VRP_traj_des(1:2,i,:)-VRP_c_traj(1:2,i,:))*Ts,3)/T_iter;
@@ -653,73 +650,65 @@ for j=1:3
     end
 end
 
-%% DS SS (from paper 1)
-
-% choose desired T_DS duration (fraction of t_step)
-% delta_T_DS_ini = alpha_DS_ini * T_DS % alpha=0.5
-% delta_T_DS_ini = (1-alpha_DS_ini) * T_DS % alpha=0.5
-
-% refine DCM trajectory:
-% for each step i:
-    % DS phase
-    % DCM_iniDS_i = VRP_i-1 +...
-        % exp(-eta*delta_T_DS_ini)*(DCM_ini_i - VRP_i-1) 
-    % DCM_eoDS_i = VRP_i + exp(eta*delta_T_DS_end)*(DCM_ini_i - VRP_i)
-    
-    % interpolate DCM using
-    % P =   [1/T_DS^3, 1/T_DS^2, -2/T_DS^3, 1/T_DS^2;...
-          %  -3/T_DS^2, -2/T_DS, 3/T_DS^2, -1/T_DS;...
-          %  0, 1, 0, 0;...
-          %  1, 0, 0, 0]*...
-          % [DCM_iniDS_i, DCM_iniDS_i_dot, DCM_eoDS_i, DCM_eoDS_i_dot]'
-    % for t from 0 to T_DS:
-        % [DCM_DS_i(t), DCM_DS_i_dot(t)]' = [t^3, t^2, t, 1;...
-                                       % 3*t^2, 2*t, 1, 0] * P
-        % VRP trajectory computed using 
-        % VRP_DS_i(t) = DCM_DS_i(t) - b*DCM_DS_i_dot(t)
-                                       
-    % SS phase
-    % VRP_i constant
-    % DCM_i interpolated exponentially % both already computed
-    
-    
-% results: refined VRP and DCM trajectories
-
-
-%% CoM
-
 %% Final plots
 
 imgs=imgs+1;
 f=figure(imgs);
-f.Position = [20 100 1300 600];
+f.Position = [20 100 1200 900];
 
-for j=1:4
-    subplot(2,2,j);
+for j=1:7
+    if j<=6
+        subplot(3,2,j);
+    end
     hold on;
     for i=1:N/2
         if j<3
             plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(VRP_c_traj(j,i,:),1,[]),colors(j));
             plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(VRP_adj(j,i,:),1,[]),[colors(j),'--']);
             legend('VRP_{c}','VRP_{adj}');
-        else
+        elseif j<5
             j = j-2;
-            plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(DCM_adj(j,i,:),1,[]),colors(j));
-            plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(DCM_traj_des(j,i,:),1,[]),[colors(j),'--']);
+            plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(DCM(j,i,:),1,[]),colors(j));
+            plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(DCM_dis(j,i,:),1,[]),[colors(j),'--']);
             j = j+2;
-            legend('DCM_{adj}','DCM_{des}');
+            legend('DCM','DCM_{adj}');
+        elseif j<7
+            j = j-4
+            plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(CoM(j,i,:),1,[]),colors(j));
+            plot(Tg((i-1)*fix(T_iter/Ts)+1:i*fix(T_iter/Ts)),reshape(CoM_dis(j,i,:),1,[]),[colors(j),'--']);
+            legend('CoM','Com_{dis}');
+            j = j+4
+        else
+            if i ==1
+                imgs=imgs+1;
+                f=figure(imgs);
+                f.Position = [20 100 800 400];
+                hold on
+            end
+            plot(reshape(CoM(1,i,:),1,[]),reshape(CoM(2,i,:),1,[]),colors(1),'LineWidth',1);
+            plot(reshape(DCM(1,i,:),1,[]),reshape(DCM(2,i,:),1,[]),colors(2),'LineWidth',1);
+            plot(reshape(VRP_c_traj(1,i,:),1,[]),reshape(VRP_c_traj(2,i,:),1,[]),colors(3),'LineWidth',1);
+            legend('CoM','DCM','VRP');
+            xlim([0, deltax*4])
+            axis equal
         end
     end
 
     grid on;
     hold off;
     if j==1
-        title("VRP desired vs adjusted trajectory  x component");
+        title("VRP adjusted vs commanded trajectory  x component");
     elseif j==2
-        title("VRP desired vs adjusted trajectory y component");
+        title("VRP adjusted vs commanded trajectory y component");
     elseif j==3
-        title("DCM desired vs adjusted trajectory x component");
+        title("DCM adjusted vs commanded trajectory x component");
     elseif j==4
-        title("DCM desired vs adjusted trajectory y component");
+        title("DCM adjusted vs commanded trajectory y component");
+    elseif j==5
+        title("CoM commanded trajectory x component");
+    elseif j==6
+        title("CoM commanded trajectory y component");
+    elseif j==7
+        title("CoM, DCM and VRP on plane");
     end
 end
