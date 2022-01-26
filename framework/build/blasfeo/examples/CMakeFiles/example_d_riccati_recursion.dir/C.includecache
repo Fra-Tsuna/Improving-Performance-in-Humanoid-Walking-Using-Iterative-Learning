@@ -140,13 +140,13 @@ blasfeo_target.h
 
 ../blasfeo/include/d_blas.h
 
-/home/ninjak/Scaricati/ik_tests/blasfeo/examples/example_d_riccati_recursion.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/example_d_riccati_recursion.c
 stdlib.h
 -
 stdio.h
 -
 tools.h
-/home/ninjak/Scaricati/ik_tests/blasfeo/examples/tools.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/tools.h
 blasfeo.h
 -
 mkl.h
@@ -154,7 +154,7 @@ mkl.h
 d_blas.h
 -
 
-/home/ninjak/Scaricati/ik_tests/blasfeo/examples/tools.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/tools.c
 stdlib.h
 -
 stdio.h
@@ -162,5 +162,5 @@ stdio.h
 math.h
 -
 
-/home/ninjak/Scaricati/ik_tests/blasfeo/examples/tools.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/tools.h
 

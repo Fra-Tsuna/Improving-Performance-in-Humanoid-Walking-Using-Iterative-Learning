@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninjak/Scaricati/ik_tests
+CMAKE_SOURCE_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninjak/Scaricati/ik_tests/build
+CMAKE_BINARY_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/isMPC_hpipm.dir/depend.make
@@ -78,328 +78,328 @@ include CMakeFiles/isMPC_hpipm.dir/flags.make
 
 CMakeFiles/isMPC_hpipm.dir/Controller.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/Controller.cpp.o: ../Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/isMPC_hpipm.dir/Controller.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/Controller.cpp.o -c /home/ninjak/Scaricati/ik_tests/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/isMPC_hpipm.dir/Controller.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/Controller.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/Controller.cpp
 
 CMakeFiles/isMPC_hpipm.dir/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/Controller.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/Controller.cpp > CMakeFiles/isMPC_hpipm.dir/Controller.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/Controller.cpp > CMakeFiles/isMPC_hpipm.dir/Controller.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/Controller.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/Controller.cpp -o CMakeFiles/isMPC_hpipm.dir/Controller.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/Controller.cpp -o CMakeFiles/isMPC_hpipm.dir/Controller.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.o: ../FootstepPlan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.o -c /home/ninjak/Scaricati/ik_tests/FootstepPlan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/FootstepPlan.cpp
 
 CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/FootstepPlan.cpp > CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/FootstepPlan.cpp > CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/FootstepPlan.cpp -o CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/FootstepPlan.cpp -o CMakeFiles/isMPC_hpipm.dir/FootstepPlan.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.o: ../WorldNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.o -c /home/ninjak/Scaricati/ik_tests/WorldNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/WorldNode.cpp
 
 CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/WorldNode.cpp > CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/WorldNode.cpp > CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/WorldNode.cpp -o CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/WorldNode.cpp -o CMakeFiles/isMPC_hpipm.dir/WorldNode.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.o: ../computeCandidateMotion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.o -c /home/ninjak/Scaricati/ik_tests/computeCandidateMotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/computeCandidateMotion.cpp
 
 CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/computeCandidateMotion.cpp > CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/computeCandidateMotion.cpp > CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/computeCandidateMotion.cpp -o CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/computeCandidateMotion.cpp -o CMakeFiles/isMPC_hpipm.dir/computeCandidateMotion.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/main.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/isMPC_hpipm.dir/main.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/main.cpp.o -c /home/ninjak/Scaricati/ik_tests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/isMPC_hpipm.dir/main.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/main.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/main.cpp
 
 CMakeFiles/isMPC_hpipm.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/main.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/main.cpp > CMakeFiles/isMPC_hpipm.dir/main.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/main.cpp > CMakeFiles/isMPC_hpipm.dir/main.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/main.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/main.cpp -o CMakeFiles/isMPC_hpipm.dir/main.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/main.cpp -o CMakeFiles/isMPC_hpipm.dir/main.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/parameters.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/parameters.cpp.o: ../parameters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/isMPC_hpipm.dir/parameters.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/parameters.cpp.o -c /home/ninjak/Scaricati/ik_tests/parameters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/isMPC_hpipm.dir/parameters.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/parameters.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/parameters.cpp
 
 CMakeFiles/isMPC_hpipm.dir/parameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/parameters.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/parameters.cpp > CMakeFiles/isMPC_hpipm.dir/parameters.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/parameters.cpp > CMakeFiles/isMPC_hpipm.dir/parameters.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/parameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/parameters.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/parameters.cpp -o CMakeFiles/isMPC_hpipm.dir/parameters.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/parameters.cpp -o CMakeFiles/isMPC_hpipm.dir/parameters.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.o: ../qpOASES/BLASReplacement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/BLASReplacement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/BLASReplacement.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/BLASReplacement.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/BLASReplacement.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/BLASReplacement.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/BLASReplacement.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/BLASReplacement.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.o: ../qpOASES/Bounds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/Bounds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Bounds.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/Bounds.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Bounds.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/Bounds.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Bounds.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Bounds.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.o: ../qpOASES/Constraints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/Constraints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Constraints.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/Constraints.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Constraints.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/Constraints.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Constraints.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Constraints.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.o: ../qpOASES/Flipper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/Flipper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Flipper.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/Flipper.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Flipper.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/Flipper.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Flipper.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Flipper.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.o: ../qpOASES/Indexlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/Indexlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Indexlist.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/Indexlist.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Indexlist.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/Indexlist.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Indexlist.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Indexlist.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.o: ../qpOASES/LAPACKReplacement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/LAPACKReplacement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/LAPACKReplacement.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/LAPACKReplacement.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/LAPACKReplacement.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/LAPACKReplacement.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/LAPACKReplacement.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/LAPACKReplacement.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.o: ../qpOASES/Matrices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/Matrices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Matrices.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/Matrices.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Matrices.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/Matrices.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Matrices.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Matrices.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.o: ../qpOASES/MessageHandling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/MessageHandling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/MessageHandling.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/MessageHandling.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/MessageHandling.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/MessageHandling.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/MessageHandling.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/MessageHandling.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.o: ../qpOASES/OQPinterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/OQPinterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/OQPinterface.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/OQPinterface.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/OQPinterface.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/OQPinterface.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/OQPinterface.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/OQPinterface.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.o: ../qpOASES/Options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/Options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Options.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/Options.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Options.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/Options.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Options.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Options.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.o: ../qpOASES/QProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/QProblem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/QProblem.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/QProblem.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/QProblem.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/QProblem.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/QProblem.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblem.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.o: ../qpOASES/QProblemB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/QProblemB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/QProblemB.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/QProblemB.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/QProblemB.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/QProblemB.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/QProblemB.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/QProblemB.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.o: ../qpOASES/SQProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/SQProblem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SQProblem.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/SQProblem.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SQProblem.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/SQProblem.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SQProblem.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblem.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.o: ../qpOASES/SQProblemSchur.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/SQProblemSchur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SQProblemSchur.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/SQProblemSchur.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SQProblemSchur.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/SQProblemSchur.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SQProblemSchur.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SQProblemSchur.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.o: ../qpOASES/SolutionAnalysis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/SolutionAnalysis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SolutionAnalysis.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/SolutionAnalysis.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SolutionAnalysis.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/SolutionAnalysis.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SolutionAnalysis.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SolutionAnalysis.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.o: ../qpOASES/SparseSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/SparseSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SparseSolver.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/SparseSolver.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SparseSolver.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/SparseSolver.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SparseSolver.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SparseSolver.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.o: ../qpOASES/SubjectTo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/SubjectTo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SubjectTo.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/SubjectTo.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SubjectTo.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/SubjectTo.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/SubjectTo.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/SubjectTo.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.o: ../qpOASES/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.o -c /home/ninjak/Scaricati/ik_tests/qpOASES/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Utils.cpp
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/qpOASES/Utils.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Utils.cpp > CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/qpOASES/Utils.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/qpOASES/Utils.cpp -o CMakeFiles/isMPC_hpipm.dir/qpOASES/Utils.cpp.s
 
 CMakeFiles/isMPC_hpipm.dir/utils.cpp.o: CMakeFiles/isMPC_hpipm.dir/flags.make
 CMakeFiles/isMPC_hpipm.dir/utils.cpp.o: ../utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/isMPC_hpipm.dir/utils.cpp.o"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/utils.cpp.o -c /home/ninjak/Scaricati/ik_tests/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/isMPC_hpipm.dir/utils.cpp.o"
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isMPC_hpipm.dir/utils.cpp.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/utils.cpp
 
 CMakeFiles/isMPC_hpipm.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isMPC_hpipm.dir/utils.cpp.i"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Scaricati/ik_tests/utils.cpp > CMakeFiles/isMPC_hpipm.dir/utils.cpp.i
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/utils.cpp > CMakeFiles/isMPC_hpipm.dir/utils.cpp.i
 
 CMakeFiles/isMPC_hpipm.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isMPC_hpipm.dir/utils.cpp.s"
-	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Scaricati/ik_tests/utils.cpp -o CMakeFiles/isMPC_hpipm.dir/utils.cpp.s
+	/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/utils.cpp -o CMakeFiles/isMPC_hpipm.dir/utils.cpp.s
 
 # Object files for target isMPC_hpipm
 isMPC_hpipm_OBJECTS = \
@@ -496,7 +496,7 @@ isMPC_hpipm: /usr/lib/x86_64-linux-gnu/libosgShadow.so
 isMPC_hpipm: /usr/lib/x86_64-linux-gnu/libOpenThreads.so
 isMPC_hpipm: blasfeo/libblasfeo.a
 isMPC_hpipm: CMakeFiles/isMPC_hpipm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable isMPC_hpipm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable isMPC_hpipm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/isMPC_hpipm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -509,6 +509,6 @@ CMakeFiles/isMPC_hpipm.dir/clean:
 .PHONY : CMakeFiles/isMPC_hpipm.dir/clean
 
 CMakeFiles/isMPC_hpipm.dir/depend:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ninjak/Scaricati/ik_tests /home/ninjak/Scaricati/ik_tests /home/ninjak/Scaricati/ik_tests/build /home/ninjak/Scaricati/ik_tests/build /home/ninjak/Scaricati/ik_tests/build/CMakeFiles/isMPC_hpipm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles/isMPC_hpipm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/isMPC_hpipm.dir/depend
 

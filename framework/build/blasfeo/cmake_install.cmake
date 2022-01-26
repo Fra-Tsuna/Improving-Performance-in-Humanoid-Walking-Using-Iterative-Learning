@@ -1,4 +1,4 @@
-# Install script for directory: /home/ninjak/Scaricati/ik_tests/blasfeo
+# Install script for directory: /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ninjak/Scaricati/ik_tests/build/blasfeo/libblasfeo.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/libblasfeo.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/blasfeoConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/blasfeoConfig.cmake"
-         "/home/ninjak/Scaricati/ik_tests/build/blasfeo/CMakeFiles/Export/cmake/blasfeoConfig.cmake")
+         "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/CMakeFiles/Export/cmake/blasfeoConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/blasfeoConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -59,57 +59,57 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "/home/ninjak/Scaricati/ik_tests/build/blasfeo/CMakeFiles/Export/cmake/blasfeoConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/CMakeFiles/Export/cmake/blasfeoConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "/home/ninjak/Scaricati/ik_tests/build/blasfeo/CMakeFiles/Export/cmake/blasfeoConfig-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/CMakeFiles/Export/cmake/blasfeoConfig-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_block_size.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_common.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_aux.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_aux_ext_dep.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_aux_ext_dep_ref.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_aux_old.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_aux_ref.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_aux_test.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_blas.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_blas_api.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_blasfeo_api.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_blasfeo_api_ref.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_d_kernel.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_i_aux_ext_dep.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_m_aux.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_naming.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_processor_features.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_aux.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_aux_ext_dep.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_aux_ext_dep_ref.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_aux_old.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_aux_ref.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_aux_test.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_blas.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_blas_api.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_blasfeo_api.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_blasfeo_api_ref.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_s_kernel.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_stdlib.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_target.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_timing.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/blasfeo_v_aux_ext_dep.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/d_blas.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/d_blas_64.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/s_blas.h"
-    "/home/ninjak/Scaricati/ik_tests/blasfeo/include/s_blas_64.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_block_size.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_common.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_aux.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_aux_ext_dep.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_aux_ext_dep_ref.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_aux_old.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_aux_ref.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_aux_test.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_blas.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_blas_api.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_blasfeo_api.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_blasfeo_api_ref.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_d_kernel.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_i_aux_ext_dep.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_m_aux.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_naming.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_processor_features.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_aux.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_aux_ext_dep.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_aux_ext_dep_ref.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_aux_old.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_aux_ref.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_aux_test.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_blas.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_blas_api.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_blasfeo_api.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_blasfeo_api_ref.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_s_kernel.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_stdlib.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_target.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_timing.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/blasfeo_v_aux_ext_dep.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/d_blas.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/d_blas_64.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/s_blas.h"
+    "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include/s_blas_64.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ninjak/Scaricati/ik_tests/build/blasfeo/examples/cmake_install.cmake")
+  include("/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples/cmake_install.cmake")
 
 endif()
 

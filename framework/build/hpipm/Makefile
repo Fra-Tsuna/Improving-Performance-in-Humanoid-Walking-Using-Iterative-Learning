@@ -70,10 +70,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninjak/Scaricati/ik_tests
+CMAKE_SOURCE_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninjak/Scaricati/ik_tests/build
+CMAKE_BINARY_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -148,14 +148,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Scaricati/ik_tests/build/CMakeFiles /home/ninjak/Scaricati/ik_tests/build/hpipm//CMakeFiles/progress.marks
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Scaricati/ik_tests/build/CMakeFiles 0
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm//CMakeFiles/progress.marks
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/clean
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/preinstall
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/preinstall
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hpipm/CMakeFiles/hpipm.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/CMakeFiles/hpipm.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hpipm/CMakeFiles/hpipm.dir/rule
 .PHONY : hpipm/CMakeFiles/hpipm.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ hpipm: hpipm/CMakeFiles/hpipm.dir/rule
 
 # fast build rule for target.
 hpipm/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/build
 .PHONY : hpipm/fast
 
 auxiliary/aux_mem.o: auxiliary/aux_mem.c.o
@@ -199,7 +199,7 @@ auxiliary/aux_mem.o: auxiliary/aux_mem.c.o
 
 # target to build an object file
 auxiliary/aux_mem.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o
 .PHONY : auxiliary/aux_mem.c.o
 
 auxiliary/aux_mem.i: auxiliary/aux_mem.c.i
@@ -208,7 +208,7 @@ auxiliary/aux_mem.i: auxiliary/aux_mem.c.i
 
 # target to preprocess a source file
 auxiliary/aux_mem.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.i
 .PHONY : auxiliary/aux_mem.c.i
 
 auxiliary/aux_mem.s: auxiliary/aux_mem.c.s
@@ -217,7 +217,7 @@ auxiliary/aux_mem.s: auxiliary/aux_mem.c.s
 
 # target to generate assembly for a file
 auxiliary/aux_mem.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.s
 .PHONY : auxiliary/aux_mem.c.s
 
 auxiliary/aux_string.o: auxiliary/aux_string.c.o
@@ -226,7 +226,7 @@ auxiliary/aux_string.o: auxiliary/aux_string.c.o
 
 # target to build an object file
 auxiliary/aux_string.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o
 .PHONY : auxiliary/aux_string.c.o
 
 auxiliary/aux_string.i: auxiliary/aux_string.c.i
@@ -235,7 +235,7 @@ auxiliary/aux_string.i: auxiliary/aux_string.c.i
 
 # target to preprocess a source file
 auxiliary/aux_string.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.i
 .PHONY : auxiliary/aux_string.c.i
 
 auxiliary/aux_string.s: auxiliary/aux_string.c.s
@@ -244,7 +244,7 @@ auxiliary/aux_string.s: auxiliary/aux_string.c.s
 
 # target to generate assembly for a file
 auxiliary/aux_string.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.s
 .PHONY : auxiliary/aux_string.c.s
 
 auxiliary/timing.o: auxiliary/timing.c.o
@@ -253,7 +253,7 @@ auxiliary/timing.o: auxiliary/timing.c.o
 
 # target to build an object file
 auxiliary/timing.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.o
 .PHONY : auxiliary/timing.c.o
 
 auxiliary/timing.i: auxiliary/timing.c.i
@@ -262,7 +262,7 @@ auxiliary/timing.i: auxiliary/timing.c.i
 
 # target to preprocess a source file
 auxiliary/timing.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.i
 .PHONY : auxiliary/timing.c.i
 
 auxiliary/timing.s: auxiliary/timing.c.s
@@ -271,7 +271,7 @@ auxiliary/timing.s: auxiliary/timing.c.s
 
 # target to generate assembly for a file
 auxiliary/timing.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.s
 .PHONY : auxiliary/timing.c.s
 
 cond/d_cast_qcqp.o: cond/d_cast_qcqp.c.o
@@ -280,7 +280,7 @@ cond/d_cast_qcqp.o: cond/d_cast_qcqp.c.o
 
 # target to build an object file
 cond/d_cast_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o
 .PHONY : cond/d_cast_qcqp.c.o
 
 cond/d_cast_qcqp.i: cond/d_cast_qcqp.c.i
@@ -289,7 +289,7 @@ cond/d_cast_qcqp.i: cond/d_cast_qcqp.c.i
 
 # target to preprocess a source file
 cond/d_cast_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.i
 .PHONY : cond/d_cast_qcqp.c.i
 
 cond/d_cast_qcqp.s: cond/d_cast_qcqp.c.s
@@ -298,7 +298,7 @@ cond/d_cast_qcqp.s: cond/d_cast_qcqp.c.s
 
 # target to generate assembly for a file
 cond/d_cast_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.s
 .PHONY : cond/d_cast_qcqp.c.s
 
 cond/d_cond.o: cond/d_cond.c.o
@@ -307,7 +307,7 @@ cond/d_cond.o: cond/d_cond.c.o
 
 # target to build an object file
 cond/d_cond.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.o
 .PHONY : cond/d_cond.c.o
 
 cond/d_cond.i: cond/d_cond.c.i
@@ -316,7 +316,7 @@ cond/d_cond.i: cond/d_cond.c.i
 
 # target to preprocess a source file
 cond/d_cond.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.i
 .PHONY : cond/d_cond.c.i
 
 cond/d_cond.s: cond/d_cond.c.s
@@ -325,7 +325,7 @@ cond/d_cond.s: cond/d_cond.c.s
 
 # target to generate assembly for a file
 cond/d_cond.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.s
 .PHONY : cond/d_cond.c.s
 
 cond/d_cond_aux.o: cond/d_cond_aux.c.o
@@ -334,7 +334,7 @@ cond/d_cond_aux.o: cond/d_cond_aux.c.o
 
 # target to build an object file
 cond/d_cond_aux.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o
 .PHONY : cond/d_cond_aux.c.o
 
 cond/d_cond_aux.i: cond/d_cond_aux.c.i
@@ -343,7 +343,7 @@ cond/d_cond_aux.i: cond/d_cond_aux.c.i
 
 # target to preprocess a source file
 cond/d_cond_aux.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.i
 .PHONY : cond/d_cond_aux.c.i
 
 cond/d_cond_aux.s: cond/d_cond_aux.c.s
@@ -352,7 +352,7 @@ cond/d_cond_aux.s: cond/d_cond_aux.c.s
 
 # target to generate assembly for a file
 cond/d_cond_aux.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.s
 .PHONY : cond/d_cond_aux.c.s
 
 cond/d_cond_qcqp.o: cond/d_cond_qcqp.c.o
@@ -361,7 +361,7 @@ cond/d_cond_qcqp.o: cond/d_cond_qcqp.c.o
 
 # target to build an object file
 cond/d_cond_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o
 .PHONY : cond/d_cond_qcqp.c.o
 
 cond/d_cond_qcqp.i: cond/d_cond_qcqp.c.i
@@ -370,7 +370,7 @@ cond/d_cond_qcqp.i: cond/d_cond_qcqp.c.i
 
 # target to preprocess a source file
 cond/d_cond_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.i
 .PHONY : cond/d_cond_qcqp.c.i
 
 cond/d_cond_qcqp.s: cond/d_cond_qcqp.c.s
@@ -379,7 +379,7 @@ cond/d_cond_qcqp.s: cond/d_cond_qcqp.c.s
 
 # target to generate assembly for a file
 cond/d_cond_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.s
 .PHONY : cond/d_cond_qcqp.c.s
 
 cond/d_part_cond.o: cond/d_part_cond.c.o
@@ -388,7 +388,7 @@ cond/d_part_cond.o: cond/d_part_cond.c.o
 
 # target to build an object file
 cond/d_part_cond.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.o
 .PHONY : cond/d_part_cond.c.o
 
 cond/d_part_cond.i: cond/d_part_cond.c.i
@@ -397,7 +397,7 @@ cond/d_part_cond.i: cond/d_part_cond.c.i
 
 # target to preprocess a source file
 cond/d_part_cond.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.i
 .PHONY : cond/d_part_cond.c.i
 
 cond/d_part_cond.s: cond/d_part_cond.c.s
@@ -406,7 +406,7 @@ cond/d_part_cond.s: cond/d_part_cond.c.s
 
 # target to generate assembly for a file
 cond/d_part_cond.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.s
 .PHONY : cond/d_part_cond.c.s
 
 cond/d_part_cond_qcqp.o: cond/d_part_cond_qcqp.c.o
@@ -415,7 +415,7 @@ cond/d_part_cond_qcqp.o: cond/d_part_cond_qcqp.c.o
 
 # target to build an object file
 cond/d_part_cond_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o
 .PHONY : cond/d_part_cond_qcqp.c.o
 
 cond/d_part_cond_qcqp.i: cond/d_part_cond_qcqp.c.i
@@ -424,7 +424,7 @@ cond/d_part_cond_qcqp.i: cond/d_part_cond_qcqp.c.i
 
 # target to preprocess a source file
 cond/d_part_cond_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.i
 .PHONY : cond/d_part_cond_qcqp.c.i
 
 cond/d_part_cond_qcqp.s: cond/d_part_cond_qcqp.c.s
@@ -433,7 +433,7 @@ cond/d_part_cond_qcqp.s: cond/d_part_cond_qcqp.c.s
 
 # target to generate assembly for a file
 cond/d_part_cond_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.s
 .PHONY : cond/d_part_cond_qcqp.c.s
 
 cond/s_cast_qcqp.o: cond/s_cast_qcqp.c.o
@@ -442,7 +442,7 @@ cond/s_cast_qcqp.o: cond/s_cast_qcqp.c.o
 
 # target to build an object file
 cond/s_cast_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o
 .PHONY : cond/s_cast_qcqp.c.o
 
 cond/s_cast_qcqp.i: cond/s_cast_qcqp.c.i
@@ -451,7 +451,7 @@ cond/s_cast_qcqp.i: cond/s_cast_qcqp.c.i
 
 # target to preprocess a source file
 cond/s_cast_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.i
 .PHONY : cond/s_cast_qcqp.c.i
 
 cond/s_cast_qcqp.s: cond/s_cast_qcqp.c.s
@@ -460,7 +460,7 @@ cond/s_cast_qcqp.s: cond/s_cast_qcqp.c.s
 
 # target to generate assembly for a file
 cond/s_cast_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.s
 .PHONY : cond/s_cast_qcqp.c.s
 
 cond/s_cond.o: cond/s_cond.c.o
@@ -469,7 +469,7 @@ cond/s_cond.o: cond/s_cond.c.o
 
 # target to build an object file
 cond/s_cond.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.o
 .PHONY : cond/s_cond.c.o
 
 cond/s_cond.i: cond/s_cond.c.i
@@ -478,7 +478,7 @@ cond/s_cond.i: cond/s_cond.c.i
 
 # target to preprocess a source file
 cond/s_cond.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.i
 .PHONY : cond/s_cond.c.i
 
 cond/s_cond.s: cond/s_cond.c.s
@@ -487,7 +487,7 @@ cond/s_cond.s: cond/s_cond.c.s
 
 # target to generate assembly for a file
 cond/s_cond.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.s
 .PHONY : cond/s_cond.c.s
 
 cond/s_cond_aux.o: cond/s_cond_aux.c.o
@@ -496,7 +496,7 @@ cond/s_cond_aux.o: cond/s_cond_aux.c.o
 
 # target to build an object file
 cond/s_cond_aux.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o
 .PHONY : cond/s_cond_aux.c.o
 
 cond/s_cond_aux.i: cond/s_cond_aux.c.i
@@ -505,7 +505,7 @@ cond/s_cond_aux.i: cond/s_cond_aux.c.i
 
 # target to preprocess a source file
 cond/s_cond_aux.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.i
 .PHONY : cond/s_cond_aux.c.i
 
 cond/s_cond_aux.s: cond/s_cond_aux.c.s
@@ -514,7 +514,7 @@ cond/s_cond_aux.s: cond/s_cond_aux.c.s
 
 # target to generate assembly for a file
 cond/s_cond_aux.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.s
 .PHONY : cond/s_cond_aux.c.s
 
 cond/s_cond_qcqp.o: cond/s_cond_qcqp.c.o
@@ -523,7 +523,7 @@ cond/s_cond_qcqp.o: cond/s_cond_qcqp.c.o
 
 # target to build an object file
 cond/s_cond_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o
 .PHONY : cond/s_cond_qcqp.c.o
 
 cond/s_cond_qcqp.i: cond/s_cond_qcqp.c.i
@@ -532,7 +532,7 @@ cond/s_cond_qcqp.i: cond/s_cond_qcqp.c.i
 
 # target to preprocess a source file
 cond/s_cond_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.i
 .PHONY : cond/s_cond_qcqp.c.i
 
 cond/s_cond_qcqp.s: cond/s_cond_qcqp.c.s
@@ -541,7 +541,7 @@ cond/s_cond_qcqp.s: cond/s_cond_qcqp.c.s
 
 # target to generate assembly for a file
 cond/s_cond_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.s
 .PHONY : cond/s_cond_qcqp.c.s
 
 cond/s_part_cond.o: cond/s_part_cond.c.o
@@ -550,7 +550,7 @@ cond/s_part_cond.o: cond/s_part_cond.c.o
 
 # target to build an object file
 cond/s_part_cond.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.o
 .PHONY : cond/s_part_cond.c.o
 
 cond/s_part_cond.i: cond/s_part_cond.c.i
@@ -559,7 +559,7 @@ cond/s_part_cond.i: cond/s_part_cond.c.i
 
 # target to preprocess a source file
 cond/s_part_cond.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.i
 .PHONY : cond/s_part_cond.c.i
 
 cond/s_part_cond.s: cond/s_part_cond.c.s
@@ -568,7 +568,7 @@ cond/s_part_cond.s: cond/s_part_cond.c.s
 
 # target to generate assembly for a file
 cond/s_part_cond.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.s
 .PHONY : cond/s_part_cond.c.s
 
 cond/s_part_cond_qcqp.o: cond/s_part_cond_qcqp.c.o
@@ -577,7 +577,7 @@ cond/s_part_cond_qcqp.o: cond/s_part_cond_qcqp.c.o
 
 # target to build an object file
 cond/s_part_cond_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o
 .PHONY : cond/s_part_cond_qcqp.c.o
 
 cond/s_part_cond_qcqp.i: cond/s_part_cond_qcqp.c.i
@@ -586,7 +586,7 @@ cond/s_part_cond_qcqp.i: cond/s_part_cond_qcqp.c.i
 
 # target to preprocess a source file
 cond/s_part_cond_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.i
 .PHONY : cond/s_part_cond_qcqp.c.i
 
 cond/s_part_cond_qcqp.s: cond/s_part_cond_qcqp.c.s
@@ -595,7 +595,7 @@ cond/s_part_cond_qcqp.s: cond/s_part_cond_qcqp.c.s
 
 # target to generate assembly for a file
 cond/s_part_cond_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.s
 .PHONY : cond/s_part_cond_qcqp.c.s
 
 dense_qp/d_dense_qcqp.o: dense_qp/d_dense_qcqp.c.o
@@ -604,7 +604,7 @@ dense_qp/d_dense_qcqp.o: dense_qp/d_dense_qcqp.c.o
 
 # target to build an object file
 dense_qp/d_dense_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o
 .PHONY : dense_qp/d_dense_qcqp.c.o
 
 dense_qp/d_dense_qcqp.i: dense_qp/d_dense_qcqp.c.i
@@ -613,7 +613,7 @@ dense_qp/d_dense_qcqp.i: dense_qp/d_dense_qcqp.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.i
 .PHONY : dense_qp/d_dense_qcqp.c.i
 
 dense_qp/d_dense_qcqp.s: dense_qp/d_dense_qcqp.c.s
@@ -622,7 +622,7 @@ dense_qp/d_dense_qcqp.s: dense_qp/d_dense_qcqp.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.s
 .PHONY : dense_qp/d_dense_qcqp.c.s
 
 dense_qp/d_dense_qcqp_dim.o: dense_qp/d_dense_qcqp_dim.c.o
@@ -631,7 +631,7 @@ dense_qp/d_dense_qcqp_dim.o: dense_qp/d_dense_qcqp_dim.c.o
 
 # target to build an object file
 dense_qp/d_dense_qcqp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o
 .PHONY : dense_qp/d_dense_qcqp_dim.c.o
 
 dense_qp/d_dense_qcqp_dim.i: dense_qp/d_dense_qcqp_dim.c.i
@@ -640,7 +640,7 @@ dense_qp/d_dense_qcqp_dim.i: dense_qp/d_dense_qcqp_dim.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qcqp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.i
 .PHONY : dense_qp/d_dense_qcqp_dim.c.i
 
 dense_qp/d_dense_qcqp_dim.s: dense_qp/d_dense_qcqp_dim.c.s
@@ -649,7 +649,7 @@ dense_qp/d_dense_qcqp_dim.s: dense_qp/d_dense_qcqp_dim.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qcqp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.s
 .PHONY : dense_qp/d_dense_qcqp_dim.c.s
 
 dense_qp/d_dense_qcqp_ipm.o: dense_qp/d_dense_qcqp_ipm.c.o
@@ -658,7 +658,7 @@ dense_qp/d_dense_qcqp_ipm.o: dense_qp/d_dense_qcqp_ipm.c.o
 
 # target to build an object file
 dense_qp/d_dense_qcqp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o
 .PHONY : dense_qp/d_dense_qcqp_ipm.c.o
 
 dense_qp/d_dense_qcqp_ipm.i: dense_qp/d_dense_qcqp_ipm.c.i
@@ -667,7 +667,7 @@ dense_qp/d_dense_qcqp_ipm.i: dense_qp/d_dense_qcqp_ipm.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qcqp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.i
 .PHONY : dense_qp/d_dense_qcqp_ipm.c.i
 
 dense_qp/d_dense_qcqp_ipm.s: dense_qp/d_dense_qcqp_ipm.c.s
@@ -676,7 +676,7 @@ dense_qp/d_dense_qcqp_ipm.s: dense_qp/d_dense_qcqp_ipm.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qcqp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.s
 .PHONY : dense_qp/d_dense_qcqp_ipm.c.s
 
 dense_qp/d_dense_qcqp_res.o: dense_qp/d_dense_qcqp_res.c.o
@@ -685,7 +685,7 @@ dense_qp/d_dense_qcqp_res.o: dense_qp/d_dense_qcqp_res.c.o
 
 # target to build an object file
 dense_qp/d_dense_qcqp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o
 .PHONY : dense_qp/d_dense_qcqp_res.c.o
 
 dense_qp/d_dense_qcqp_res.i: dense_qp/d_dense_qcqp_res.c.i
@@ -694,7 +694,7 @@ dense_qp/d_dense_qcqp_res.i: dense_qp/d_dense_qcqp_res.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qcqp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.i
 .PHONY : dense_qp/d_dense_qcqp_res.c.i
 
 dense_qp/d_dense_qcqp_res.s: dense_qp/d_dense_qcqp_res.c.s
@@ -703,7 +703,7 @@ dense_qp/d_dense_qcqp_res.s: dense_qp/d_dense_qcqp_res.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qcqp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.s
 .PHONY : dense_qp/d_dense_qcqp_res.c.s
 
 dense_qp/d_dense_qcqp_sol.o: dense_qp/d_dense_qcqp_sol.c.o
@@ -712,7 +712,7 @@ dense_qp/d_dense_qcqp_sol.o: dense_qp/d_dense_qcqp_sol.c.o
 
 # target to build an object file
 dense_qp/d_dense_qcqp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o
 .PHONY : dense_qp/d_dense_qcqp_sol.c.o
 
 dense_qp/d_dense_qcqp_sol.i: dense_qp/d_dense_qcqp_sol.c.i
@@ -721,7 +721,7 @@ dense_qp/d_dense_qcqp_sol.i: dense_qp/d_dense_qcqp_sol.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qcqp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.i
 .PHONY : dense_qp/d_dense_qcqp_sol.c.i
 
 dense_qp/d_dense_qcqp_sol.s: dense_qp/d_dense_qcqp_sol.c.s
@@ -730,7 +730,7 @@ dense_qp/d_dense_qcqp_sol.s: dense_qp/d_dense_qcqp_sol.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qcqp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.s
 .PHONY : dense_qp/d_dense_qcqp_sol.c.s
 
 dense_qp/d_dense_qcqp_utils.o: dense_qp/d_dense_qcqp_utils.c.o
@@ -739,7 +739,7 @@ dense_qp/d_dense_qcqp_utils.o: dense_qp/d_dense_qcqp_utils.c.o
 
 # target to build an object file
 dense_qp/d_dense_qcqp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o
 .PHONY : dense_qp/d_dense_qcqp_utils.c.o
 
 dense_qp/d_dense_qcqp_utils.i: dense_qp/d_dense_qcqp_utils.c.i
@@ -748,7 +748,7 @@ dense_qp/d_dense_qcqp_utils.i: dense_qp/d_dense_qcqp_utils.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qcqp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.i
 .PHONY : dense_qp/d_dense_qcqp_utils.c.i
 
 dense_qp/d_dense_qcqp_utils.s: dense_qp/d_dense_qcqp_utils.c.s
@@ -757,7 +757,7 @@ dense_qp/d_dense_qcqp_utils.s: dense_qp/d_dense_qcqp_utils.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qcqp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.s
 .PHONY : dense_qp/d_dense_qcqp_utils.c.s
 
 dense_qp/d_dense_qp.o: dense_qp/d_dense_qp.c.o
@@ -766,7 +766,7 @@ dense_qp/d_dense_qp.o: dense_qp/d_dense_qp.c.o
 
 # target to build an object file
 dense_qp/d_dense_qp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o
 .PHONY : dense_qp/d_dense_qp.c.o
 
 dense_qp/d_dense_qp.i: dense_qp/d_dense_qp.c.i
@@ -775,7 +775,7 @@ dense_qp/d_dense_qp.i: dense_qp/d_dense_qp.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.i
 .PHONY : dense_qp/d_dense_qp.c.i
 
 dense_qp/d_dense_qp.s: dense_qp/d_dense_qp.c.s
@@ -784,7 +784,7 @@ dense_qp/d_dense_qp.s: dense_qp/d_dense_qp.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.s
 .PHONY : dense_qp/d_dense_qp.c.s
 
 dense_qp/d_dense_qp_dim.o: dense_qp/d_dense_qp_dim.c.o
@@ -793,7 +793,7 @@ dense_qp/d_dense_qp_dim.o: dense_qp/d_dense_qp_dim.c.o
 
 # target to build an object file
 dense_qp/d_dense_qp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o
 .PHONY : dense_qp/d_dense_qp_dim.c.o
 
 dense_qp/d_dense_qp_dim.i: dense_qp/d_dense_qp_dim.c.i
@@ -802,7 +802,7 @@ dense_qp/d_dense_qp_dim.i: dense_qp/d_dense_qp_dim.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.i
 .PHONY : dense_qp/d_dense_qp_dim.c.i
 
 dense_qp/d_dense_qp_dim.s: dense_qp/d_dense_qp_dim.c.s
@@ -811,7 +811,7 @@ dense_qp/d_dense_qp_dim.s: dense_qp/d_dense_qp_dim.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.s
 .PHONY : dense_qp/d_dense_qp_dim.c.s
 
 dense_qp/d_dense_qp_ipm.o: dense_qp/d_dense_qp_ipm.c.o
@@ -820,7 +820,7 @@ dense_qp/d_dense_qp_ipm.o: dense_qp/d_dense_qp_ipm.c.o
 
 # target to build an object file
 dense_qp/d_dense_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o
 .PHONY : dense_qp/d_dense_qp_ipm.c.o
 
 dense_qp/d_dense_qp_ipm.i: dense_qp/d_dense_qp_ipm.c.i
@@ -829,7 +829,7 @@ dense_qp/d_dense_qp_ipm.i: dense_qp/d_dense_qp_ipm.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.i
 .PHONY : dense_qp/d_dense_qp_ipm.c.i
 
 dense_qp/d_dense_qp_ipm.s: dense_qp/d_dense_qp_ipm.c.s
@@ -838,7 +838,7 @@ dense_qp/d_dense_qp_ipm.s: dense_qp/d_dense_qp_ipm.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.s
 .PHONY : dense_qp/d_dense_qp_ipm.c.s
 
 dense_qp/d_dense_qp_kkt.o: dense_qp/d_dense_qp_kkt.c.o
@@ -847,7 +847,7 @@ dense_qp/d_dense_qp_kkt.o: dense_qp/d_dense_qp_kkt.c.o
 
 # target to build an object file
 dense_qp/d_dense_qp_kkt.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o
 .PHONY : dense_qp/d_dense_qp_kkt.c.o
 
 dense_qp/d_dense_qp_kkt.i: dense_qp/d_dense_qp_kkt.c.i
@@ -856,7 +856,7 @@ dense_qp/d_dense_qp_kkt.i: dense_qp/d_dense_qp_kkt.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qp_kkt.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.i
 .PHONY : dense_qp/d_dense_qp_kkt.c.i
 
 dense_qp/d_dense_qp_kkt.s: dense_qp/d_dense_qp_kkt.c.s
@@ -865,7 +865,7 @@ dense_qp/d_dense_qp_kkt.s: dense_qp/d_dense_qp_kkt.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qp_kkt.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.s
 .PHONY : dense_qp/d_dense_qp_kkt.c.s
 
 dense_qp/d_dense_qp_res.o: dense_qp/d_dense_qp_res.c.o
@@ -874,7 +874,7 @@ dense_qp/d_dense_qp_res.o: dense_qp/d_dense_qp_res.c.o
 
 # target to build an object file
 dense_qp/d_dense_qp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o
 .PHONY : dense_qp/d_dense_qp_res.c.o
 
 dense_qp/d_dense_qp_res.i: dense_qp/d_dense_qp_res.c.i
@@ -883,7 +883,7 @@ dense_qp/d_dense_qp_res.i: dense_qp/d_dense_qp_res.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.i
 .PHONY : dense_qp/d_dense_qp_res.c.i
 
 dense_qp/d_dense_qp_res.s: dense_qp/d_dense_qp_res.c.s
@@ -892,7 +892,7 @@ dense_qp/d_dense_qp_res.s: dense_qp/d_dense_qp_res.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.s
 .PHONY : dense_qp/d_dense_qp_res.c.s
 
 dense_qp/d_dense_qp_sol.o: dense_qp/d_dense_qp_sol.c.o
@@ -901,7 +901,7 @@ dense_qp/d_dense_qp_sol.o: dense_qp/d_dense_qp_sol.c.o
 
 # target to build an object file
 dense_qp/d_dense_qp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o
 .PHONY : dense_qp/d_dense_qp_sol.c.o
 
 dense_qp/d_dense_qp_sol.i: dense_qp/d_dense_qp_sol.c.i
@@ -910,7 +910,7 @@ dense_qp/d_dense_qp_sol.i: dense_qp/d_dense_qp_sol.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.i
 .PHONY : dense_qp/d_dense_qp_sol.c.i
 
 dense_qp/d_dense_qp_sol.s: dense_qp/d_dense_qp_sol.c.s
@@ -919,7 +919,7 @@ dense_qp/d_dense_qp_sol.s: dense_qp/d_dense_qp_sol.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.s
 .PHONY : dense_qp/d_dense_qp_sol.c.s
 
 dense_qp/d_dense_qp_utils.o: dense_qp/d_dense_qp_utils.c.o
@@ -928,7 +928,7 @@ dense_qp/d_dense_qp_utils.o: dense_qp/d_dense_qp_utils.c.o
 
 # target to build an object file
 dense_qp/d_dense_qp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o
 .PHONY : dense_qp/d_dense_qp_utils.c.o
 
 dense_qp/d_dense_qp_utils.i: dense_qp/d_dense_qp_utils.c.i
@@ -937,7 +937,7 @@ dense_qp/d_dense_qp_utils.i: dense_qp/d_dense_qp_utils.c.i
 
 # target to preprocess a source file
 dense_qp/d_dense_qp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.i
 .PHONY : dense_qp/d_dense_qp_utils.c.i
 
 dense_qp/d_dense_qp_utils.s: dense_qp/d_dense_qp_utils.c.s
@@ -946,7 +946,7 @@ dense_qp/d_dense_qp_utils.s: dense_qp/d_dense_qp_utils.c.s
 
 # target to generate assembly for a file
 dense_qp/d_dense_qp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.s
 .PHONY : dense_qp/d_dense_qp_utils.c.s
 
 dense_qp/s_dense_qcqp.o: dense_qp/s_dense_qcqp.c.o
@@ -955,7 +955,7 @@ dense_qp/s_dense_qcqp.o: dense_qp/s_dense_qcqp.c.o
 
 # target to build an object file
 dense_qp/s_dense_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o
 .PHONY : dense_qp/s_dense_qcqp.c.o
 
 dense_qp/s_dense_qcqp.i: dense_qp/s_dense_qcqp.c.i
@@ -964,7 +964,7 @@ dense_qp/s_dense_qcqp.i: dense_qp/s_dense_qcqp.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.i
 .PHONY : dense_qp/s_dense_qcqp.c.i
 
 dense_qp/s_dense_qcqp.s: dense_qp/s_dense_qcqp.c.s
@@ -973,7 +973,7 @@ dense_qp/s_dense_qcqp.s: dense_qp/s_dense_qcqp.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.s
 .PHONY : dense_qp/s_dense_qcqp.c.s
 
 dense_qp/s_dense_qcqp_dim.o: dense_qp/s_dense_qcqp_dim.c.o
@@ -982,7 +982,7 @@ dense_qp/s_dense_qcqp_dim.o: dense_qp/s_dense_qcqp_dim.c.o
 
 # target to build an object file
 dense_qp/s_dense_qcqp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o
 .PHONY : dense_qp/s_dense_qcqp_dim.c.o
 
 dense_qp/s_dense_qcqp_dim.i: dense_qp/s_dense_qcqp_dim.c.i
@@ -991,7 +991,7 @@ dense_qp/s_dense_qcqp_dim.i: dense_qp/s_dense_qcqp_dim.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qcqp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.i
 .PHONY : dense_qp/s_dense_qcqp_dim.c.i
 
 dense_qp/s_dense_qcqp_dim.s: dense_qp/s_dense_qcqp_dim.c.s
@@ -1000,7 +1000,7 @@ dense_qp/s_dense_qcqp_dim.s: dense_qp/s_dense_qcqp_dim.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qcqp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.s
 .PHONY : dense_qp/s_dense_qcqp_dim.c.s
 
 dense_qp/s_dense_qcqp_ipm.o: dense_qp/s_dense_qcqp_ipm.c.o
@@ -1009,7 +1009,7 @@ dense_qp/s_dense_qcqp_ipm.o: dense_qp/s_dense_qcqp_ipm.c.o
 
 # target to build an object file
 dense_qp/s_dense_qcqp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o
 .PHONY : dense_qp/s_dense_qcqp_ipm.c.o
 
 dense_qp/s_dense_qcqp_ipm.i: dense_qp/s_dense_qcqp_ipm.c.i
@@ -1018,7 +1018,7 @@ dense_qp/s_dense_qcqp_ipm.i: dense_qp/s_dense_qcqp_ipm.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qcqp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.i
 .PHONY : dense_qp/s_dense_qcqp_ipm.c.i
 
 dense_qp/s_dense_qcqp_ipm.s: dense_qp/s_dense_qcqp_ipm.c.s
@@ -1027,7 +1027,7 @@ dense_qp/s_dense_qcqp_ipm.s: dense_qp/s_dense_qcqp_ipm.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qcqp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.s
 .PHONY : dense_qp/s_dense_qcqp_ipm.c.s
 
 dense_qp/s_dense_qcqp_res.o: dense_qp/s_dense_qcqp_res.c.o
@@ -1036,7 +1036,7 @@ dense_qp/s_dense_qcqp_res.o: dense_qp/s_dense_qcqp_res.c.o
 
 # target to build an object file
 dense_qp/s_dense_qcqp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o
 .PHONY : dense_qp/s_dense_qcqp_res.c.o
 
 dense_qp/s_dense_qcqp_res.i: dense_qp/s_dense_qcqp_res.c.i
@@ -1045,7 +1045,7 @@ dense_qp/s_dense_qcqp_res.i: dense_qp/s_dense_qcqp_res.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qcqp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.i
 .PHONY : dense_qp/s_dense_qcqp_res.c.i
 
 dense_qp/s_dense_qcqp_res.s: dense_qp/s_dense_qcqp_res.c.s
@@ -1054,7 +1054,7 @@ dense_qp/s_dense_qcqp_res.s: dense_qp/s_dense_qcqp_res.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qcqp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.s
 .PHONY : dense_qp/s_dense_qcqp_res.c.s
 
 dense_qp/s_dense_qcqp_sol.o: dense_qp/s_dense_qcqp_sol.c.o
@@ -1063,7 +1063,7 @@ dense_qp/s_dense_qcqp_sol.o: dense_qp/s_dense_qcqp_sol.c.o
 
 # target to build an object file
 dense_qp/s_dense_qcqp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o
 .PHONY : dense_qp/s_dense_qcqp_sol.c.o
 
 dense_qp/s_dense_qcqp_sol.i: dense_qp/s_dense_qcqp_sol.c.i
@@ -1072,7 +1072,7 @@ dense_qp/s_dense_qcqp_sol.i: dense_qp/s_dense_qcqp_sol.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qcqp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.i
 .PHONY : dense_qp/s_dense_qcqp_sol.c.i
 
 dense_qp/s_dense_qcqp_sol.s: dense_qp/s_dense_qcqp_sol.c.s
@@ -1081,7 +1081,7 @@ dense_qp/s_dense_qcqp_sol.s: dense_qp/s_dense_qcqp_sol.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qcqp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.s
 .PHONY : dense_qp/s_dense_qcqp_sol.c.s
 
 dense_qp/s_dense_qcqp_utils.o: dense_qp/s_dense_qcqp_utils.c.o
@@ -1090,7 +1090,7 @@ dense_qp/s_dense_qcqp_utils.o: dense_qp/s_dense_qcqp_utils.c.o
 
 # target to build an object file
 dense_qp/s_dense_qcqp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o
 .PHONY : dense_qp/s_dense_qcqp_utils.c.o
 
 dense_qp/s_dense_qcqp_utils.i: dense_qp/s_dense_qcqp_utils.c.i
@@ -1099,7 +1099,7 @@ dense_qp/s_dense_qcqp_utils.i: dense_qp/s_dense_qcqp_utils.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qcqp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.i
 .PHONY : dense_qp/s_dense_qcqp_utils.c.i
 
 dense_qp/s_dense_qcqp_utils.s: dense_qp/s_dense_qcqp_utils.c.s
@@ -1108,7 +1108,7 @@ dense_qp/s_dense_qcqp_utils.s: dense_qp/s_dense_qcqp_utils.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qcqp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.s
 .PHONY : dense_qp/s_dense_qcqp_utils.c.s
 
 dense_qp/s_dense_qp.o: dense_qp/s_dense_qp.c.o
@@ -1117,7 +1117,7 @@ dense_qp/s_dense_qp.o: dense_qp/s_dense_qp.c.o
 
 # target to build an object file
 dense_qp/s_dense_qp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o
 .PHONY : dense_qp/s_dense_qp.c.o
 
 dense_qp/s_dense_qp.i: dense_qp/s_dense_qp.c.i
@@ -1126,7 +1126,7 @@ dense_qp/s_dense_qp.i: dense_qp/s_dense_qp.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.i
 .PHONY : dense_qp/s_dense_qp.c.i
 
 dense_qp/s_dense_qp.s: dense_qp/s_dense_qp.c.s
@@ -1135,7 +1135,7 @@ dense_qp/s_dense_qp.s: dense_qp/s_dense_qp.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.s
 .PHONY : dense_qp/s_dense_qp.c.s
 
 dense_qp/s_dense_qp_dim.o: dense_qp/s_dense_qp_dim.c.o
@@ -1144,7 +1144,7 @@ dense_qp/s_dense_qp_dim.o: dense_qp/s_dense_qp_dim.c.o
 
 # target to build an object file
 dense_qp/s_dense_qp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o
 .PHONY : dense_qp/s_dense_qp_dim.c.o
 
 dense_qp/s_dense_qp_dim.i: dense_qp/s_dense_qp_dim.c.i
@@ -1153,7 +1153,7 @@ dense_qp/s_dense_qp_dim.i: dense_qp/s_dense_qp_dim.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.i
 .PHONY : dense_qp/s_dense_qp_dim.c.i
 
 dense_qp/s_dense_qp_dim.s: dense_qp/s_dense_qp_dim.c.s
@@ -1162,7 +1162,7 @@ dense_qp/s_dense_qp_dim.s: dense_qp/s_dense_qp_dim.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.s
 .PHONY : dense_qp/s_dense_qp_dim.c.s
 
 dense_qp/s_dense_qp_ipm.o: dense_qp/s_dense_qp_ipm.c.o
@@ -1171,7 +1171,7 @@ dense_qp/s_dense_qp_ipm.o: dense_qp/s_dense_qp_ipm.c.o
 
 # target to build an object file
 dense_qp/s_dense_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o
 .PHONY : dense_qp/s_dense_qp_ipm.c.o
 
 dense_qp/s_dense_qp_ipm.i: dense_qp/s_dense_qp_ipm.c.i
@@ -1180,7 +1180,7 @@ dense_qp/s_dense_qp_ipm.i: dense_qp/s_dense_qp_ipm.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.i
 .PHONY : dense_qp/s_dense_qp_ipm.c.i
 
 dense_qp/s_dense_qp_ipm.s: dense_qp/s_dense_qp_ipm.c.s
@@ -1189,7 +1189,7 @@ dense_qp/s_dense_qp_ipm.s: dense_qp/s_dense_qp_ipm.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.s
 .PHONY : dense_qp/s_dense_qp_ipm.c.s
 
 dense_qp/s_dense_qp_kkt.o: dense_qp/s_dense_qp_kkt.c.o
@@ -1198,7 +1198,7 @@ dense_qp/s_dense_qp_kkt.o: dense_qp/s_dense_qp_kkt.c.o
 
 # target to build an object file
 dense_qp/s_dense_qp_kkt.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o
 .PHONY : dense_qp/s_dense_qp_kkt.c.o
 
 dense_qp/s_dense_qp_kkt.i: dense_qp/s_dense_qp_kkt.c.i
@@ -1207,7 +1207,7 @@ dense_qp/s_dense_qp_kkt.i: dense_qp/s_dense_qp_kkt.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qp_kkt.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.i
 .PHONY : dense_qp/s_dense_qp_kkt.c.i
 
 dense_qp/s_dense_qp_kkt.s: dense_qp/s_dense_qp_kkt.c.s
@@ -1216,7 +1216,7 @@ dense_qp/s_dense_qp_kkt.s: dense_qp/s_dense_qp_kkt.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qp_kkt.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.s
 .PHONY : dense_qp/s_dense_qp_kkt.c.s
 
 dense_qp/s_dense_qp_res.o: dense_qp/s_dense_qp_res.c.o
@@ -1225,7 +1225,7 @@ dense_qp/s_dense_qp_res.o: dense_qp/s_dense_qp_res.c.o
 
 # target to build an object file
 dense_qp/s_dense_qp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o
 .PHONY : dense_qp/s_dense_qp_res.c.o
 
 dense_qp/s_dense_qp_res.i: dense_qp/s_dense_qp_res.c.i
@@ -1234,7 +1234,7 @@ dense_qp/s_dense_qp_res.i: dense_qp/s_dense_qp_res.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.i
 .PHONY : dense_qp/s_dense_qp_res.c.i
 
 dense_qp/s_dense_qp_res.s: dense_qp/s_dense_qp_res.c.s
@@ -1243,7 +1243,7 @@ dense_qp/s_dense_qp_res.s: dense_qp/s_dense_qp_res.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.s
 .PHONY : dense_qp/s_dense_qp_res.c.s
 
 dense_qp/s_dense_qp_sol.o: dense_qp/s_dense_qp_sol.c.o
@@ -1252,7 +1252,7 @@ dense_qp/s_dense_qp_sol.o: dense_qp/s_dense_qp_sol.c.o
 
 # target to build an object file
 dense_qp/s_dense_qp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o
 .PHONY : dense_qp/s_dense_qp_sol.c.o
 
 dense_qp/s_dense_qp_sol.i: dense_qp/s_dense_qp_sol.c.i
@@ -1261,7 +1261,7 @@ dense_qp/s_dense_qp_sol.i: dense_qp/s_dense_qp_sol.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.i
 .PHONY : dense_qp/s_dense_qp_sol.c.i
 
 dense_qp/s_dense_qp_sol.s: dense_qp/s_dense_qp_sol.c.s
@@ -1270,7 +1270,7 @@ dense_qp/s_dense_qp_sol.s: dense_qp/s_dense_qp_sol.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.s
 .PHONY : dense_qp/s_dense_qp_sol.c.s
 
 dense_qp/s_dense_qp_utils.o: dense_qp/s_dense_qp_utils.c.o
@@ -1279,7 +1279,7 @@ dense_qp/s_dense_qp_utils.o: dense_qp/s_dense_qp_utils.c.o
 
 # target to build an object file
 dense_qp/s_dense_qp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o
 .PHONY : dense_qp/s_dense_qp_utils.c.o
 
 dense_qp/s_dense_qp_utils.i: dense_qp/s_dense_qp_utils.c.i
@@ -1288,7 +1288,7 @@ dense_qp/s_dense_qp_utils.i: dense_qp/s_dense_qp_utils.c.i
 
 # target to preprocess a source file
 dense_qp/s_dense_qp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.i
 .PHONY : dense_qp/s_dense_qp_utils.c.i
 
 dense_qp/s_dense_qp_utils.s: dense_qp/s_dense_qp_utils.c.s
@@ -1297,7 +1297,7 @@ dense_qp/s_dense_qp_utils.s: dense_qp/s_dense_qp_utils.c.s
 
 # target to generate assembly for a file
 dense_qp/s_dense_qp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.s
 .PHONY : dense_qp/s_dense_qp_utils.c.s
 
 ipm_core/d_core_qp_ipm.o: ipm_core/d_core_qp_ipm.c.o
@@ -1306,7 +1306,7 @@ ipm_core/d_core_qp_ipm.o: ipm_core/d_core_qp_ipm.c.o
 
 # target to build an object file
 ipm_core/d_core_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o
 .PHONY : ipm_core/d_core_qp_ipm.c.o
 
 ipm_core/d_core_qp_ipm.i: ipm_core/d_core_qp_ipm.c.i
@@ -1315,7 +1315,7 @@ ipm_core/d_core_qp_ipm.i: ipm_core/d_core_qp_ipm.c.i
 
 # target to preprocess a source file
 ipm_core/d_core_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.i
 .PHONY : ipm_core/d_core_qp_ipm.c.i
 
 ipm_core/d_core_qp_ipm.s: ipm_core/d_core_qp_ipm.c.s
@@ -1324,7 +1324,7 @@ ipm_core/d_core_qp_ipm.s: ipm_core/d_core_qp_ipm.c.s
 
 # target to generate assembly for a file
 ipm_core/d_core_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.s
 .PHONY : ipm_core/d_core_qp_ipm.c.s
 
 ipm_core/d_core_qp_ipm_aux.o: ipm_core/d_core_qp_ipm_aux.c.o
@@ -1333,7 +1333,7 @@ ipm_core/d_core_qp_ipm_aux.o: ipm_core/d_core_qp_ipm_aux.c.o
 
 # target to build an object file
 ipm_core/d_core_qp_ipm_aux.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o
 .PHONY : ipm_core/d_core_qp_ipm_aux.c.o
 
 ipm_core/d_core_qp_ipm_aux.i: ipm_core/d_core_qp_ipm_aux.c.i
@@ -1342,7 +1342,7 @@ ipm_core/d_core_qp_ipm_aux.i: ipm_core/d_core_qp_ipm_aux.c.i
 
 # target to preprocess a source file
 ipm_core/d_core_qp_ipm_aux.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.i
 .PHONY : ipm_core/d_core_qp_ipm_aux.c.i
 
 ipm_core/d_core_qp_ipm_aux.s: ipm_core/d_core_qp_ipm_aux.c.s
@@ -1351,7 +1351,7 @@ ipm_core/d_core_qp_ipm_aux.s: ipm_core/d_core_qp_ipm_aux.c.s
 
 # target to generate assembly for a file
 ipm_core/d_core_qp_ipm_aux.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.s
 .PHONY : ipm_core/d_core_qp_ipm_aux.c.s
 
 ipm_core/s_core_qp_ipm.o: ipm_core/s_core_qp_ipm.c.o
@@ -1360,7 +1360,7 @@ ipm_core/s_core_qp_ipm.o: ipm_core/s_core_qp_ipm.c.o
 
 # target to build an object file
 ipm_core/s_core_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o
 .PHONY : ipm_core/s_core_qp_ipm.c.o
 
 ipm_core/s_core_qp_ipm.i: ipm_core/s_core_qp_ipm.c.i
@@ -1369,7 +1369,7 @@ ipm_core/s_core_qp_ipm.i: ipm_core/s_core_qp_ipm.c.i
 
 # target to preprocess a source file
 ipm_core/s_core_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.i
 .PHONY : ipm_core/s_core_qp_ipm.c.i
 
 ipm_core/s_core_qp_ipm.s: ipm_core/s_core_qp_ipm.c.s
@@ -1378,7 +1378,7 @@ ipm_core/s_core_qp_ipm.s: ipm_core/s_core_qp_ipm.c.s
 
 # target to generate assembly for a file
 ipm_core/s_core_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.s
 .PHONY : ipm_core/s_core_qp_ipm.c.s
 
 ipm_core/s_core_qp_ipm_aux.o: ipm_core/s_core_qp_ipm_aux.c.o
@@ -1387,7 +1387,7 @@ ipm_core/s_core_qp_ipm_aux.o: ipm_core/s_core_qp_ipm_aux.c.o
 
 # target to build an object file
 ipm_core/s_core_qp_ipm_aux.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o
 .PHONY : ipm_core/s_core_qp_ipm_aux.c.o
 
 ipm_core/s_core_qp_ipm_aux.i: ipm_core/s_core_qp_ipm_aux.c.i
@@ -1396,7 +1396,7 @@ ipm_core/s_core_qp_ipm_aux.i: ipm_core/s_core_qp_ipm_aux.c.i
 
 # target to preprocess a source file
 ipm_core/s_core_qp_ipm_aux.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.i
 .PHONY : ipm_core/s_core_qp_ipm_aux.c.i
 
 ipm_core/s_core_qp_ipm_aux.s: ipm_core/s_core_qp_ipm_aux.c.s
@@ -1405,7 +1405,7 @@ ipm_core/s_core_qp_ipm_aux.s: ipm_core/s_core_qp_ipm_aux.c.s
 
 # target to generate assembly for a file
 ipm_core/s_core_qp_ipm_aux.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.s
 .PHONY : ipm_core/s_core_qp_ipm_aux.c.s
 
 ocp_qp/d_ocp_qcqp.o: ocp_qp/d_ocp_qcqp.c.o
@@ -1414,7 +1414,7 @@ ocp_qp/d_ocp_qcqp.o: ocp_qp/d_ocp_qcqp.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o
 .PHONY : ocp_qp/d_ocp_qcqp.c.o
 
 ocp_qp/d_ocp_qcqp.i: ocp_qp/d_ocp_qcqp.c.i
@@ -1423,7 +1423,7 @@ ocp_qp/d_ocp_qcqp.i: ocp_qp/d_ocp_qcqp.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.i
 .PHONY : ocp_qp/d_ocp_qcqp.c.i
 
 ocp_qp/d_ocp_qcqp.s: ocp_qp/d_ocp_qcqp.c.s
@@ -1432,7 +1432,7 @@ ocp_qp/d_ocp_qcqp.s: ocp_qp/d_ocp_qcqp.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.s
 .PHONY : ocp_qp/d_ocp_qcqp.c.s
 
 ocp_qp/d_ocp_qcqp_dim.o: ocp_qp/d_ocp_qcqp_dim.c.o
@@ -1441,7 +1441,7 @@ ocp_qp/d_ocp_qcqp_dim.o: ocp_qp/d_ocp_qcqp_dim.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qcqp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o
 .PHONY : ocp_qp/d_ocp_qcqp_dim.c.o
 
 ocp_qp/d_ocp_qcqp_dim.i: ocp_qp/d_ocp_qcqp_dim.c.i
@@ -1450,7 +1450,7 @@ ocp_qp/d_ocp_qcqp_dim.i: ocp_qp/d_ocp_qcqp_dim.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qcqp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.i
 .PHONY : ocp_qp/d_ocp_qcqp_dim.c.i
 
 ocp_qp/d_ocp_qcqp_dim.s: ocp_qp/d_ocp_qcqp_dim.c.s
@@ -1459,7 +1459,7 @@ ocp_qp/d_ocp_qcqp_dim.s: ocp_qp/d_ocp_qcqp_dim.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qcqp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.s
 .PHONY : ocp_qp/d_ocp_qcqp_dim.c.s
 
 ocp_qp/d_ocp_qcqp_ipm.o: ocp_qp/d_ocp_qcqp_ipm.c.o
@@ -1468,7 +1468,7 @@ ocp_qp/d_ocp_qcqp_ipm.o: ocp_qp/d_ocp_qcqp_ipm.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qcqp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o
 .PHONY : ocp_qp/d_ocp_qcqp_ipm.c.o
 
 ocp_qp/d_ocp_qcqp_ipm.i: ocp_qp/d_ocp_qcqp_ipm.c.i
@@ -1477,7 +1477,7 @@ ocp_qp/d_ocp_qcqp_ipm.i: ocp_qp/d_ocp_qcqp_ipm.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qcqp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.i
 .PHONY : ocp_qp/d_ocp_qcqp_ipm.c.i
 
 ocp_qp/d_ocp_qcqp_ipm.s: ocp_qp/d_ocp_qcqp_ipm.c.s
@@ -1486,7 +1486,7 @@ ocp_qp/d_ocp_qcqp_ipm.s: ocp_qp/d_ocp_qcqp_ipm.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qcqp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.s
 .PHONY : ocp_qp/d_ocp_qcqp_ipm.c.s
 
 ocp_qp/d_ocp_qcqp_res.o: ocp_qp/d_ocp_qcqp_res.c.o
@@ -1495,7 +1495,7 @@ ocp_qp/d_ocp_qcqp_res.o: ocp_qp/d_ocp_qcqp_res.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qcqp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o
 .PHONY : ocp_qp/d_ocp_qcqp_res.c.o
 
 ocp_qp/d_ocp_qcqp_res.i: ocp_qp/d_ocp_qcqp_res.c.i
@@ -1504,7 +1504,7 @@ ocp_qp/d_ocp_qcqp_res.i: ocp_qp/d_ocp_qcqp_res.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qcqp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.i
 .PHONY : ocp_qp/d_ocp_qcqp_res.c.i
 
 ocp_qp/d_ocp_qcqp_res.s: ocp_qp/d_ocp_qcqp_res.c.s
@@ -1513,7 +1513,7 @@ ocp_qp/d_ocp_qcqp_res.s: ocp_qp/d_ocp_qcqp_res.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qcqp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.s
 .PHONY : ocp_qp/d_ocp_qcqp_res.c.s
 
 ocp_qp/d_ocp_qcqp_sol.o: ocp_qp/d_ocp_qcqp_sol.c.o
@@ -1522,7 +1522,7 @@ ocp_qp/d_ocp_qcqp_sol.o: ocp_qp/d_ocp_qcqp_sol.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qcqp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o
 .PHONY : ocp_qp/d_ocp_qcqp_sol.c.o
 
 ocp_qp/d_ocp_qcqp_sol.i: ocp_qp/d_ocp_qcqp_sol.c.i
@@ -1531,7 +1531,7 @@ ocp_qp/d_ocp_qcqp_sol.i: ocp_qp/d_ocp_qcqp_sol.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qcqp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.i
 .PHONY : ocp_qp/d_ocp_qcqp_sol.c.i
 
 ocp_qp/d_ocp_qcqp_sol.s: ocp_qp/d_ocp_qcqp_sol.c.s
@@ -1540,7 +1540,7 @@ ocp_qp/d_ocp_qcqp_sol.s: ocp_qp/d_ocp_qcqp_sol.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qcqp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.s
 .PHONY : ocp_qp/d_ocp_qcqp_sol.c.s
 
 ocp_qp/d_ocp_qcqp_utils.o: ocp_qp/d_ocp_qcqp_utils.c.o
@@ -1549,7 +1549,7 @@ ocp_qp/d_ocp_qcqp_utils.o: ocp_qp/d_ocp_qcqp_utils.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qcqp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o
 .PHONY : ocp_qp/d_ocp_qcqp_utils.c.o
 
 ocp_qp/d_ocp_qcqp_utils.i: ocp_qp/d_ocp_qcqp_utils.c.i
@@ -1558,7 +1558,7 @@ ocp_qp/d_ocp_qcqp_utils.i: ocp_qp/d_ocp_qcqp_utils.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qcqp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.i
 .PHONY : ocp_qp/d_ocp_qcqp_utils.c.i
 
 ocp_qp/d_ocp_qcqp_utils.s: ocp_qp/d_ocp_qcqp_utils.c.s
@@ -1567,7 +1567,7 @@ ocp_qp/d_ocp_qcqp_utils.s: ocp_qp/d_ocp_qcqp_utils.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qcqp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.s
 .PHONY : ocp_qp/d_ocp_qcqp_utils.c.s
 
 ocp_qp/d_ocp_qp.o: ocp_qp/d_ocp_qp.c.o
@@ -1576,7 +1576,7 @@ ocp_qp/d_ocp_qp.o: ocp_qp/d_ocp_qp.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o
 .PHONY : ocp_qp/d_ocp_qp.c.o
 
 ocp_qp/d_ocp_qp.i: ocp_qp/d_ocp_qp.c.i
@@ -1585,7 +1585,7 @@ ocp_qp/d_ocp_qp.i: ocp_qp/d_ocp_qp.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.i
 .PHONY : ocp_qp/d_ocp_qp.c.i
 
 ocp_qp/d_ocp_qp.s: ocp_qp/d_ocp_qp.c.s
@@ -1594,7 +1594,7 @@ ocp_qp/d_ocp_qp.s: ocp_qp/d_ocp_qp.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.s
 .PHONY : ocp_qp/d_ocp_qp.c.s
 
 ocp_qp/d_ocp_qp_dim.o: ocp_qp/d_ocp_qp_dim.c.o
@@ -1603,7 +1603,7 @@ ocp_qp/d_ocp_qp_dim.o: ocp_qp/d_ocp_qp_dim.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o
 .PHONY : ocp_qp/d_ocp_qp_dim.c.o
 
 ocp_qp/d_ocp_qp_dim.i: ocp_qp/d_ocp_qp_dim.c.i
@@ -1612,7 +1612,7 @@ ocp_qp/d_ocp_qp_dim.i: ocp_qp/d_ocp_qp_dim.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.i
 .PHONY : ocp_qp/d_ocp_qp_dim.c.i
 
 ocp_qp/d_ocp_qp_dim.s: ocp_qp/d_ocp_qp_dim.c.s
@@ -1621,7 +1621,7 @@ ocp_qp/d_ocp_qp_dim.s: ocp_qp/d_ocp_qp_dim.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.s
 .PHONY : ocp_qp/d_ocp_qp_dim.c.s
 
 ocp_qp/d_ocp_qp_ipm.o: ocp_qp/d_ocp_qp_ipm.c.o
@@ -1630,7 +1630,7 @@ ocp_qp/d_ocp_qp_ipm.o: ocp_qp/d_ocp_qp_ipm.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o
 .PHONY : ocp_qp/d_ocp_qp_ipm.c.o
 
 ocp_qp/d_ocp_qp_ipm.i: ocp_qp/d_ocp_qp_ipm.c.i
@@ -1639,7 +1639,7 @@ ocp_qp/d_ocp_qp_ipm.i: ocp_qp/d_ocp_qp_ipm.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.i
 .PHONY : ocp_qp/d_ocp_qp_ipm.c.i
 
 ocp_qp/d_ocp_qp_ipm.s: ocp_qp/d_ocp_qp_ipm.c.s
@@ -1648,7 +1648,7 @@ ocp_qp/d_ocp_qp_ipm.s: ocp_qp/d_ocp_qp_ipm.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.s
 .PHONY : ocp_qp/d_ocp_qp_ipm.c.s
 
 ocp_qp/d_ocp_qp_kkt.o: ocp_qp/d_ocp_qp_kkt.c.o
@@ -1657,7 +1657,7 @@ ocp_qp/d_ocp_qp_kkt.o: ocp_qp/d_ocp_qp_kkt.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp_kkt.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o
 .PHONY : ocp_qp/d_ocp_qp_kkt.c.o
 
 ocp_qp/d_ocp_qp_kkt.i: ocp_qp/d_ocp_qp_kkt.c.i
@@ -1666,7 +1666,7 @@ ocp_qp/d_ocp_qp_kkt.i: ocp_qp/d_ocp_qp_kkt.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp_kkt.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.i
 .PHONY : ocp_qp/d_ocp_qp_kkt.c.i
 
 ocp_qp/d_ocp_qp_kkt.s: ocp_qp/d_ocp_qp_kkt.c.s
@@ -1675,7 +1675,7 @@ ocp_qp/d_ocp_qp_kkt.s: ocp_qp/d_ocp_qp_kkt.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp_kkt.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.s
 .PHONY : ocp_qp/d_ocp_qp_kkt.c.s
 
 ocp_qp/d_ocp_qp_red.o: ocp_qp/d_ocp_qp_red.c.o
@@ -1684,7 +1684,7 @@ ocp_qp/d_ocp_qp_red.o: ocp_qp/d_ocp_qp_red.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp_red.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o
 .PHONY : ocp_qp/d_ocp_qp_red.c.o
 
 ocp_qp/d_ocp_qp_red.i: ocp_qp/d_ocp_qp_red.c.i
@@ -1693,7 +1693,7 @@ ocp_qp/d_ocp_qp_red.i: ocp_qp/d_ocp_qp_red.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp_red.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.i
 .PHONY : ocp_qp/d_ocp_qp_red.c.i
 
 ocp_qp/d_ocp_qp_red.s: ocp_qp/d_ocp_qp_red.c.s
@@ -1702,7 +1702,7 @@ ocp_qp/d_ocp_qp_red.s: ocp_qp/d_ocp_qp_red.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp_red.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.s
 .PHONY : ocp_qp/d_ocp_qp_red.c.s
 
 ocp_qp/d_ocp_qp_res.o: ocp_qp/d_ocp_qp_res.c.o
@@ -1711,7 +1711,7 @@ ocp_qp/d_ocp_qp_res.o: ocp_qp/d_ocp_qp_res.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o
 .PHONY : ocp_qp/d_ocp_qp_res.c.o
 
 ocp_qp/d_ocp_qp_res.i: ocp_qp/d_ocp_qp_res.c.i
@@ -1720,7 +1720,7 @@ ocp_qp/d_ocp_qp_res.i: ocp_qp/d_ocp_qp_res.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.i
 .PHONY : ocp_qp/d_ocp_qp_res.c.i
 
 ocp_qp/d_ocp_qp_res.s: ocp_qp/d_ocp_qp_res.c.s
@@ -1729,7 +1729,7 @@ ocp_qp/d_ocp_qp_res.s: ocp_qp/d_ocp_qp_res.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.s
 .PHONY : ocp_qp/d_ocp_qp_res.c.s
 
 ocp_qp/d_ocp_qp_sol.o: ocp_qp/d_ocp_qp_sol.c.o
@@ -1738,7 +1738,7 @@ ocp_qp/d_ocp_qp_sol.o: ocp_qp/d_ocp_qp_sol.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o
 .PHONY : ocp_qp/d_ocp_qp_sol.c.o
 
 ocp_qp/d_ocp_qp_sol.i: ocp_qp/d_ocp_qp_sol.c.i
@@ -1747,7 +1747,7 @@ ocp_qp/d_ocp_qp_sol.i: ocp_qp/d_ocp_qp_sol.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.i
 .PHONY : ocp_qp/d_ocp_qp_sol.c.i
 
 ocp_qp/d_ocp_qp_sol.s: ocp_qp/d_ocp_qp_sol.c.s
@@ -1756,7 +1756,7 @@ ocp_qp/d_ocp_qp_sol.s: ocp_qp/d_ocp_qp_sol.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.s
 .PHONY : ocp_qp/d_ocp_qp_sol.c.s
 
 ocp_qp/d_ocp_qp_utils.o: ocp_qp/d_ocp_qp_utils.c.o
@@ -1765,7 +1765,7 @@ ocp_qp/d_ocp_qp_utils.o: ocp_qp/d_ocp_qp_utils.c.o
 
 # target to build an object file
 ocp_qp/d_ocp_qp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o
 .PHONY : ocp_qp/d_ocp_qp_utils.c.o
 
 ocp_qp/d_ocp_qp_utils.i: ocp_qp/d_ocp_qp_utils.c.i
@@ -1774,7 +1774,7 @@ ocp_qp/d_ocp_qp_utils.i: ocp_qp/d_ocp_qp_utils.c.i
 
 # target to preprocess a source file
 ocp_qp/d_ocp_qp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.i
 .PHONY : ocp_qp/d_ocp_qp_utils.c.i
 
 ocp_qp/d_ocp_qp_utils.s: ocp_qp/d_ocp_qp_utils.c.s
@@ -1783,7 +1783,7 @@ ocp_qp/d_ocp_qp_utils.s: ocp_qp/d_ocp_qp_utils.c.s
 
 # target to generate assembly for a file
 ocp_qp/d_ocp_qp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.s
 .PHONY : ocp_qp/d_ocp_qp_utils.c.s
 
 ocp_qp/s_ocp_qcqp.o: ocp_qp/s_ocp_qcqp.c.o
@@ -1792,7 +1792,7 @@ ocp_qp/s_ocp_qcqp.o: ocp_qp/s_ocp_qcqp.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qcqp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o
 .PHONY : ocp_qp/s_ocp_qcqp.c.o
 
 ocp_qp/s_ocp_qcqp.i: ocp_qp/s_ocp_qcqp.c.i
@@ -1801,7 +1801,7 @@ ocp_qp/s_ocp_qcqp.i: ocp_qp/s_ocp_qcqp.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qcqp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.i
 .PHONY : ocp_qp/s_ocp_qcqp.c.i
 
 ocp_qp/s_ocp_qcqp.s: ocp_qp/s_ocp_qcqp.c.s
@@ -1810,7 +1810,7 @@ ocp_qp/s_ocp_qcqp.s: ocp_qp/s_ocp_qcqp.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qcqp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.s
 .PHONY : ocp_qp/s_ocp_qcqp.c.s
 
 ocp_qp/s_ocp_qcqp_dim.o: ocp_qp/s_ocp_qcqp_dim.c.o
@@ -1819,7 +1819,7 @@ ocp_qp/s_ocp_qcqp_dim.o: ocp_qp/s_ocp_qcqp_dim.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qcqp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o
 .PHONY : ocp_qp/s_ocp_qcqp_dim.c.o
 
 ocp_qp/s_ocp_qcqp_dim.i: ocp_qp/s_ocp_qcqp_dim.c.i
@@ -1828,7 +1828,7 @@ ocp_qp/s_ocp_qcqp_dim.i: ocp_qp/s_ocp_qcqp_dim.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qcqp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.i
 .PHONY : ocp_qp/s_ocp_qcqp_dim.c.i
 
 ocp_qp/s_ocp_qcqp_dim.s: ocp_qp/s_ocp_qcqp_dim.c.s
@@ -1837,7 +1837,7 @@ ocp_qp/s_ocp_qcqp_dim.s: ocp_qp/s_ocp_qcqp_dim.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qcqp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.s
 .PHONY : ocp_qp/s_ocp_qcqp_dim.c.s
 
 ocp_qp/s_ocp_qcqp_ipm.o: ocp_qp/s_ocp_qcqp_ipm.c.o
@@ -1846,7 +1846,7 @@ ocp_qp/s_ocp_qcqp_ipm.o: ocp_qp/s_ocp_qcqp_ipm.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qcqp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o
 .PHONY : ocp_qp/s_ocp_qcqp_ipm.c.o
 
 ocp_qp/s_ocp_qcqp_ipm.i: ocp_qp/s_ocp_qcqp_ipm.c.i
@@ -1855,7 +1855,7 @@ ocp_qp/s_ocp_qcqp_ipm.i: ocp_qp/s_ocp_qcqp_ipm.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qcqp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.i
 .PHONY : ocp_qp/s_ocp_qcqp_ipm.c.i
 
 ocp_qp/s_ocp_qcqp_ipm.s: ocp_qp/s_ocp_qcqp_ipm.c.s
@@ -1864,7 +1864,7 @@ ocp_qp/s_ocp_qcqp_ipm.s: ocp_qp/s_ocp_qcqp_ipm.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qcqp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.s
 .PHONY : ocp_qp/s_ocp_qcqp_ipm.c.s
 
 ocp_qp/s_ocp_qcqp_res.o: ocp_qp/s_ocp_qcqp_res.c.o
@@ -1873,7 +1873,7 @@ ocp_qp/s_ocp_qcqp_res.o: ocp_qp/s_ocp_qcqp_res.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qcqp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o
 .PHONY : ocp_qp/s_ocp_qcqp_res.c.o
 
 ocp_qp/s_ocp_qcqp_res.i: ocp_qp/s_ocp_qcqp_res.c.i
@@ -1882,7 +1882,7 @@ ocp_qp/s_ocp_qcqp_res.i: ocp_qp/s_ocp_qcqp_res.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qcqp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.i
 .PHONY : ocp_qp/s_ocp_qcqp_res.c.i
 
 ocp_qp/s_ocp_qcqp_res.s: ocp_qp/s_ocp_qcqp_res.c.s
@@ -1891,7 +1891,7 @@ ocp_qp/s_ocp_qcqp_res.s: ocp_qp/s_ocp_qcqp_res.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qcqp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.s
 .PHONY : ocp_qp/s_ocp_qcqp_res.c.s
 
 ocp_qp/s_ocp_qcqp_sol.o: ocp_qp/s_ocp_qcqp_sol.c.o
@@ -1900,7 +1900,7 @@ ocp_qp/s_ocp_qcqp_sol.o: ocp_qp/s_ocp_qcqp_sol.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qcqp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o
 .PHONY : ocp_qp/s_ocp_qcqp_sol.c.o
 
 ocp_qp/s_ocp_qcqp_sol.i: ocp_qp/s_ocp_qcqp_sol.c.i
@@ -1909,7 +1909,7 @@ ocp_qp/s_ocp_qcqp_sol.i: ocp_qp/s_ocp_qcqp_sol.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qcqp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.i
 .PHONY : ocp_qp/s_ocp_qcqp_sol.c.i
 
 ocp_qp/s_ocp_qcqp_sol.s: ocp_qp/s_ocp_qcqp_sol.c.s
@@ -1918,7 +1918,7 @@ ocp_qp/s_ocp_qcqp_sol.s: ocp_qp/s_ocp_qcqp_sol.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qcqp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.s
 .PHONY : ocp_qp/s_ocp_qcqp_sol.c.s
 
 ocp_qp/s_ocp_qcqp_utils.o: ocp_qp/s_ocp_qcqp_utils.c.o
@@ -1927,7 +1927,7 @@ ocp_qp/s_ocp_qcqp_utils.o: ocp_qp/s_ocp_qcqp_utils.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qcqp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o
 .PHONY : ocp_qp/s_ocp_qcqp_utils.c.o
 
 ocp_qp/s_ocp_qcqp_utils.i: ocp_qp/s_ocp_qcqp_utils.c.i
@@ -1936,7 +1936,7 @@ ocp_qp/s_ocp_qcqp_utils.i: ocp_qp/s_ocp_qcqp_utils.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qcqp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.i
 .PHONY : ocp_qp/s_ocp_qcqp_utils.c.i
 
 ocp_qp/s_ocp_qcqp_utils.s: ocp_qp/s_ocp_qcqp_utils.c.s
@@ -1945,7 +1945,7 @@ ocp_qp/s_ocp_qcqp_utils.s: ocp_qp/s_ocp_qcqp_utils.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qcqp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.s
 .PHONY : ocp_qp/s_ocp_qcqp_utils.c.s
 
 ocp_qp/s_ocp_qp.o: ocp_qp/s_ocp_qp.c.o
@@ -1954,7 +1954,7 @@ ocp_qp/s_ocp_qp.o: ocp_qp/s_ocp_qp.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o
 .PHONY : ocp_qp/s_ocp_qp.c.o
 
 ocp_qp/s_ocp_qp.i: ocp_qp/s_ocp_qp.c.i
@@ -1963,7 +1963,7 @@ ocp_qp/s_ocp_qp.i: ocp_qp/s_ocp_qp.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.i
 .PHONY : ocp_qp/s_ocp_qp.c.i
 
 ocp_qp/s_ocp_qp.s: ocp_qp/s_ocp_qp.c.s
@@ -1972,7 +1972,7 @@ ocp_qp/s_ocp_qp.s: ocp_qp/s_ocp_qp.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.s
 .PHONY : ocp_qp/s_ocp_qp.c.s
 
 ocp_qp/s_ocp_qp_dim.o: ocp_qp/s_ocp_qp_dim.c.o
@@ -1981,7 +1981,7 @@ ocp_qp/s_ocp_qp_dim.o: ocp_qp/s_ocp_qp_dim.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o
 .PHONY : ocp_qp/s_ocp_qp_dim.c.o
 
 ocp_qp/s_ocp_qp_dim.i: ocp_qp/s_ocp_qp_dim.c.i
@@ -1990,7 +1990,7 @@ ocp_qp/s_ocp_qp_dim.i: ocp_qp/s_ocp_qp_dim.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.i
 .PHONY : ocp_qp/s_ocp_qp_dim.c.i
 
 ocp_qp/s_ocp_qp_dim.s: ocp_qp/s_ocp_qp_dim.c.s
@@ -1999,7 +1999,7 @@ ocp_qp/s_ocp_qp_dim.s: ocp_qp/s_ocp_qp_dim.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.s
 .PHONY : ocp_qp/s_ocp_qp_dim.c.s
 
 ocp_qp/s_ocp_qp_ipm.o: ocp_qp/s_ocp_qp_ipm.c.o
@@ -2008,7 +2008,7 @@ ocp_qp/s_ocp_qp_ipm.o: ocp_qp/s_ocp_qp_ipm.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o
 .PHONY : ocp_qp/s_ocp_qp_ipm.c.o
 
 ocp_qp/s_ocp_qp_ipm.i: ocp_qp/s_ocp_qp_ipm.c.i
@@ -2017,7 +2017,7 @@ ocp_qp/s_ocp_qp_ipm.i: ocp_qp/s_ocp_qp_ipm.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.i
 .PHONY : ocp_qp/s_ocp_qp_ipm.c.i
 
 ocp_qp/s_ocp_qp_ipm.s: ocp_qp/s_ocp_qp_ipm.c.s
@@ -2026,7 +2026,7 @@ ocp_qp/s_ocp_qp_ipm.s: ocp_qp/s_ocp_qp_ipm.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.s
 .PHONY : ocp_qp/s_ocp_qp_ipm.c.s
 
 ocp_qp/s_ocp_qp_kkt.o: ocp_qp/s_ocp_qp_kkt.c.o
@@ -2035,7 +2035,7 @@ ocp_qp/s_ocp_qp_kkt.o: ocp_qp/s_ocp_qp_kkt.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp_kkt.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o
 .PHONY : ocp_qp/s_ocp_qp_kkt.c.o
 
 ocp_qp/s_ocp_qp_kkt.i: ocp_qp/s_ocp_qp_kkt.c.i
@@ -2044,7 +2044,7 @@ ocp_qp/s_ocp_qp_kkt.i: ocp_qp/s_ocp_qp_kkt.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp_kkt.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.i
 .PHONY : ocp_qp/s_ocp_qp_kkt.c.i
 
 ocp_qp/s_ocp_qp_kkt.s: ocp_qp/s_ocp_qp_kkt.c.s
@@ -2053,7 +2053,7 @@ ocp_qp/s_ocp_qp_kkt.s: ocp_qp/s_ocp_qp_kkt.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp_kkt.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.s
 .PHONY : ocp_qp/s_ocp_qp_kkt.c.s
 
 ocp_qp/s_ocp_qp_red.o: ocp_qp/s_ocp_qp_red.c.o
@@ -2062,7 +2062,7 @@ ocp_qp/s_ocp_qp_red.o: ocp_qp/s_ocp_qp_red.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp_red.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o
 .PHONY : ocp_qp/s_ocp_qp_red.c.o
 
 ocp_qp/s_ocp_qp_red.i: ocp_qp/s_ocp_qp_red.c.i
@@ -2071,7 +2071,7 @@ ocp_qp/s_ocp_qp_red.i: ocp_qp/s_ocp_qp_red.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp_red.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.i
 .PHONY : ocp_qp/s_ocp_qp_red.c.i
 
 ocp_qp/s_ocp_qp_red.s: ocp_qp/s_ocp_qp_red.c.s
@@ -2080,7 +2080,7 @@ ocp_qp/s_ocp_qp_red.s: ocp_qp/s_ocp_qp_red.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp_red.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.s
 .PHONY : ocp_qp/s_ocp_qp_red.c.s
 
 ocp_qp/s_ocp_qp_res.o: ocp_qp/s_ocp_qp_res.c.o
@@ -2089,7 +2089,7 @@ ocp_qp/s_ocp_qp_res.o: ocp_qp/s_ocp_qp_res.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o
 .PHONY : ocp_qp/s_ocp_qp_res.c.o
 
 ocp_qp/s_ocp_qp_res.i: ocp_qp/s_ocp_qp_res.c.i
@@ -2098,7 +2098,7 @@ ocp_qp/s_ocp_qp_res.i: ocp_qp/s_ocp_qp_res.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.i
 .PHONY : ocp_qp/s_ocp_qp_res.c.i
 
 ocp_qp/s_ocp_qp_res.s: ocp_qp/s_ocp_qp_res.c.s
@@ -2107,7 +2107,7 @@ ocp_qp/s_ocp_qp_res.s: ocp_qp/s_ocp_qp_res.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.s
 .PHONY : ocp_qp/s_ocp_qp_res.c.s
 
 ocp_qp/s_ocp_qp_sol.o: ocp_qp/s_ocp_qp_sol.c.o
@@ -2116,7 +2116,7 @@ ocp_qp/s_ocp_qp_sol.o: ocp_qp/s_ocp_qp_sol.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o
 .PHONY : ocp_qp/s_ocp_qp_sol.c.o
 
 ocp_qp/s_ocp_qp_sol.i: ocp_qp/s_ocp_qp_sol.c.i
@@ -2125,7 +2125,7 @@ ocp_qp/s_ocp_qp_sol.i: ocp_qp/s_ocp_qp_sol.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.i
 .PHONY : ocp_qp/s_ocp_qp_sol.c.i
 
 ocp_qp/s_ocp_qp_sol.s: ocp_qp/s_ocp_qp_sol.c.s
@@ -2134,7 +2134,7 @@ ocp_qp/s_ocp_qp_sol.s: ocp_qp/s_ocp_qp_sol.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.s
 .PHONY : ocp_qp/s_ocp_qp_sol.c.s
 
 ocp_qp/s_ocp_qp_utils.o: ocp_qp/s_ocp_qp_utils.c.o
@@ -2143,7 +2143,7 @@ ocp_qp/s_ocp_qp_utils.o: ocp_qp/s_ocp_qp_utils.c.o
 
 # target to build an object file
 ocp_qp/s_ocp_qp_utils.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o
 .PHONY : ocp_qp/s_ocp_qp_utils.c.o
 
 ocp_qp/s_ocp_qp_utils.i: ocp_qp/s_ocp_qp_utils.c.i
@@ -2152,7 +2152,7 @@ ocp_qp/s_ocp_qp_utils.i: ocp_qp/s_ocp_qp_utils.c.i
 
 # target to preprocess a source file
 ocp_qp/s_ocp_qp_utils.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.i
 .PHONY : ocp_qp/s_ocp_qp_utils.c.i
 
 ocp_qp/s_ocp_qp_utils.s: ocp_qp/s_ocp_qp_utils.c.s
@@ -2161,7 +2161,7 @@ ocp_qp/s_ocp_qp_utils.s: ocp_qp/s_ocp_qp_utils.c.s
 
 # target to generate assembly for a file
 ocp_qp/s_ocp_qp_utils.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.s
 .PHONY : ocp_qp/s_ocp_qp_utils.c.s
 
 tree_ocp_qp/d_tree_ocp_qp.o: tree_ocp_qp/d_tree_ocp_qp.c.o
@@ -2170,7 +2170,7 @@ tree_ocp_qp/d_tree_ocp_qp.o: tree_ocp_qp/d_tree_ocp_qp.c.o
 
 # target to build an object file
 tree_ocp_qp/d_tree_ocp_qp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o
 .PHONY : tree_ocp_qp/d_tree_ocp_qp.c.o
 
 tree_ocp_qp/d_tree_ocp_qp.i: tree_ocp_qp/d_tree_ocp_qp.c.i
@@ -2179,7 +2179,7 @@ tree_ocp_qp/d_tree_ocp_qp.i: tree_ocp_qp/d_tree_ocp_qp.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/d_tree_ocp_qp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.i
 .PHONY : tree_ocp_qp/d_tree_ocp_qp.c.i
 
 tree_ocp_qp/d_tree_ocp_qp.s: tree_ocp_qp/d_tree_ocp_qp.c.s
@@ -2188,7 +2188,7 @@ tree_ocp_qp/d_tree_ocp_qp.s: tree_ocp_qp/d_tree_ocp_qp.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/d_tree_ocp_qp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.s
 .PHONY : tree_ocp_qp/d_tree_ocp_qp.c.s
 
 tree_ocp_qp/d_tree_ocp_qp_dim.o: tree_ocp_qp/d_tree_ocp_qp_dim.c.o
@@ -2197,7 +2197,7 @@ tree_ocp_qp/d_tree_ocp_qp_dim.o: tree_ocp_qp/d_tree_ocp_qp_dim.c.o
 
 # target to build an object file
 tree_ocp_qp/d_tree_ocp_qp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_dim.c.o
 
 tree_ocp_qp/d_tree_ocp_qp_dim.i: tree_ocp_qp/d_tree_ocp_qp_dim.c.i
@@ -2206,7 +2206,7 @@ tree_ocp_qp/d_tree_ocp_qp_dim.i: tree_ocp_qp/d_tree_ocp_qp_dim.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/d_tree_ocp_qp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.i
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_dim.c.i
 
 tree_ocp_qp/d_tree_ocp_qp_dim.s: tree_ocp_qp/d_tree_ocp_qp_dim.c.s
@@ -2215,7 +2215,7 @@ tree_ocp_qp/d_tree_ocp_qp_dim.s: tree_ocp_qp/d_tree_ocp_qp_dim.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/d_tree_ocp_qp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.s
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_dim.c.s
 
 tree_ocp_qp/d_tree_ocp_qp_ipm.o: tree_ocp_qp/d_tree_ocp_qp_ipm.c.o
@@ -2224,7 +2224,7 @@ tree_ocp_qp/d_tree_ocp_qp_ipm.o: tree_ocp_qp/d_tree_ocp_qp_ipm.c.o
 
 # target to build an object file
 tree_ocp_qp/d_tree_ocp_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_ipm.c.o
 
 tree_ocp_qp/d_tree_ocp_qp_ipm.i: tree_ocp_qp/d_tree_ocp_qp_ipm.c.i
@@ -2233,7 +2233,7 @@ tree_ocp_qp/d_tree_ocp_qp_ipm.i: tree_ocp_qp/d_tree_ocp_qp_ipm.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/d_tree_ocp_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.i
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_ipm.c.i
 
 tree_ocp_qp/d_tree_ocp_qp_ipm.s: tree_ocp_qp/d_tree_ocp_qp_ipm.c.s
@@ -2242,7 +2242,7 @@ tree_ocp_qp/d_tree_ocp_qp_ipm.s: tree_ocp_qp/d_tree_ocp_qp_ipm.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/d_tree_ocp_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.s
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_ipm.c.s
 
 tree_ocp_qp/d_tree_ocp_qp_kkt.o: tree_ocp_qp/d_tree_ocp_qp_kkt.c.o
@@ -2251,7 +2251,7 @@ tree_ocp_qp/d_tree_ocp_qp_kkt.o: tree_ocp_qp/d_tree_ocp_qp_kkt.c.o
 
 # target to build an object file
 tree_ocp_qp/d_tree_ocp_qp_kkt.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_kkt.c.o
 
 tree_ocp_qp/d_tree_ocp_qp_kkt.i: tree_ocp_qp/d_tree_ocp_qp_kkt.c.i
@@ -2260,7 +2260,7 @@ tree_ocp_qp/d_tree_ocp_qp_kkt.i: tree_ocp_qp/d_tree_ocp_qp_kkt.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/d_tree_ocp_qp_kkt.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.i
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_kkt.c.i
 
 tree_ocp_qp/d_tree_ocp_qp_kkt.s: tree_ocp_qp/d_tree_ocp_qp_kkt.c.s
@@ -2269,7 +2269,7 @@ tree_ocp_qp/d_tree_ocp_qp_kkt.s: tree_ocp_qp/d_tree_ocp_qp_kkt.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/d_tree_ocp_qp_kkt.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.s
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_kkt.c.s
 
 tree_ocp_qp/d_tree_ocp_qp_res.o: tree_ocp_qp/d_tree_ocp_qp_res.c.o
@@ -2278,7 +2278,7 @@ tree_ocp_qp/d_tree_ocp_qp_res.o: tree_ocp_qp/d_tree_ocp_qp_res.c.o
 
 # target to build an object file
 tree_ocp_qp/d_tree_ocp_qp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_res.c.o
 
 tree_ocp_qp/d_tree_ocp_qp_res.i: tree_ocp_qp/d_tree_ocp_qp_res.c.i
@@ -2287,7 +2287,7 @@ tree_ocp_qp/d_tree_ocp_qp_res.i: tree_ocp_qp/d_tree_ocp_qp_res.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/d_tree_ocp_qp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.i
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_res.c.i
 
 tree_ocp_qp/d_tree_ocp_qp_res.s: tree_ocp_qp/d_tree_ocp_qp_res.c.s
@@ -2296,7 +2296,7 @@ tree_ocp_qp/d_tree_ocp_qp_res.s: tree_ocp_qp/d_tree_ocp_qp_res.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/d_tree_ocp_qp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.s
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_res.c.s
 
 tree_ocp_qp/d_tree_ocp_qp_sol.o: tree_ocp_qp/d_tree_ocp_qp_sol.c.o
@@ -2305,7 +2305,7 @@ tree_ocp_qp/d_tree_ocp_qp_sol.o: tree_ocp_qp/d_tree_ocp_qp_sol.c.o
 
 # target to build an object file
 tree_ocp_qp/d_tree_ocp_qp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_sol.c.o
 
 tree_ocp_qp/d_tree_ocp_qp_sol.i: tree_ocp_qp/d_tree_ocp_qp_sol.c.i
@@ -2314,7 +2314,7 @@ tree_ocp_qp/d_tree_ocp_qp_sol.i: tree_ocp_qp/d_tree_ocp_qp_sol.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/d_tree_ocp_qp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.i
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_sol.c.i
 
 tree_ocp_qp/d_tree_ocp_qp_sol.s: tree_ocp_qp/d_tree_ocp_qp_sol.c.s
@@ -2323,7 +2323,7 @@ tree_ocp_qp/d_tree_ocp_qp_sol.s: tree_ocp_qp/d_tree_ocp_qp_sol.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/d_tree_ocp_qp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.s
 .PHONY : tree_ocp_qp/d_tree_ocp_qp_sol.c.s
 
 tree_ocp_qp/s_tree_ocp_qp.o: tree_ocp_qp/s_tree_ocp_qp.c.o
@@ -2332,7 +2332,7 @@ tree_ocp_qp/s_tree_ocp_qp.o: tree_ocp_qp/s_tree_ocp_qp.c.o
 
 # target to build an object file
 tree_ocp_qp/s_tree_ocp_qp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o
 .PHONY : tree_ocp_qp/s_tree_ocp_qp.c.o
 
 tree_ocp_qp/s_tree_ocp_qp.i: tree_ocp_qp/s_tree_ocp_qp.c.i
@@ -2341,7 +2341,7 @@ tree_ocp_qp/s_tree_ocp_qp.i: tree_ocp_qp/s_tree_ocp_qp.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/s_tree_ocp_qp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.i
 .PHONY : tree_ocp_qp/s_tree_ocp_qp.c.i
 
 tree_ocp_qp/s_tree_ocp_qp.s: tree_ocp_qp/s_tree_ocp_qp.c.s
@@ -2350,7 +2350,7 @@ tree_ocp_qp/s_tree_ocp_qp.s: tree_ocp_qp/s_tree_ocp_qp.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/s_tree_ocp_qp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.s
 .PHONY : tree_ocp_qp/s_tree_ocp_qp.c.s
 
 tree_ocp_qp/s_tree_ocp_qp_dim.o: tree_ocp_qp/s_tree_ocp_qp_dim.c.o
@@ -2359,7 +2359,7 @@ tree_ocp_qp/s_tree_ocp_qp_dim.o: tree_ocp_qp/s_tree_ocp_qp_dim.c.o
 
 # target to build an object file
 tree_ocp_qp/s_tree_ocp_qp_dim.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_dim.c.o
 
 tree_ocp_qp/s_tree_ocp_qp_dim.i: tree_ocp_qp/s_tree_ocp_qp_dim.c.i
@@ -2368,7 +2368,7 @@ tree_ocp_qp/s_tree_ocp_qp_dim.i: tree_ocp_qp/s_tree_ocp_qp_dim.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/s_tree_ocp_qp_dim.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.i
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_dim.c.i
 
 tree_ocp_qp/s_tree_ocp_qp_dim.s: tree_ocp_qp/s_tree_ocp_qp_dim.c.s
@@ -2377,7 +2377,7 @@ tree_ocp_qp/s_tree_ocp_qp_dim.s: tree_ocp_qp/s_tree_ocp_qp_dim.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/s_tree_ocp_qp_dim.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.s
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_dim.c.s
 
 tree_ocp_qp/s_tree_ocp_qp_ipm.o: tree_ocp_qp/s_tree_ocp_qp_ipm.c.o
@@ -2386,7 +2386,7 @@ tree_ocp_qp/s_tree_ocp_qp_ipm.o: tree_ocp_qp/s_tree_ocp_qp_ipm.c.o
 
 # target to build an object file
 tree_ocp_qp/s_tree_ocp_qp_ipm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_ipm.c.o
 
 tree_ocp_qp/s_tree_ocp_qp_ipm.i: tree_ocp_qp/s_tree_ocp_qp_ipm.c.i
@@ -2395,7 +2395,7 @@ tree_ocp_qp/s_tree_ocp_qp_ipm.i: tree_ocp_qp/s_tree_ocp_qp_ipm.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/s_tree_ocp_qp_ipm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.i
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_ipm.c.i
 
 tree_ocp_qp/s_tree_ocp_qp_ipm.s: tree_ocp_qp/s_tree_ocp_qp_ipm.c.s
@@ -2404,7 +2404,7 @@ tree_ocp_qp/s_tree_ocp_qp_ipm.s: tree_ocp_qp/s_tree_ocp_qp_ipm.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/s_tree_ocp_qp_ipm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.s
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_ipm.c.s
 
 tree_ocp_qp/s_tree_ocp_qp_kkt.o: tree_ocp_qp/s_tree_ocp_qp_kkt.c.o
@@ -2413,7 +2413,7 @@ tree_ocp_qp/s_tree_ocp_qp_kkt.o: tree_ocp_qp/s_tree_ocp_qp_kkt.c.o
 
 # target to build an object file
 tree_ocp_qp/s_tree_ocp_qp_kkt.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_kkt.c.o
 
 tree_ocp_qp/s_tree_ocp_qp_kkt.i: tree_ocp_qp/s_tree_ocp_qp_kkt.c.i
@@ -2422,7 +2422,7 @@ tree_ocp_qp/s_tree_ocp_qp_kkt.i: tree_ocp_qp/s_tree_ocp_qp_kkt.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/s_tree_ocp_qp_kkt.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.i
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_kkt.c.i
 
 tree_ocp_qp/s_tree_ocp_qp_kkt.s: tree_ocp_qp/s_tree_ocp_qp_kkt.c.s
@@ -2431,7 +2431,7 @@ tree_ocp_qp/s_tree_ocp_qp_kkt.s: tree_ocp_qp/s_tree_ocp_qp_kkt.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/s_tree_ocp_qp_kkt.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.s
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_kkt.c.s
 
 tree_ocp_qp/s_tree_ocp_qp_res.o: tree_ocp_qp/s_tree_ocp_qp_res.c.o
@@ -2440,7 +2440,7 @@ tree_ocp_qp/s_tree_ocp_qp_res.o: tree_ocp_qp/s_tree_ocp_qp_res.c.o
 
 # target to build an object file
 tree_ocp_qp/s_tree_ocp_qp_res.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_res.c.o
 
 tree_ocp_qp/s_tree_ocp_qp_res.i: tree_ocp_qp/s_tree_ocp_qp_res.c.i
@@ -2449,7 +2449,7 @@ tree_ocp_qp/s_tree_ocp_qp_res.i: tree_ocp_qp/s_tree_ocp_qp_res.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/s_tree_ocp_qp_res.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.i
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_res.c.i
 
 tree_ocp_qp/s_tree_ocp_qp_res.s: tree_ocp_qp/s_tree_ocp_qp_res.c.s
@@ -2458,7 +2458,7 @@ tree_ocp_qp/s_tree_ocp_qp_res.s: tree_ocp_qp/s_tree_ocp_qp_res.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/s_tree_ocp_qp_res.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.s
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_res.c.s
 
 tree_ocp_qp/s_tree_ocp_qp_sol.o: tree_ocp_qp/s_tree_ocp_qp_sol.c.o
@@ -2467,7 +2467,7 @@ tree_ocp_qp/s_tree_ocp_qp_sol.o: tree_ocp_qp/s_tree_ocp_qp_sol.c.o
 
 # target to build an object file
 tree_ocp_qp/s_tree_ocp_qp_sol.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_sol.c.o
 
 tree_ocp_qp/s_tree_ocp_qp_sol.i: tree_ocp_qp/s_tree_ocp_qp_sol.c.i
@@ -2476,7 +2476,7 @@ tree_ocp_qp/s_tree_ocp_qp_sol.i: tree_ocp_qp/s_tree_ocp_qp_sol.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/s_tree_ocp_qp_sol.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.i
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_sol.c.i
 
 tree_ocp_qp/s_tree_ocp_qp_sol.s: tree_ocp_qp/s_tree_ocp_qp_sol.c.s
@@ -2485,7 +2485,7 @@ tree_ocp_qp/s_tree_ocp_qp_sol.s: tree_ocp_qp/s_tree_ocp_qp_sol.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/s_tree_ocp_qp_sol.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.s
 .PHONY : tree_ocp_qp/s_tree_ocp_qp_sol.c.s
 
 tree_ocp_qp/scenario_tree.o: tree_ocp_qp/scenario_tree.c.o
@@ -2494,7 +2494,7 @@ tree_ocp_qp/scenario_tree.o: tree_ocp_qp/scenario_tree.c.o
 
 # target to build an object file
 tree_ocp_qp/scenario_tree.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o
 .PHONY : tree_ocp_qp/scenario_tree.c.o
 
 tree_ocp_qp/scenario_tree.i: tree_ocp_qp/scenario_tree.c.i
@@ -2503,7 +2503,7 @@ tree_ocp_qp/scenario_tree.i: tree_ocp_qp/scenario_tree.c.i
 
 # target to preprocess a source file
 tree_ocp_qp/scenario_tree.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.i
 .PHONY : tree_ocp_qp/scenario_tree.c.i
 
 tree_ocp_qp/scenario_tree.s: tree_ocp_qp/scenario_tree.c.s
@@ -2512,7 +2512,7 @@ tree_ocp_qp/scenario_tree.s: tree_ocp_qp/scenario_tree.c.s
 
 # target to generate assembly for a file
 tree_ocp_qp/scenario_tree.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f hpipm/CMakeFiles/hpipm.dir/build.make hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.s
 .PHONY : tree_ocp_qp/scenario_tree.c.s
 
 # Help Target
@@ -2797,6 +2797,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ninjak/Scaricati/ik_tests
+# Install script for directory: /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ninjak/Scaricati/ik_tests/build/blasfeo/cmake_install.cmake")
-  include("/home/ninjak/Scaricati/ik_tests/build/hpipm/cmake_install.cmake")
+  include("/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/cmake_install.cmake")
+  include("/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ninjak/Scaricati/ik_tests/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ninjak/Scaricati/ik_tests/blasfeo/examples/example_d_lq_factorization.c" "/home/ninjak/Scaricati/ik_tests/build/blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o"
+  "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/example_d_lq_factorization.c" "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ninjak/Scaricati/ik_tests/build/blasfeo/CMakeFiles/blasfeo.dir/DependInfo.cmake"
+  "/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/CMakeFiles/blasfeo.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

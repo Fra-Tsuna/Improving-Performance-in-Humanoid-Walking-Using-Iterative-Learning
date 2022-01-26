@@ -70,10 +70,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninjak/Scaricati/ik_tests
+CMAKE_SOURCE_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninjak/Scaricati/ik_tests/build
+CMAKE_BINARY_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -148,14 +148,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Scaricati/ik_tests/build/CMakeFiles /home/ninjak/Scaricati/ik_tests/build/blasfeo//CMakeFiles/progress.marks
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Scaricati/ik_tests/build/CMakeFiles 0
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo//CMakeFiles/progress.marks
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/clean
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/preinstall
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/preinstall
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 blasfeo/CMakeFiles/blasfeo.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/CMakeFiles/blasfeo.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/CMakeFiles/blasfeo.dir/rule
 .PHONY : blasfeo/CMakeFiles/blasfeo.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ blasfeo: blasfeo/CMakeFiles/blasfeo.dir/rule
 
 # fast build rule for target.
 blasfeo/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/build
 .PHONY : blasfeo/fast
 
 auxiliary/blasfeo_processor_features.o: auxiliary/blasfeo_processor_features.c.o
@@ -199,7 +199,7 @@ auxiliary/blasfeo_processor_features.o: auxiliary/blasfeo_processor_features.c.o
 
 # target to build an object file
 auxiliary/blasfeo_processor_features.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.o
 .PHONY : auxiliary/blasfeo_processor_features.c.o
 
 auxiliary/blasfeo_processor_features.i: auxiliary/blasfeo_processor_features.c.i
@@ -208,7 +208,7 @@ auxiliary/blasfeo_processor_features.i: auxiliary/blasfeo_processor_features.c.i
 
 # target to preprocess a source file
 auxiliary/blasfeo_processor_features.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.i
 .PHONY : auxiliary/blasfeo_processor_features.c.i
 
 auxiliary/blasfeo_processor_features.s: auxiliary/blasfeo_processor_features.c.s
@@ -217,7 +217,7 @@ auxiliary/blasfeo_processor_features.s: auxiliary/blasfeo_processor_features.c.s
 
 # target to generate assembly for a file
 auxiliary/blasfeo_processor_features.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.s
 .PHONY : auxiliary/blasfeo_processor_features.c.s
 
 auxiliary/blasfeo_stdlib.o: auxiliary/blasfeo_stdlib.c.o
@@ -226,7 +226,7 @@ auxiliary/blasfeo_stdlib.o: auxiliary/blasfeo_stdlib.c.o
 
 # target to build an object file
 auxiliary/blasfeo_stdlib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.o
 .PHONY : auxiliary/blasfeo_stdlib.c.o
 
 auxiliary/blasfeo_stdlib.i: auxiliary/blasfeo_stdlib.c.i
@@ -235,7 +235,7 @@ auxiliary/blasfeo_stdlib.i: auxiliary/blasfeo_stdlib.c.i
 
 # target to preprocess a source file
 auxiliary/blasfeo_stdlib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.i
 .PHONY : auxiliary/blasfeo_stdlib.c.i
 
 auxiliary/blasfeo_stdlib.s: auxiliary/blasfeo_stdlib.c.s
@@ -244,7 +244,7 @@ auxiliary/blasfeo_stdlib.s: auxiliary/blasfeo_stdlib.c.s
 
 # target to generate assembly for a file
 auxiliary/blasfeo_stdlib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.s
 .PHONY : auxiliary/blasfeo_stdlib.c.s
 
 auxiliary/d_aux_ext_dep_lib.o: auxiliary/d_aux_ext_dep_lib.c.o
@@ -253,7 +253,7 @@ auxiliary/d_aux_ext_dep_lib.o: auxiliary/d_aux_ext_dep_lib.c.o
 
 # target to build an object file
 auxiliary/d_aux_ext_dep_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib.c.o
 .PHONY : auxiliary/d_aux_ext_dep_lib.c.o
 
 auxiliary/d_aux_ext_dep_lib.i: auxiliary/d_aux_ext_dep_lib.c.i
@@ -262,7 +262,7 @@ auxiliary/d_aux_ext_dep_lib.i: auxiliary/d_aux_ext_dep_lib.c.i
 
 # target to preprocess a source file
 auxiliary/d_aux_ext_dep_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib.c.i
 .PHONY : auxiliary/d_aux_ext_dep_lib.c.i
 
 auxiliary/d_aux_ext_dep_lib.s: auxiliary/d_aux_ext_dep_lib.c.s
@@ -271,7 +271,7 @@ auxiliary/d_aux_ext_dep_lib.s: auxiliary/d_aux_ext_dep_lib.c.s
 
 # target to generate assembly for a file
 auxiliary/d_aux_ext_dep_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib.c.s
 .PHONY : auxiliary/d_aux_ext_dep_lib.c.s
 
 auxiliary/d_aux_ext_dep_lib4.o: auxiliary/d_aux_ext_dep_lib4.c.o
@@ -280,7 +280,7 @@ auxiliary/d_aux_ext_dep_lib4.o: auxiliary/d_aux_ext_dep_lib4.c.o
 
 # target to build an object file
 auxiliary/d_aux_ext_dep_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib4.c.o
 .PHONY : auxiliary/d_aux_ext_dep_lib4.c.o
 
 auxiliary/d_aux_ext_dep_lib4.i: auxiliary/d_aux_ext_dep_lib4.c.i
@@ -289,7 +289,7 @@ auxiliary/d_aux_ext_dep_lib4.i: auxiliary/d_aux_ext_dep_lib4.c.i
 
 # target to preprocess a source file
 auxiliary/d_aux_ext_dep_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib4.c.i
 .PHONY : auxiliary/d_aux_ext_dep_lib4.c.i
 
 auxiliary/d_aux_ext_dep_lib4.s: auxiliary/d_aux_ext_dep_lib4.c.s
@@ -298,7 +298,7 @@ auxiliary/d_aux_ext_dep_lib4.s: auxiliary/d_aux_ext_dep_lib4.c.s
 
 # target to generate assembly for a file
 auxiliary/d_aux_ext_dep_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_lib4.c.s
 .PHONY : auxiliary/d_aux_ext_dep_lib4.c.s
 
 auxiliary/d_aux_lib4.o: auxiliary/d_aux_lib4.c.o
@@ -307,7 +307,7 @@ auxiliary/d_aux_lib4.o: auxiliary/d_aux_lib4.c.o
 
 # target to build an object file
 auxiliary/d_aux_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.o
 .PHONY : auxiliary/d_aux_lib4.c.o
 
 auxiliary/d_aux_lib4.i: auxiliary/d_aux_lib4.c.i
@@ -316,7 +316,7 @@ auxiliary/d_aux_lib4.i: auxiliary/d_aux_lib4.c.i
 
 # target to preprocess a source file
 auxiliary/d_aux_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.i
 .PHONY : auxiliary/d_aux_lib4.c.i
 
 auxiliary/d_aux_lib4.s: auxiliary/d_aux_lib4.c.s
@@ -325,7 +325,7 @@ auxiliary/d_aux_lib4.s: auxiliary/d_aux_lib4.c.s
 
 # target to generate assembly for a file
 auxiliary/d_aux_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.s
 .PHONY : auxiliary/d_aux_lib4.c.s
 
 auxiliary/i_aux_ext_dep_lib.o: auxiliary/i_aux_ext_dep_lib.c.o
@@ -334,7 +334,7 @@ auxiliary/i_aux_ext_dep_lib.o: auxiliary/i_aux_ext_dep_lib.c.o
 
 # target to build an object file
 auxiliary/i_aux_ext_dep_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.o
 .PHONY : auxiliary/i_aux_ext_dep_lib.c.o
 
 auxiliary/i_aux_ext_dep_lib.i: auxiliary/i_aux_ext_dep_lib.c.i
@@ -343,7 +343,7 @@ auxiliary/i_aux_ext_dep_lib.i: auxiliary/i_aux_ext_dep_lib.c.i
 
 # target to preprocess a source file
 auxiliary/i_aux_ext_dep_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.i
 .PHONY : auxiliary/i_aux_ext_dep_lib.c.i
 
 auxiliary/i_aux_ext_dep_lib.s: auxiliary/i_aux_ext_dep_lib.c.s
@@ -352,7 +352,7 @@ auxiliary/i_aux_ext_dep_lib.s: auxiliary/i_aux_ext_dep_lib.c.s
 
 # target to generate assembly for a file
 auxiliary/i_aux_ext_dep_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.s
 .PHONY : auxiliary/i_aux_ext_dep_lib.c.s
 
 auxiliary/m_aux_lib48.o: auxiliary/m_aux_lib48.c.o
@@ -361,7 +361,7 @@ auxiliary/m_aux_lib48.o: auxiliary/m_aux_lib48.c.o
 
 # target to build an object file
 auxiliary/m_aux_lib48.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.o
 .PHONY : auxiliary/m_aux_lib48.c.o
 
 auxiliary/m_aux_lib48.i: auxiliary/m_aux_lib48.c.i
@@ -370,7 +370,7 @@ auxiliary/m_aux_lib48.i: auxiliary/m_aux_lib48.c.i
 
 # target to preprocess a source file
 auxiliary/m_aux_lib48.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.i
 .PHONY : auxiliary/m_aux_lib48.c.i
 
 auxiliary/m_aux_lib48.s: auxiliary/m_aux_lib48.c.s
@@ -379,7 +379,7 @@ auxiliary/m_aux_lib48.s: auxiliary/m_aux_lib48.c.s
 
 # target to generate assembly for a file
 auxiliary/m_aux_lib48.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.s
 .PHONY : auxiliary/m_aux_lib48.c.s
 
 auxiliary/s_aux_ext_dep_lib.o: auxiliary/s_aux_ext_dep_lib.c.o
@@ -388,7 +388,7 @@ auxiliary/s_aux_ext_dep_lib.o: auxiliary/s_aux_ext_dep_lib.c.o
 
 # target to build an object file
 auxiliary/s_aux_ext_dep_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib.c.o
 .PHONY : auxiliary/s_aux_ext_dep_lib.c.o
 
 auxiliary/s_aux_ext_dep_lib.i: auxiliary/s_aux_ext_dep_lib.c.i
@@ -397,7 +397,7 @@ auxiliary/s_aux_ext_dep_lib.i: auxiliary/s_aux_ext_dep_lib.c.i
 
 # target to preprocess a source file
 auxiliary/s_aux_ext_dep_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib.c.i
 .PHONY : auxiliary/s_aux_ext_dep_lib.c.i
 
 auxiliary/s_aux_ext_dep_lib.s: auxiliary/s_aux_ext_dep_lib.c.s
@@ -406,7 +406,7 @@ auxiliary/s_aux_ext_dep_lib.s: auxiliary/s_aux_ext_dep_lib.c.s
 
 # target to generate assembly for a file
 auxiliary/s_aux_ext_dep_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib.c.s
 .PHONY : auxiliary/s_aux_ext_dep_lib.c.s
 
 auxiliary/s_aux_ext_dep_lib4.o: auxiliary/s_aux_ext_dep_lib4.c.o
@@ -415,7 +415,7 @@ auxiliary/s_aux_ext_dep_lib4.o: auxiliary/s_aux_ext_dep_lib4.c.o
 
 # target to build an object file
 auxiliary/s_aux_ext_dep_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib4.c.o
 .PHONY : auxiliary/s_aux_ext_dep_lib4.c.o
 
 auxiliary/s_aux_ext_dep_lib4.i: auxiliary/s_aux_ext_dep_lib4.c.i
@@ -424,7 +424,7 @@ auxiliary/s_aux_ext_dep_lib4.i: auxiliary/s_aux_ext_dep_lib4.c.i
 
 # target to preprocess a source file
 auxiliary/s_aux_ext_dep_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib4.c.i
 .PHONY : auxiliary/s_aux_ext_dep_lib4.c.i
 
 auxiliary/s_aux_ext_dep_lib4.s: auxiliary/s_aux_ext_dep_lib4.c.s
@@ -433,7 +433,7 @@ auxiliary/s_aux_ext_dep_lib4.s: auxiliary/s_aux_ext_dep_lib4.c.s
 
 # target to generate assembly for a file
 auxiliary/s_aux_ext_dep_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_lib4.c.s
 .PHONY : auxiliary/s_aux_ext_dep_lib4.c.s
 
 auxiliary/s_aux_lib8.o: auxiliary/s_aux_lib8.c.o
@@ -442,7 +442,7 @@ auxiliary/s_aux_lib8.o: auxiliary/s_aux_lib8.c.o
 
 # target to build an object file
 auxiliary/s_aux_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.o
 .PHONY : auxiliary/s_aux_lib8.c.o
 
 auxiliary/s_aux_lib8.i: auxiliary/s_aux_lib8.c.i
@@ -451,7 +451,7 @@ auxiliary/s_aux_lib8.i: auxiliary/s_aux_lib8.c.i
 
 # target to preprocess a source file
 auxiliary/s_aux_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.i
 .PHONY : auxiliary/s_aux_lib8.c.i
 
 auxiliary/s_aux_lib8.s: auxiliary/s_aux_lib8.c.s
@@ -460,7 +460,7 @@ auxiliary/s_aux_lib8.s: auxiliary/s_aux_lib8.c.s
 
 # target to generate assembly for a file
 auxiliary/s_aux_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.s
 .PHONY : auxiliary/s_aux_lib8.c.s
 
 auxiliary/timing.o: auxiliary/timing.c.o
@@ -469,7 +469,7 @@ auxiliary/timing.o: auxiliary/timing.c.o
 
 # target to build an object file
 auxiliary/timing.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/timing.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/timing.c.o
 .PHONY : auxiliary/timing.c.o
 
 auxiliary/timing.i: auxiliary/timing.c.i
@@ -478,7 +478,7 @@ auxiliary/timing.i: auxiliary/timing.c.i
 
 # target to preprocess a source file
 auxiliary/timing.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/timing.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/timing.c.i
 .PHONY : auxiliary/timing.c.i
 
 auxiliary/timing.s: auxiliary/timing.c.s
@@ -487,7 +487,7 @@ auxiliary/timing.s: auxiliary/timing.c.s
 
 # target to generate assembly for a file
 auxiliary/timing.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/timing.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/timing.c.s
 .PHONY : auxiliary/timing.c.s
 
 auxiliary/v_aux_ext_dep_lib.o: auxiliary/v_aux_ext_dep_lib.c.o
@@ -496,7 +496,7 @@ auxiliary/v_aux_ext_dep_lib.o: auxiliary/v_aux_ext_dep_lib.c.o
 
 # target to build an object file
 auxiliary/v_aux_ext_dep_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.o
 .PHONY : auxiliary/v_aux_ext_dep_lib.c.o
 
 auxiliary/v_aux_ext_dep_lib.i: auxiliary/v_aux_ext_dep_lib.c.i
@@ -505,7 +505,7 @@ auxiliary/v_aux_ext_dep_lib.i: auxiliary/v_aux_ext_dep_lib.c.i
 
 # target to preprocess a source file
 auxiliary/v_aux_ext_dep_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.i
 .PHONY : auxiliary/v_aux_ext_dep_lib.c.i
 
 auxiliary/v_aux_ext_dep_lib.s: auxiliary/v_aux_ext_dep_lib.c.s
@@ -514,7 +514,7 @@ auxiliary/v_aux_ext_dep_lib.s: auxiliary/v_aux_ext_dep_lib.c.s
 
 # target to generate assembly for a file
 auxiliary/v_aux_ext_dep_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.s
 .PHONY : auxiliary/v_aux_ext_dep_lib.c.s
 
 blas_api/daxpy.o: blas_api/daxpy.c.o
@@ -523,7 +523,7 @@ blas_api/daxpy.o: blas_api/daxpy.c.o
 
 # target to build an object file
 blas_api/daxpy.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/daxpy.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/daxpy.c.o
 .PHONY : blas_api/daxpy.c.o
 
 blas_api/daxpy.i: blas_api/daxpy.c.i
@@ -532,7 +532,7 @@ blas_api/daxpy.i: blas_api/daxpy.c.i
 
 # target to preprocess a source file
 blas_api/daxpy.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/daxpy.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/daxpy.c.i
 .PHONY : blas_api/daxpy.c.i
 
 blas_api/daxpy.s: blas_api/daxpy.c.s
@@ -541,7 +541,7 @@ blas_api/daxpy.s: blas_api/daxpy.c.s
 
 # target to generate assembly for a file
 blas_api/daxpy.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/daxpy.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/daxpy.c.s
 .PHONY : blas_api/daxpy.c.s
 
 blas_api/dcopy.o: blas_api/dcopy.c.o
@@ -550,7 +550,7 @@ blas_api/dcopy.o: blas_api/dcopy.c.o
 
 # target to build an object file
 blas_api/dcopy.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dcopy.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dcopy.c.o
 .PHONY : blas_api/dcopy.c.o
 
 blas_api/dcopy.i: blas_api/dcopy.c.i
@@ -559,7 +559,7 @@ blas_api/dcopy.i: blas_api/dcopy.c.i
 
 # target to preprocess a source file
 blas_api/dcopy.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dcopy.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dcopy.c.i
 .PHONY : blas_api/dcopy.c.i
 
 blas_api/dcopy.s: blas_api/dcopy.c.s
@@ -568,7 +568,7 @@ blas_api/dcopy.s: blas_api/dcopy.c.s
 
 # target to generate assembly for a file
 blas_api/dcopy.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dcopy.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dcopy.c.s
 .PHONY : blas_api/dcopy.c.s
 
 blas_api/ddot.o: blas_api/ddot.c.o
@@ -577,7 +577,7 @@ blas_api/ddot.o: blas_api/ddot.c.o
 
 # target to build an object file
 blas_api/ddot.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/ddot.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/ddot.c.o
 .PHONY : blas_api/ddot.c.o
 
 blas_api/ddot.i: blas_api/ddot.c.i
@@ -586,7 +586,7 @@ blas_api/ddot.i: blas_api/ddot.c.i
 
 # target to preprocess a source file
 blas_api/ddot.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/ddot.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/ddot.c.i
 .PHONY : blas_api/ddot.c.i
 
 blas_api/ddot.s: blas_api/ddot.c.s
@@ -595,7 +595,7 @@ blas_api/ddot.s: blas_api/ddot.c.s
 
 # target to generate assembly for a file
 blas_api/ddot.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/ddot.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/ddot.c.s
 .PHONY : blas_api/ddot.c.s
 
 blas_api/dgemm.o: blas_api/dgemm.c.o
@@ -604,7 +604,7 @@ blas_api/dgemm.o: blas_api/dgemm.c.o
 
 # target to build an object file
 blas_api/dgemm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgemm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgemm.c.o
 .PHONY : blas_api/dgemm.c.o
 
 blas_api/dgemm.i: blas_api/dgemm.c.i
@@ -613,7 +613,7 @@ blas_api/dgemm.i: blas_api/dgemm.c.i
 
 # target to preprocess a source file
 blas_api/dgemm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgemm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgemm.c.i
 .PHONY : blas_api/dgemm.c.i
 
 blas_api/dgemm.s: blas_api/dgemm.c.s
@@ -622,7 +622,7 @@ blas_api/dgemm.s: blas_api/dgemm.c.s
 
 # target to generate assembly for a file
 blas_api/dgemm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgemm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgemm.c.s
 .PHONY : blas_api/dgemm.c.s
 
 blas_api/dgesv.o: blas_api/dgesv.c.o
@@ -631,7 +631,7 @@ blas_api/dgesv.o: blas_api/dgesv.c.o
 
 # target to build an object file
 blas_api/dgesv.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgesv.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgesv.c.o
 .PHONY : blas_api/dgesv.c.o
 
 blas_api/dgesv.i: blas_api/dgesv.c.i
@@ -640,7 +640,7 @@ blas_api/dgesv.i: blas_api/dgesv.c.i
 
 # target to preprocess a source file
 blas_api/dgesv.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgesv.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgesv.c.i
 .PHONY : blas_api/dgesv.c.i
 
 blas_api/dgesv.s: blas_api/dgesv.c.s
@@ -649,7 +649,7 @@ blas_api/dgesv.s: blas_api/dgesv.c.s
 
 # target to generate assembly for a file
 blas_api/dgesv.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgesv.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgesv.c.s
 .PHONY : blas_api/dgesv.c.s
 
 blas_api/dgetrf.o: blas_api/dgetrf.c.o
@@ -658,7 +658,7 @@ blas_api/dgetrf.o: blas_api/dgetrf.c.o
 
 # target to build an object file
 blas_api/dgetrf.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf.c.o
 .PHONY : blas_api/dgetrf.c.o
 
 blas_api/dgetrf.i: blas_api/dgetrf.c.i
@@ -667,7 +667,7 @@ blas_api/dgetrf.i: blas_api/dgetrf.c.i
 
 # target to preprocess a source file
 blas_api/dgetrf.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf.c.i
 .PHONY : blas_api/dgetrf.c.i
 
 blas_api/dgetrf.s: blas_api/dgetrf.c.s
@@ -676,7 +676,7 @@ blas_api/dgetrf.s: blas_api/dgetrf.c.s
 
 # target to generate assembly for a file
 blas_api/dgetrf.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf.c.s
 .PHONY : blas_api/dgetrf.c.s
 
 blas_api/dgetrf_np.o: blas_api/dgetrf_np.c.o
@@ -685,7 +685,7 @@ blas_api/dgetrf_np.o: blas_api/dgetrf_np.c.o
 
 # target to build an object file
 blas_api/dgetrf_np.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf_np.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf_np.c.o
 .PHONY : blas_api/dgetrf_np.c.o
 
 blas_api/dgetrf_np.i: blas_api/dgetrf_np.c.i
@@ -694,7 +694,7 @@ blas_api/dgetrf_np.i: blas_api/dgetrf_np.c.i
 
 # target to preprocess a source file
 blas_api/dgetrf_np.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf_np.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf_np.c.i
 .PHONY : blas_api/dgetrf_np.c.i
 
 blas_api/dgetrf_np.s: blas_api/dgetrf_np.c.s
@@ -703,7 +703,7 @@ blas_api/dgetrf_np.s: blas_api/dgetrf_np.c.s
 
 # target to generate assembly for a file
 blas_api/dgetrf_np.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf_np.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrf_np.c.s
 .PHONY : blas_api/dgetrf_np.c.s
 
 blas_api/dgetrs.o: blas_api/dgetrs.c.o
@@ -712,7 +712,7 @@ blas_api/dgetrs.o: blas_api/dgetrs.c.o
 
 # target to build an object file
 blas_api/dgetrs.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.o
 .PHONY : blas_api/dgetrs.c.o
 
 blas_api/dgetrs.i: blas_api/dgetrs.c.i
@@ -721,7 +721,7 @@ blas_api/dgetrs.i: blas_api/dgetrs.c.i
 
 # target to preprocess a source file
 blas_api/dgetrs.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.i
 .PHONY : blas_api/dgetrs.c.i
 
 blas_api/dgetrs.s: blas_api/dgetrs.c.s
@@ -730,7 +730,7 @@ blas_api/dgetrs.s: blas_api/dgetrs.c.s
 
 # target to generate assembly for a file
 blas_api/dgetrs.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.s
 .PHONY : blas_api/dgetrs.c.s
 
 blas_api/dlaswp.o: blas_api/dlaswp.c.o
@@ -739,7 +739,7 @@ blas_api/dlaswp.o: blas_api/dlaswp.c.o
 
 # target to build an object file
 blas_api/dlaswp.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.o
 .PHONY : blas_api/dlaswp.c.o
 
 blas_api/dlaswp.i: blas_api/dlaswp.c.i
@@ -748,7 +748,7 @@ blas_api/dlaswp.i: blas_api/dlaswp.c.i
 
 # target to preprocess a source file
 blas_api/dlaswp.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.i
 .PHONY : blas_api/dlaswp.c.i
 
 blas_api/dlaswp.s: blas_api/dlaswp.c.s
@@ -757,7 +757,7 @@ blas_api/dlaswp.s: blas_api/dlaswp.c.s
 
 # target to generate assembly for a file
 blas_api/dlaswp.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.s
 .PHONY : blas_api/dlaswp.c.s
 
 blas_api/dposv.o: blas_api/dposv.c.o
@@ -766,7 +766,7 @@ blas_api/dposv.o: blas_api/dposv.c.o
 
 # target to build an object file
 blas_api/dposv.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dposv.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dposv.c.o
 .PHONY : blas_api/dposv.c.o
 
 blas_api/dposv.i: blas_api/dposv.c.i
@@ -775,7 +775,7 @@ blas_api/dposv.i: blas_api/dposv.c.i
 
 # target to preprocess a source file
 blas_api/dposv.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dposv.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dposv.c.i
 .PHONY : blas_api/dposv.c.i
 
 blas_api/dposv.s: blas_api/dposv.c.s
@@ -784,7 +784,7 @@ blas_api/dposv.s: blas_api/dposv.c.s
 
 # target to generate assembly for a file
 blas_api/dposv.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dposv.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dposv.c.s
 .PHONY : blas_api/dposv.c.s
 
 blas_api/dpotrf.o: blas_api/dpotrf.c.o
@@ -793,7 +793,7 @@ blas_api/dpotrf.o: blas_api/dpotrf.c.o
 
 # target to build an object file
 blas_api/dpotrf.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrf.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrf.c.o
 .PHONY : blas_api/dpotrf.c.o
 
 blas_api/dpotrf.i: blas_api/dpotrf.c.i
@@ -802,7 +802,7 @@ blas_api/dpotrf.i: blas_api/dpotrf.c.i
 
 # target to preprocess a source file
 blas_api/dpotrf.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrf.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrf.c.i
 .PHONY : blas_api/dpotrf.c.i
 
 blas_api/dpotrf.s: blas_api/dpotrf.c.s
@@ -811,7 +811,7 @@ blas_api/dpotrf.s: blas_api/dpotrf.c.s
 
 # target to generate assembly for a file
 blas_api/dpotrf.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrf.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrf.c.s
 .PHONY : blas_api/dpotrf.c.s
 
 blas_api/dpotrs.o: blas_api/dpotrs.c.o
@@ -820,7 +820,7 @@ blas_api/dpotrs.o: blas_api/dpotrs.c.o
 
 # target to build an object file
 blas_api/dpotrs.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.o
 .PHONY : blas_api/dpotrs.c.o
 
 blas_api/dpotrs.i: blas_api/dpotrs.c.i
@@ -829,7 +829,7 @@ blas_api/dpotrs.i: blas_api/dpotrs.c.i
 
 # target to preprocess a source file
 blas_api/dpotrs.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.i
 .PHONY : blas_api/dpotrs.c.i
 
 blas_api/dpotrs.s: blas_api/dpotrs.c.s
@@ -838,7 +838,7 @@ blas_api/dpotrs.s: blas_api/dpotrs.c.s
 
 # target to generate assembly for a file
 blas_api/dpotrs.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.s
 .PHONY : blas_api/dpotrs.c.s
 
 blas_api/dsyrk.o: blas_api/dsyrk.c.o
@@ -847,7 +847,7 @@ blas_api/dsyrk.o: blas_api/dsyrk.c.o
 
 # target to build an object file
 blas_api/dsyrk.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dsyrk.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dsyrk.c.o
 .PHONY : blas_api/dsyrk.c.o
 
 blas_api/dsyrk.i: blas_api/dsyrk.c.i
@@ -856,7 +856,7 @@ blas_api/dsyrk.i: blas_api/dsyrk.c.i
 
 # target to preprocess a source file
 blas_api/dsyrk.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dsyrk.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dsyrk.c.i
 .PHONY : blas_api/dsyrk.c.i
 
 blas_api/dsyrk.s: blas_api/dsyrk.c.s
@@ -865,7 +865,7 @@ blas_api/dsyrk.s: blas_api/dsyrk.c.s
 
 # target to generate assembly for a file
 blas_api/dsyrk.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dsyrk.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dsyrk.c.s
 .PHONY : blas_api/dsyrk.c.s
 
 blas_api/dtrmm.o: blas_api/dtrmm.c.o
@@ -874,7 +874,7 @@ blas_api/dtrmm.o: blas_api/dtrmm.c.o
 
 # target to build an object file
 blas_api/dtrmm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrmm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrmm.c.o
 .PHONY : blas_api/dtrmm.c.o
 
 blas_api/dtrmm.i: blas_api/dtrmm.c.i
@@ -883,7 +883,7 @@ blas_api/dtrmm.i: blas_api/dtrmm.c.i
 
 # target to preprocess a source file
 blas_api/dtrmm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrmm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrmm.c.i
 .PHONY : blas_api/dtrmm.c.i
 
 blas_api/dtrmm.s: blas_api/dtrmm.c.s
@@ -892,7 +892,7 @@ blas_api/dtrmm.s: blas_api/dtrmm.c.s
 
 # target to generate assembly for a file
 blas_api/dtrmm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrmm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrmm.c.s
 .PHONY : blas_api/dtrmm.c.s
 
 blas_api/dtrsm.o: blas_api/dtrsm.c.o
@@ -901,7 +901,7 @@ blas_api/dtrsm.o: blas_api/dtrsm.c.o
 
 # target to build an object file
 blas_api/dtrsm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrsm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrsm.c.o
 .PHONY : blas_api/dtrsm.c.o
 
 blas_api/dtrsm.i: blas_api/dtrsm.c.i
@@ -910,7 +910,7 @@ blas_api/dtrsm.i: blas_api/dtrsm.c.i
 
 # target to preprocess a source file
 blas_api/dtrsm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrsm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrsm.c.i
 .PHONY : blas_api/dtrsm.c.i
 
 blas_api/dtrsm.s: blas_api/dtrsm.c.s
@@ -919,7 +919,7 @@ blas_api/dtrsm.s: blas_api/dtrsm.c.s
 
 # target to generate assembly for a file
 blas_api/dtrsm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrsm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrsm.c.s
 .PHONY : blas_api/dtrsm.c.s
 
 blas_api/dtrtrs.o: blas_api/dtrtrs.c.o
@@ -928,7 +928,7 @@ blas_api/dtrtrs.o: blas_api/dtrtrs.c.o
 
 # target to build an object file
 blas_api/dtrtrs.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.o
 .PHONY : blas_api/dtrtrs.c.o
 
 blas_api/dtrtrs.i: blas_api/dtrtrs.c.i
@@ -937,7 +937,7 @@ blas_api/dtrtrs.i: blas_api/dtrtrs.c.i
 
 # target to preprocess a source file
 blas_api/dtrtrs.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.i
 .PHONY : blas_api/dtrtrs.c.i
 
 blas_api/dtrtrs.s: blas_api/dtrtrs.c.s
@@ -946,7 +946,7 @@ blas_api/dtrtrs.s: blas_api/dtrtrs.c.s
 
 # target to generate assembly for a file
 blas_api/dtrtrs.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.s
 .PHONY : blas_api/dtrtrs.c.s
 
 blas_api/saxpy.o: blas_api/saxpy.c.o
@@ -955,7 +955,7 @@ blas_api/saxpy.o: blas_api/saxpy.c.o
 
 # target to build an object file
 blas_api/saxpy.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/saxpy.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/saxpy.c.o
 .PHONY : blas_api/saxpy.c.o
 
 blas_api/saxpy.i: blas_api/saxpy.c.i
@@ -964,7 +964,7 @@ blas_api/saxpy.i: blas_api/saxpy.c.i
 
 # target to preprocess a source file
 blas_api/saxpy.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/saxpy.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/saxpy.c.i
 .PHONY : blas_api/saxpy.c.i
 
 blas_api/saxpy.s: blas_api/saxpy.c.s
@@ -973,7 +973,7 @@ blas_api/saxpy.s: blas_api/saxpy.c.s
 
 # target to generate assembly for a file
 blas_api/saxpy.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/saxpy.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/saxpy.c.s
 .PHONY : blas_api/saxpy.c.s
 
 blas_api/sdot.o: blas_api/sdot.c.o
@@ -982,7 +982,7 @@ blas_api/sdot.o: blas_api/sdot.c.o
 
 # target to build an object file
 blas_api/sdot.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sdot.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sdot.c.o
 .PHONY : blas_api/sdot.c.o
 
 blas_api/sdot.i: blas_api/sdot.c.i
@@ -991,7 +991,7 @@ blas_api/sdot.i: blas_api/sdot.c.i
 
 # target to preprocess a source file
 blas_api/sdot.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sdot.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sdot.c.i
 .PHONY : blas_api/sdot.c.i
 
 blas_api/sdot.s: blas_api/sdot.c.s
@@ -1000,7 +1000,7 @@ blas_api/sdot.s: blas_api/sdot.c.s
 
 # target to generate assembly for a file
 blas_api/sdot.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sdot.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sdot.c.s
 .PHONY : blas_api/sdot.c.s
 
 blas_api/sgemm.o: blas_api/sgemm.c.o
@@ -1009,7 +1009,7 @@ blas_api/sgemm.o: blas_api/sgemm.c.o
 
 # target to build an object file
 blas_api/sgemm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sgemm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sgemm.c.o
 .PHONY : blas_api/sgemm.c.o
 
 blas_api/sgemm.i: blas_api/sgemm.c.i
@@ -1018,7 +1018,7 @@ blas_api/sgemm.i: blas_api/sgemm.c.i
 
 # target to preprocess a source file
 blas_api/sgemm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sgemm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sgemm.c.i
 .PHONY : blas_api/sgemm.c.i
 
 blas_api/sgemm.s: blas_api/sgemm.c.s
@@ -1027,7 +1027,7 @@ blas_api/sgemm.s: blas_api/sgemm.c.s
 
 # target to generate assembly for a file
 blas_api/sgemm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sgemm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/sgemm.c.s
 .PHONY : blas_api/sgemm.c.s
 
 blas_api/strsm.o: blas_api/strsm.c.o
@@ -1036,7 +1036,7 @@ blas_api/strsm.o: blas_api/strsm.c.o
 
 # target to build an object file
 blas_api/strsm.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/strsm.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/strsm.c.o
 .PHONY : blas_api/strsm.c.o
 
 blas_api/strsm.i: blas_api/strsm.c.i
@@ -1045,7 +1045,7 @@ blas_api/strsm.i: blas_api/strsm.c.i
 
 # target to preprocess a source file
 blas_api/strsm.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/strsm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/strsm.c.i
 .PHONY : blas_api/strsm.c.i
 
 blas_api/strsm.s: blas_api/strsm.c.s
@@ -1054,7 +1054,7 @@ blas_api/strsm.s: blas_api/strsm.c.s
 
 # target to generate assembly for a file
 blas_api/strsm.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/strsm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blas_api/strsm.c.s
 .PHONY : blas_api/strsm.c.s
 
 blasfeo_api/d_blas1_lib4.o: blasfeo_api/d_blas1_lib4.c.o
@@ -1063,7 +1063,7 @@ blasfeo_api/d_blas1_lib4.o: blasfeo_api/d_blas1_lib4.c.o
 
 # target to build an object file
 blasfeo_api/d_blas1_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas1_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas1_lib4.c.o
 .PHONY : blasfeo_api/d_blas1_lib4.c.o
 
 blasfeo_api/d_blas1_lib4.i: blasfeo_api/d_blas1_lib4.c.i
@@ -1072,7 +1072,7 @@ blasfeo_api/d_blas1_lib4.i: blasfeo_api/d_blas1_lib4.c.i
 
 # target to preprocess a source file
 blasfeo_api/d_blas1_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas1_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas1_lib4.c.i
 .PHONY : blasfeo_api/d_blas1_lib4.c.i
 
 blasfeo_api/d_blas1_lib4.s: blasfeo_api/d_blas1_lib4.c.s
@@ -1081,7 +1081,7 @@ blasfeo_api/d_blas1_lib4.s: blasfeo_api/d_blas1_lib4.c.s
 
 # target to generate assembly for a file
 blasfeo_api/d_blas1_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas1_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas1_lib4.c.s
 .PHONY : blasfeo_api/d_blas1_lib4.c.s
 
 blasfeo_api/d_blas2_diag_lib.o: blasfeo_api/d_blas2_diag_lib.c.o
@@ -1090,7 +1090,7 @@ blasfeo_api/d_blas2_diag_lib.o: blasfeo_api/d_blas2_diag_lib.c.o
 
 # target to build an object file
 blasfeo_api/d_blas2_diag_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_diag_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_diag_lib.c.o
 .PHONY : blasfeo_api/d_blas2_diag_lib.c.o
 
 blasfeo_api/d_blas2_diag_lib.i: blasfeo_api/d_blas2_diag_lib.c.i
@@ -1099,7 +1099,7 @@ blasfeo_api/d_blas2_diag_lib.i: blasfeo_api/d_blas2_diag_lib.c.i
 
 # target to preprocess a source file
 blasfeo_api/d_blas2_diag_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_diag_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_diag_lib.c.i
 .PHONY : blasfeo_api/d_blas2_diag_lib.c.i
 
 blasfeo_api/d_blas2_diag_lib.s: blasfeo_api/d_blas2_diag_lib.c.s
@@ -1108,7 +1108,7 @@ blasfeo_api/d_blas2_diag_lib.s: blasfeo_api/d_blas2_diag_lib.c.s
 
 # target to generate assembly for a file
 blasfeo_api/d_blas2_diag_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_diag_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_diag_lib.c.s
 .PHONY : blasfeo_api/d_blas2_diag_lib.c.s
 
 blasfeo_api/d_blas2_lib4.o: blasfeo_api/d_blas2_lib4.c.o
@@ -1117,7 +1117,7 @@ blasfeo_api/d_blas2_lib4.o: blasfeo_api/d_blas2_lib4.c.o
 
 # target to build an object file
 blasfeo_api/d_blas2_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_lib4.c.o
 .PHONY : blasfeo_api/d_blas2_lib4.c.o
 
 blasfeo_api/d_blas2_lib4.i: blasfeo_api/d_blas2_lib4.c.i
@@ -1126,7 +1126,7 @@ blasfeo_api/d_blas2_lib4.i: blasfeo_api/d_blas2_lib4.c.i
 
 # target to preprocess a source file
 blasfeo_api/d_blas2_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_lib4.c.i
 .PHONY : blasfeo_api/d_blas2_lib4.c.i
 
 blasfeo_api/d_blas2_lib4.s: blasfeo_api/d_blas2_lib4.c.s
@@ -1135,7 +1135,7 @@ blasfeo_api/d_blas2_lib4.s: blasfeo_api/d_blas2_lib4.c.s
 
 # target to generate assembly for a file
 blasfeo_api/d_blas2_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas2_lib4.c.s
 .PHONY : blasfeo_api/d_blas2_lib4.c.s
 
 blasfeo_api/d_blas3_diag_lib4.o: blasfeo_api/d_blas3_diag_lib4.c.o
@@ -1144,7 +1144,7 @@ blasfeo_api/d_blas3_diag_lib4.o: blasfeo_api/d_blas3_diag_lib4.c.o
 
 # target to build an object file
 blasfeo_api/d_blas3_diag_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_diag_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_diag_lib4.c.o
 .PHONY : blasfeo_api/d_blas3_diag_lib4.c.o
 
 blasfeo_api/d_blas3_diag_lib4.i: blasfeo_api/d_blas3_diag_lib4.c.i
@@ -1153,7 +1153,7 @@ blasfeo_api/d_blas3_diag_lib4.i: blasfeo_api/d_blas3_diag_lib4.c.i
 
 # target to preprocess a source file
 blasfeo_api/d_blas3_diag_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_diag_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_diag_lib4.c.i
 .PHONY : blasfeo_api/d_blas3_diag_lib4.c.i
 
 blasfeo_api/d_blas3_diag_lib4.s: blasfeo_api/d_blas3_diag_lib4.c.s
@@ -1162,7 +1162,7 @@ blasfeo_api/d_blas3_diag_lib4.s: blasfeo_api/d_blas3_diag_lib4.c.s
 
 # target to generate assembly for a file
 blasfeo_api/d_blas3_diag_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_diag_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_diag_lib4.c.s
 .PHONY : blasfeo_api/d_blas3_diag_lib4.c.s
 
 blasfeo_api/d_blas3_lib4.o: blasfeo_api/d_blas3_lib4.c.o
@@ -1171,7 +1171,7 @@ blasfeo_api/d_blas3_lib4.o: blasfeo_api/d_blas3_lib4.c.o
 
 # target to build an object file
 blasfeo_api/d_blas3_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_lib4.c.o
 .PHONY : blasfeo_api/d_blas3_lib4.c.o
 
 blasfeo_api/d_blas3_lib4.i: blasfeo_api/d_blas3_lib4.c.i
@@ -1180,7 +1180,7 @@ blasfeo_api/d_blas3_lib4.i: blasfeo_api/d_blas3_lib4.c.i
 
 # target to preprocess a source file
 blasfeo_api/d_blas3_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_lib4.c.i
 .PHONY : blasfeo_api/d_blas3_lib4.c.i
 
 blasfeo_api/d_blas3_lib4.s: blasfeo_api/d_blas3_lib4.c.s
@@ -1189,7 +1189,7 @@ blasfeo_api/d_blas3_lib4.s: blasfeo_api/d_blas3_lib4.c.s
 
 # target to generate assembly for a file
 blasfeo_api/d_blas3_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_blas3_lib4.c.s
 .PHONY : blasfeo_api/d_blas3_lib4.c.s
 
 blasfeo_api/d_lapack_lib4.o: blasfeo_api/d_lapack_lib4.c.o
@@ -1198,7 +1198,7 @@ blasfeo_api/d_lapack_lib4.o: blasfeo_api/d_lapack_lib4.c.o
 
 # target to build an object file
 blasfeo_api/d_lapack_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_lapack_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_lapack_lib4.c.o
 .PHONY : blasfeo_api/d_lapack_lib4.c.o
 
 blasfeo_api/d_lapack_lib4.i: blasfeo_api/d_lapack_lib4.c.i
@@ -1207,7 +1207,7 @@ blasfeo_api/d_lapack_lib4.i: blasfeo_api/d_lapack_lib4.c.i
 
 # target to preprocess a source file
 blasfeo_api/d_lapack_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_lapack_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_lapack_lib4.c.i
 .PHONY : blasfeo_api/d_lapack_lib4.c.i
 
 blasfeo_api/d_lapack_lib4.s: blasfeo_api/d_lapack_lib4.c.s
@@ -1216,7 +1216,7 @@ blasfeo_api/d_lapack_lib4.s: blasfeo_api/d_lapack_lib4.c.s
 
 # target to generate assembly for a file
 blasfeo_api/d_lapack_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_lapack_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/d_lapack_lib4.c.s
 .PHONY : blasfeo_api/d_lapack_lib4.c.s
 
 blasfeo_api/s_blas1_lib8.o: blasfeo_api/s_blas1_lib8.c.o
@@ -1225,7 +1225,7 @@ blasfeo_api/s_blas1_lib8.o: blasfeo_api/s_blas1_lib8.c.o
 
 # target to build an object file
 blasfeo_api/s_blas1_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas1_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas1_lib8.c.o
 .PHONY : blasfeo_api/s_blas1_lib8.c.o
 
 blasfeo_api/s_blas1_lib8.i: blasfeo_api/s_blas1_lib8.c.i
@@ -1234,7 +1234,7 @@ blasfeo_api/s_blas1_lib8.i: blasfeo_api/s_blas1_lib8.c.i
 
 # target to preprocess a source file
 blasfeo_api/s_blas1_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas1_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas1_lib8.c.i
 .PHONY : blasfeo_api/s_blas1_lib8.c.i
 
 blasfeo_api/s_blas1_lib8.s: blasfeo_api/s_blas1_lib8.c.s
@@ -1243,7 +1243,7 @@ blasfeo_api/s_blas1_lib8.s: blasfeo_api/s_blas1_lib8.c.s
 
 # target to generate assembly for a file
 blasfeo_api/s_blas1_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas1_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas1_lib8.c.s
 .PHONY : blasfeo_api/s_blas1_lib8.c.s
 
 blasfeo_api/s_blas2_diag_lib.o: blasfeo_api/s_blas2_diag_lib.c.o
@@ -1252,7 +1252,7 @@ blasfeo_api/s_blas2_diag_lib.o: blasfeo_api/s_blas2_diag_lib.c.o
 
 # target to build an object file
 blasfeo_api/s_blas2_diag_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_diag_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_diag_lib.c.o
 .PHONY : blasfeo_api/s_blas2_diag_lib.c.o
 
 blasfeo_api/s_blas2_diag_lib.i: blasfeo_api/s_blas2_diag_lib.c.i
@@ -1261,7 +1261,7 @@ blasfeo_api/s_blas2_diag_lib.i: blasfeo_api/s_blas2_diag_lib.c.i
 
 # target to preprocess a source file
 blasfeo_api/s_blas2_diag_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_diag_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_diag_lib.c.i
 .PHONY : blasfeo_api/s_blas2_diag_lib.c.i
 
 blasfeo_api/s_blas2_diag_lib.s: blasfeo_api/s_blas2_diag_lib.c.s
@@ -1270,7 +1270,7 @@ blasfeo_api/s_blas2_diag_lib.s: blasfeo_api/s_blas2_diag_lib.c.s
 
 # target to generate assembly for a file
 blasfeo_api/s_blas2_diag_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_diag_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_diag_lib.c.s
 .PHONY : blasfeo_api/s_blas2_diag_lib.c.s
 
 blasfeo_api/s_blas2_lib8.o: blasfeo_api/s_blas2_lib8.c.o
@@ -1279,7 +1279,7 @@ blasfeo_api/s_blas2_lib8.o: blasfeo_api/s_blas2_lib8.c.o
 
 # target to build an object file
 blasfeo_api/s_blas2_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_lib8.c.o
 .PHONY : blasfeo_api/s_blas2_lib8.c.o
 
 blasfeo_api/s_blas2_lib8.i: blasfeo_api/s_blas2_lib8.c.i
@@ -1288,7 +1288,7 @@ blasfeo_api/s_blas2_lib8.i: blasfeo_api/s_blas2_lib8.c.i
 
 # target to preprocess a source file
 blasfeo_api/s_blas2_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_lib8.c.i
 .PHONY : blasfeo_api/s_blas2_lib8.c.i
 
 blasfeo_api/s_blas2_lib8.s: blasfeo_api/s_blas2_lib8.c.s
@@ -1297,7 +1297,7 @@ blasfeo_api/s_blas2_lib8.s: blasfeo_api/s_blas2_lib8.c.s
 
 # target to generate assembly for a file
 blasfeo_api/s_blas2_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas2_lib8.c.s
 .PHONY : blasfeo_api/s_blas2_lib8.c.s
 
 blasfeo_api/s_blas3_diag_lib8.o: blasfeo_api/s_blas3_diag_lib8.c.o
@@ -1306,7 +1306,7 @@ blasfeo_api/s_blas3_diag_lib8.o: blasfeo_api/s_blas3_diag_lib8.c.o
 
 # target to build an object file
 blasfeo_api/s_blas3_diag_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_diag_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_diag_lib8.c.o
 .PHONY : blasfeo_api/s_blas3_diag_lib8.c.o
 
 blasfeo_api/s_blas3_diag_lib8.i: blasfeo_api/s_blas3_diag_lib8.c.i
@@ -1315,7 +1315,7 @@ blasfeo_api/s_blas3_diag_lib8.i: blasfeo_api/s_blas3_diag_lib8.c.i
 
 # target to preprocess a source file
 blasfeo_api/s_blas3_diag_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_diag_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_diag_lib8.c.i
 .PHONY : blasfeo_api/s_blas3_diag_lib8.c.i
 
 blasfeo_api/s_blas3_diag_lib8.s: blasfeo_api/s_blas3_diag_lib8.c.s
@@ -1324,7 +1324,7 @@ blasfeo_api/s_blas3_diag_lib8.s: blasfeo_api/s_blas3_diag_lib8.c.s
 
 # target to generate assembly for a file
 blasfeo_api/s_blas3_diag_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_diag_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_diag_lib8.c.s
 .PHONY : blasfeo_api/s_blas3_diag_lib8.c.s
 
 blasfeo_api/s_blas3_lib8.o: blasfeo_api/s_blas3_lib8.c.o
@@ -1333,7 +1333,7 @@ blasfeo_api/s_blas3_lib8.o: blasfeo_api/s_blas3_lib8.c.o
 
 # target to build an object file
 blasfeo_api/s_blas3_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_lib8.c.o
 .PHONY : blasfeo_api/s_blas3_lib8.c.o
 
 blasfeo_api/s_blas3_lib8.i: blasfeo_api/s_blas3_lib8.c.i
@@ -1342,7 +1342,7 @@ blasfeo_api/s_blas3_lib8.i: blasfeo_api/s_blas3_lib8.c.i
 
 # target to preprocess a source file
 blasfeo_api/s_blas3_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_lib8.c.i
 .PHONY : blasfeo_api/s_blas3_lib8.c.i
 
 blasfeo_api/s_blas3_lib8.s: blasfeo_api/s_blas3_lib8.c.s
@@ -1351,7 +1351,7 @@ blasfeo_api/s_blas3_lib8.s: blasfeo_api/s_blas3_lib8.c.s
 
 # target to generate assembly for a file
 blasfeo_api/s_blas3_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_blas3_lib8.c.s
 .PHONY : blasfeo_api/s_blas3_lib8.c.s
 
 blasfeo_api/s_lapack_lib8.o: blasfeo_api/s_lapack_lib8.c.o
@@ -1360,7 +1360,7 @@ blasfeo_api/s_lapack_lib8.o: blasfeo_api/s_lapack_lib8.c.o
 
 # target to build an object file
 blasfeo_api/s_lapack_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_lapack_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_lapack_lib8.c.o
 .PHONY : blasfeo_api/s_lapack_lib8.c.o
 
 blasfeo_api/s_lapack_lib8.i: blasfeo_api/s_lapack_lib8.c.i
@@ -1369,7 +1369,7 @@ blasfeo_api/s_lapack_lib8.i: blasfeo_api/s_lapack_lib8.c.i
 
 # target to preprocess a source file
 blasfeo_api/s_lapack_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_lapack_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_lapack_lib8.c.i
 .PHONY : blasfeo_api/s_lapack_lib8.c.i
 
 blasfeo_api/s_lapack_lib8.s: blasfeo_api/s_lapack_lib8.c.s
@@ -1378,7 +1378,7 @@ blasfeo_api/s_lapack_lib8.s: blasfeo_api/s_lapack_lib8.c.s
 
 # target to generate assembly for a file
 blasfeo_api/s_lapack_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_lapack_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/blasfeo_api/s_lapack_lib8.c.s
 .PHONY : blasfeo_api/s_lapack_lib8.c.s
 
 kernel/avx/kernel_dgecp_lib4.o: kernel/avx/kernel_dgecp_lib4.c.o
@@ -1387,7 +1387,7 @@ kernel/avx/kernel_dgecp_lib4.o: kernel/avx/kernel_dgecp_lib4.c.o
 
 # target to build an object file
 kernel/avx/kernel_dgecp_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.o
 .PHONY : kernel/avx/kernel_dgecp_lib4.c.o
 
 kernel/avx/kernel_dgecp_lib4.i: kernel/avx/kernel_dgecp_lib4.c.i
@@ -1396,7 +1396,7 @@ kernel/avx/kernel_dgecp_lib4.i: kernel/avx/kernel_dgecp_lib4.c.i
 
 # target to preprocess a source file
 kernel/avx/kernel_dgecp_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.i
 .PHONY : kernel/avx/kernel_dgecp_lib4.c.i
 
 kernel/avx/kernel_dgecp_lib4.s: kernel/avx/kernel_dgecp_lib4.c.s
@@ -1405,7 +1405,7 @@ kernel/avx/kernel_dgecp_lib4.s: kernel/avx/kernel_dgecp_lib4.c.s
 
 # target to generate assembly for a file
 kernel/avx/kernel_dgecp_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.s
 .PHONY : kernel/avx/kernel_dgecp_lib4.c.s
 
 kernel/avx/kernel_dgemm_diag_lib4.o: kernel/avx/kernel_dgemm_diag_lib4.c.o
@@ -1414,7 +1414,7 @@ kernel/avx/kernel_dgemm_diag_lib4.o: kernel/avx/kernel_dgemm_diag_lib4.c.o
 
 # target to build an object file
 kernel/avx/kernel_dgemm_diag_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.o
 .PHONY : kernel/avx/kernel_dgemm_diag_lib4.c.o
 
 kernel/avx/kernel_dgemm_diag_lib4.i: kernel/avx/kernel_dgemm_diag_lib4.c.i
@@ -1423,7 +1423,7 @@ kernel/avx/kernel_dgemm_diag_lib4.i: kernel/avx/kernel_dgemm_diag_lib4.c.i
 
 # target to preprocess a source file
 kernel/avx/kernel_dgemm_diag_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.i
 .PHONY : kernel/avx/kernel_dgemm_diag_lib4.c.i
 
 kernel/avx/kernel_dgemm_diag_lib4.s: kernel/avx/kernel_dgemm_diag_lib4.c.s
@@ -1432,7 +1432,7 @@ kernel/avx/kernel_dgemm_diag_lib4.s: kernel/avx/kernel_dgemm_diag_lib4.c.s
 
 # target to generate assembly for a file
 kernel/avx/kernel_dgemm_diag_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.s
 .PHONY : kernel/avx/kernel_dgemm_diag_lib4.c.s
 
 kernel/avx/kernel_dgemv_4_lib4.o: kernel/avx/kernel_dgemv_4_lib4.S.o
@@ -1441,7 +1441,7 @@ kernel/avx/kernel_dgemv_4_lib4.o: kernel/avx/kernel_dgemv_4_lib4.S.o
 
 # target to build an object file
 kernel/avx/kernel_dgemv_4_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemv_4_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemv_4_lib4.S.o
 .PHONY : kernel/avx/kernel_dgemv_4_lib4.S.o
 
 kernel/avx/kernel_dgeqrf_4_lib4.o: kernel/avx/kernel_dgeqrf_4_lib4.c.o
@@ -1450,7 +1450,7 @@ kernel/avx/kernel_dgeqrf_4_lib4.o: kernel/avx/kernel_dgeqrf_4_lib4.c.o
 
 # target to build an object file
 kernel/avx/kernel_dgeqrf_4_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.o
 .PHONY : kernel/avx/kernel_dgeqrf_4_lib4.c.o
 
 kernel/avx/kernel_dgeqrf_4_lib4.i: kernel/avx/kernel_dgeqrf_4_lib4.c.i
@@ -1459,7 +1459,7 @@ kernel/avx/kernel_dgeqrf_4_lib4.i: kernel/avx/kernel_dgeqrf_4_lib4.c.i
 
 # target to preprocess a source file
 kernel/avx/kernel_dgeqrf_4_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.i
 .PHONY : kernel/avx/kernel_dgeqrf_4_lib4.c.i
 
 kernel/avx/kernel_dgeqrf_4_lib4.s: kernel/avx/kernel_dgeqrf_4_lib4.c.s
@@ -1468,7 +1468,7 @@ kernel/avx/kernel_dgeqrf_4_lib4.s: kernel/avx/kernel_dgeqrf_4_lib4.c.s
 
 # target to generate assembly for a file
 kernel/avx/kernel_dgeqrf_4_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.s
 .PHONY : kernel/avx/kernel_dgeqrf_4_lib4.c.s
 
 kernel/avx/kernel_dpack_lib4.o: kernel/avx/kernel_dpack_lib4.S.o
@@ -1477,7 +1477,7 @@ kernel/avx/kernel_dpack_lib4.o: kernel/avx/kernel_dpack_lib4.S.o
 
 # target to build an object file
 kernel/avx/kernel_dpack_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dpack_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dpack_lib4.S.o
 .PHONY : kernel/avx/kernel_dpack_lib4.S.o
 
 kernel/avx/kernel_sgead_lib8.o: kernel/avx/kernel_sgead_lib8.S.o
@@ -1486,7 +1486,7 @@ kernel/avx/kernel_sgead_lib8.o: kernel/avx/kernel_sgead_lib8.S.o
 
 # target to build an object file
 kernel/avx/kernel_sgead_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgead_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgead_lib8.S.o
 .PHONY : kernel/avx/kernel_sgead_lib8.S.o
 
 kernel/avx/kernel_sgecpsc_lib8.o: kernel/avx/kernel_sgecpsc_lib8.S.o
@@ -1495,7 +1495,7 @@ kernel/avx/kernel_sgecpsc_lib8.o: kernel/avx/kernel_sgecpsc_lib8.S.o
 
 # target to build an object file
 kernel/avx/kernel_sgecpsc_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgecpsc_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgecpsc_lib8.S.o
 .PHONY : kernel/avx/kernel_sgecpsc_lib8.S.o
 
 kernel/avx/kernel_sgemm_diag_lib8.o: kernel/avx/kernel_sgemm_diag_lib8.c.o
@@ -1504,7 +1504,7 @@ kernel/avx/kernel_sgemm_diag_lib8.o: kernel/avx/kernel_sgemm_diag_lib8.c.o
 
 # target to build an object file
 kernel/avx/kernel_sgemm_diag_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.o
 .PHONY : kernel/avx/kernel_sgemm_diag_lib8.c.o
 
 kernel/avx/kernel_sgemm_diag_lib8.i: kernel/avx/kernel_sgemm_diag_lib8.c.i
@@ -1513,7 +1513,7 @@ kernel/avx/kernel_sgemm_diag_lib8.i: kernel/avx/kernel_sgemm_diag_lib8.c.i
 
 # target to preprocess a source file
 kernel/avx/kernel_sgemm_diag_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.i
 .PHONY : kernel/avx/kernel_sgemm_diag_lib8.c.i
 
 kernel/avx/kernel_sgemm_diag_lib8.s: kernel/avx/kernel_sgemm_diag_lib8.c.s
@@ -1522,7 +1522,7 @@ kernel/avx/kernel_sgemm_diag_lib8.s: kernel/avx/kernel_sgemm_diag_lib8.c.s
 
 # target to generate assembly for a file
 kernel/avx/kernel_sgemm_diag_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.s
 .PHONY : kernel/avx/kernel_sgemm_diag_lib8.c.s
 
 kernel/avx/kernel_sgemv_4_lib8.o: kernel/avx/kernel_sgemv_4_lib8.S.o
@@ -1531,7 +1531,7 @@ kernel/avx/kernel_sgemv_4_lib8.o: kernel/avx/kernel_sgemv_4_lib8.S.o
 
 # target to build an object file
 kernel/avx/kernel_sgemv_4_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_4_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_4_lib8.S.o
 .PHONY : kernel/avx/kernel_sgemv_4_lib8.S.o
 
 kernel/avx/kernel_sgemv_8_lib8.o: kernel/avx/kernel_sgemv_8_lib8.S.o
@@ -1540,7 +1540,7 @@ kernel/avx/kernel_sgemv_8_lib8.o: kernel/avx/kernel_sgemv_8_lib8.S.o
 
 # target to build an object file
 kernel/avx/kernel_sgemv_8_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_8_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_8_lib8.S.o
 .PHONY : kernel/avx/kernel_sgemv_8_lib8.S.o
 
 kernel/avx/kernel_sgetr_lib8.o: kernel/avx/kernel_sgetr_lib8.S.o
@@ -1549,7 +1549,7 @@ kernel/avx/kernel_sgetr_lib8.o: kernel/avx/kernel_sgetr_lib8.S.o
 
 # target to build an object file
 kernel/avx/kernel_sgetr_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgetr_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgetr_lib8.S.o
 .PHONY : kernel/avx/kernel_sgetr_lib8.S.o
 
 kernel/avx/kernel_spack_lib8.o: kernel/avx/kernel_spack_lib8.S.o
@@ -1558,7 +1558,7 @@ kernel/avx/kernel_spack_lib8.o: kernel/avx/kernel_spack_lib8.S.o
 
 # target to build an object file
 kernel/avx/kernel_spack_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_spack_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx/kernel_spack_lib8.S.o
 .PHONY : kernel/avx/kernel_spack_lib8.S.o
 
 kernel/avx2/kernel_dgebp_lib4.o: kernel/avx2/kernel_dgebp_lib4.S.o
@@ -1567,7 +1567,7 @@ kernel/avx2/kernel_dgebp_lib4.o: kernel/avx2/kernel_dgebp_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dgebp_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgebp_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgebp_lib4.S.o
 .PHONY : kernel/avx2/kernel_dgebp_lib4.S.o
 
 kernel/avx2/kernel_dgelqf_4_lib4.o: kernel/avx2/kernel_dgelqf_4_lib4.S.o
@@ -1576,7 +1576,7 @@ kernel/avx2/kernel_dgelqf_4_lib4.o: kernel/avx2/kernel_dgelqf_4_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dgelqf_4_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgelqf_4_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgelqf_4_lib4.S.o
 .PHONY : kernel/avx2/kernel_dgelqf_4_lib4.S.o
 
 kernel/avx2/kernel_dgemm_12x4_lib4.o: kernel/avx2/kernel_dgemm_12x4_lib4.S.o
@@ -1585,7 +1585,7 @@ kernel/avx2/kernel_dgemm_12x4_lib4.o: kernel/avx2/kernel_dgemm_12x4_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dgemm_12x4_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_12x4_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_12x4_lib4.S.o
 .PHONY : kernel/avx2/kernel_dgemm_12x4_lib4.S.o
 
 kernel/avx2/kernel_dgemm_4x4_lib4.o: kernel/avx2/kernel_dgemm_4x4_lib4.S.o
@@ -1594,7 +1594,7 @@ kernel/avx2/kernel_dgemm_4x4_lib4.o: kernel/avx2/kernel_dgemm_4x4_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dgemm_4x4_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_4x4_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_4x4_lib4.S.o
 .PHONY : kernel/avx2/kernel_dgemm_4x4_lib4.S.o
 
 kernel/avx2/kernel_dgemm_8x4_lib4.o: kernel/avx2/kernel_dgemm_8x4_lib4.S.o
@@ -1603,7 +1603,7 @@ kernel/avx2/kernel_dgemm_8x4_lib4.o: kernel/avx2/kernel_dgemm_8x4_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dgemm_8x4_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x4_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x4_lib4.S.o
 .PHONY : kernel/avx2/kernel_dgemm_8x4_lib4.S.o
 
 kernel/avx2/kernel_dgemm_8x8_lib4.o: kernel/avx2/kernel_dgemm_8x8_lib4.S.o
@@ -1612,7 +1612,7 @@ kernel/avx2/kernel_dgemm_8x8_lib4.o: kernel/avx2/kernel_dgemm_8x8_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dgemm_8x8_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x8_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x8_lib4.S.o
 .PHONY : kernel/avx2/kernel_dgemm_8x8_lib4.S.o
 
 kernel/avx2/kernel_dgemv_8_lib4.o: kernel/avx2/kernel_dgemv_8_lib4.S.o
@@ -1621,7 +1621,7 @@ kernel/avx2/kernel_dgemv_8_lib4.o: kernel/avx2/kernel_dgemv_8_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dgemv_8_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemv_8_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemv_8_lib4.S.o
 .PHONY : kernel/avx2/kernel_dgemv_8_lib4.S.o
 
 kernel/avx2/kernel_dgetr_lib4.o: kernel/avx2/kernel_dgetr_lib4.c.o
@@ -1630,7 +1630,7 @@ kernel/avx2/kernel_dgetr_lib4.o: kernel/avx2/kernel_dgetr_lib4.c.o
 
 # target to build an object file
 kernel/avx2/kernel_dgetr_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.o
 .PHONY : kernel/avx2/kernel_dgetr_lib4.c.o
 
 kernel/avx2/kernel_dgetr_lib4.i: kernel/avx2/kernel_dgetr_lib4.c.i
@@ -1639,7 +1639,7 @@ kernel/avx2/kernel_dgetr_lib4.i: kernel/avx2/kernel_dgetr_lib4.c.i
 
 # target to preprocess a source file
 kernel/avx2/kernel_dgetr_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.i
 .PHONY : kernel/avx2/kernel_dgetr_lib4.c.i
 
 kernel/avx2/kernel_dgetr_lib4.s: kernel/avx2/kernel_dgetr_lib4.c.s
@@ -1648,7 +1648,7 @@ kernel/avx2/kernel_dgetr_lib4.s: kernel/avx2/kernel_dgetr_lib4.c.s
 
 # target to generate assembly for a file
 kernel/avx2/kernel_dgetr_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.s
 .PHONY : kernel/avx2/kernel_dgetr_lib4.c.s
 
 kernel/avx2/kernel_dgetrf_pivot_lib4.o: kernel/avx2/kernel_dgetrf_pivot_lib4.c.o
@@ -1657,7 +1657,7 @@ kernel/avx2/kernel_dgetrf_pivot_lib4.o: kernel/avx2/kernel_dgetrf_pivot_lib4.c.o
 
 # target to build an object file
 kernel/avx2/kernel_dgetrf_pivot_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.o
 .PHONY : kernel/avx2/kernel_dgetrf_pivot_lib4.c.o
 
 kernel/avx2/kernel_dgetrf_pivot_lib4.i: kernel/avx2/kernel_dgetrf_pivot_lib4.c.i
@@ -1666,7 +1666,7 @@ kernel/avx2/kernel_dgetrf_pivot_lib4.i: kernel/avx2/kernel_dgetrf_pivot_lib4.c.i
 
 # target to preprocess a source file
 kernel/avx2/kernel_dgetrf_pivot_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.i
 .PHONY : kernel/avx2/kernel_dgetrf_pivot_lib4.c.i
 
 kernel/avx2/kernel_dgetrf_pivot_lib4.s: kernel/avx2/kernel_dgetrf_pivot_lib4.c.s
@@ -1675,7 +1675,7 @@ kernel/avx2/kernel_dgetrf_pivot_lib4.s: kernel/avx2/kernel_dgetrf_pivot_lib4.c.s
 
 # target to generate assembly for a file
 kernel/avx2/kernel_dgetrf_pivot_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.s
 .PHONY : kernel/avx2/kernel_dgetrf_pivot_lib4.c.s
 
 kernel/avx2/kernel_dsymv_6_lib4.o: kernel/avx2/kernel_dsymv_6_lib4.S.o
@@ -1684,7 +1684,7 @@ kernel/avx2/kernel_dsymv_6_lib4.o: kernel/avx2/kernel_dsymv_6_lib4.S.o
 
 # target to build an object file
 kernel/avx2/kernel_dsymv_6_lib4.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dsymv_6_lib4.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dsymv_6_lib4.S.o
 .PHONY : kernel/avx2/kernel_dsymv_6_lib4.S.o
 
 kernel/avx2/kernel_sgemm_16x4_lib8.o: kernel/avx2/kernel_sgemm_16x4_lib8.S.o
@@ -1693,7 +1693,7 @@ kernel/avx2/kernel_sgemm_16x4_lib8.o: kernel/avx2/kernel_sgemm_16x4_lib8.S.o
 
 # target to build an object file
 kernel/avx2/kernel_sgemm_16x4_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_16x4_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_16x4_lib8.S.o
 .PHONY : kernel/avx2/kernel_sgemm_16x4_lib8.S.o
 
 kernel/avx2/kernel_sgemm_24x4_lib8.o: kernel/avx2/kernel_sgemm_24x4_lib8.S.o
@@ -1702,7 +1702,7 @@ kernel/avx2/kernel_sgemm_24x4_lib8.o: kernel/avx2/kernel_sgemm_24x4_lib8.S.o
 
 # target to build an object file
 kernel/avx2/kernel_sgemm_24x4_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_24x4_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_24x4_lib8.S.o
 .PHONY : kernel/avx2/kernel_sgemm_24x4_lib8.S.o
 
 kernel/avx2/kernel_sgemm_8x4_lib8.o: kernel/avx2/kernel_sgemm_8x4_lib8.S.o
@@ -1711,7 +1711,7 @@ kernel/avx2/kernel_sgemm_8x4_lib8.o: kernel/avx2/kernel_sgemm_8x4_lib8.S.o
 
 # target to build an object file
 kernel/avx2/kernel_sgemm_8x4_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x4_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x4_lib8.S.o
 .PHONY : kernel/avx2/kernel_sgemm_8x4_lib8.S.o
 
 kernel/avx2/kernel_sgemm_8x8_lib8.o: kernel/avx2/kernel_sgemm_8x8_lib8.S.o
@@ -1720,7 +1720,7 @@ kernel/avx2/kernel_sgemm_8x8_lib8.o: kernel/avx2/kernel_sgemm_8x8_lib8.S.o
 
 # target to build an object file
 kernel/avx2/kernel_sgemm_8x8_lib8.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x8_lib8.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x8_lib8.S.o
 .PHONY : kernel/avx2/kernel_sgemm_8x8_lib8.S.o
 
 kernel/generic/kernel_daxpy_lib.o: kernel/generic/kernel_daxpy_lib.c.o
@@ -1729,7 +1729,7 @@ kernel/generic/kernel_daxpy_lib.o: kernel/generic/kernel_daxpy_lib.c.o
 
 # target to build an object file
 kernel/generic/kernel_daxpy_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.o
 .PHONY : kernel/generic/kernel_daxpy_lib.c.o
 
 kernel/generic/kernel_daxpy_lib.i: kernel/generic/kernel_daxpy_lib.c.i
@@ -1738,7 +1738,7 @@ kernel/generic/kernel_daxpy_lib.i: kernel/generic/kernel_daxpy_lib.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_daxpy_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.i
 .PHONY : kernel/generic/kernel_daxpy_lib.c.i
 
 kernel/generic/kernel_daxpy_lib.s: kernel/generic/kernel_daxpy_lib.c.s
@@ -1747,7 +1747,7 @@ kernel/generic/kernel_daxpy_lib.s: kernel/generic/kernel_daxpy_lib.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_daxpy_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.s
 .PHONY : kernel/generic/kernel_daxpy_lib.c.s
 
 kernel/generic/kernel_ddot_lib.o: kernel/generic/kernel_ddot_lib.c.o
@@ -1756,7 +1756,7 @@ kernel/generic/kernel_ddot_lib.o: kernel/generic/kernel_ddot_lib.c.o
 
 # target to build an object file
 kernel/generic/kernel_ddot_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.o
 .PHONY : kernel/generic/kernel_ddot_lib.c.o
 
 kernel/generic/kernel_ddot_lib.i: kernel/generic/kernel_ddot_lib.c.i
@@ -1765,7 +1765,7 @@ kernel/generic/kernel_ddot_lib.i: kernel/generic/kernel_ddot_lib.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_ddot_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.i
 .PHONY : kernel/generic/kernel_ddot_lib.c.i
 
 kernel/generic/kernel_ddot_lib.s: kernel/generic/kernel_ddot_lib.c.s
@@ -1774,7 +1774,7 @@ kernel/generic/kernel_ddot_lib.s: kernel/generic/kernel_ddot_lib.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_ddot_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.s
 .PHONY : kernel/generic/kernel_ddot_lib.c.s
 
 kernel/generic/kernel_dgemv_4_lib4.o: kernel/generic/kernel_dgemv_4_lib4.c.o
@@ -1783,7 +1783,7 @@ kernel/generic/kernel_dgemv_4_lib4.o: kernel/generic/kernel_dgemv_4_lib4.c.o
 
 # target to build an object file
 kernel/generic/kernel_dgemv_4_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.o
 .PHONY : kernel/generic/kernel_dgemv_4_lib4.c.o
 
 kernel/generic/kernel_dgemv_4_lib4.i: kernel/generic/kernel_dgemv_4_lib4.c.i
@@ -1792,7 +1792,7 @@ kernel/generic/kernel_dgemv_4_lib4.i: kernel/generic/kernel_dgemv_4_lib4.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_dgemv_4_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.i
 .PHONY : kernel/generic/kernel_dgemv_4_lib4.c.i
 
 kernel/generic/kernel_dgemv_4_lib4.s: kernel/generic/kernel_dgemv_4_lib4.c.s
@@ -1801,7 +1801,7 @@ kernel/generic/kernel_dgemv_4_lib4.s: kernel/generic/kernel_dgemv_4_lib4.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_dgemv_4_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.s
 .PHONY : kernel/generic/kernel_dgemv_4_lib4.c.s
 
 kernel/generic/kernel_saxpy_lib.o: kernel/generic/kernel_saxpy_lib.c.o
@@ -1810,7 +1810,7 @@ kernel/generic/kernel_saxpy_lib.o: kernel/generic/kernel_saxpy_lib.c.o
 
 # target to build an object file
 kernel/generic/kernel_saxpy_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.o
 .PHONY : kernel/generic/kernel_saxpy_lib.c.o
 
 kernel/generic/kernel_saxpy_lib.i: kernel/generic/kernel_saxpy_lib.c.i
@@ -1819,7 +1819,7 @@ kernel/generic/kernel_saxpy_lib.i: kernel/generic/kernel_saxpy_lib.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_saxpy_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.i
 .PHONY : kernel/generic/kernel_saxpy_lib.c.i
 
 kernel/generic/kernel_saxpy_lib.s: kernel/generic/kernel_saxpy_lib.c.s
@@ -1828,7 +1828,7 @@ kernel/generic/kernel_saxpy_lib.s: kernel/generic/kernel_saxpy_lib.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_saxpy_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.s
 .PHONY : kernel/generic/kernel_saxpy_lib.c.s
 
 kernel/generic/kernel_sdot_lib.o: kernel/generic/kernel_sdot_lib.c.o
@@ -1837,7 +1837,7 @@ kernel/generic/kernel_sdot_lib.o: kernel/generic/kernel_sdot_lib.c.o
 
 # target to build an object file
 kernel/generic/kernel_sdot_lib.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.o
 .PHONY : kernel/generic/kernel_sdot_lib.c.o
 
 kernel/generic/kernel_sdot_lib.i: kernel/generic/kernel_sdot_lib.c.i
@@ -1846,7 +1846,7 @@ kernel/generic/kernel_sdot_lib.i: kernel/generic/kernel_sdot_lib.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_sdot_lib.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.i
 .PHONY : kernel/generic/kernel_sdot_lib.c.i
 
 kernel/generic/kernel_sdot_lib.s: kernel/generic/kernel_sdot_lib.c.s
@@ -1855,7 +1855,7 @@ kernel/generic/kernel_sdot_lib.s: kernel/generic/kernel_sdot_lib.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_sdot_lib.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.s
 .PHONY : kernel/generic/kernel_sdot_lib.c.s
 
 kernel/generic/kernel_sgemm_4x4_lib4.o: kernel/generic/kernel_sgemm_4x4_lib4.c.o
@@ -1864,7 +1864,7 @@ kernel/generic/kernel_sgemm_4x4_lib4.o: kernel/generic/kernel_sgemm_4x4_lib4.c.o
 
 # target to build an object file
 kernel/generic/kernel_sgemm_4x4_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.o
 .PHONY : kernel/generic/kernel_sgemm_4x4_lib4.c.o
 
 kernel/generic/kernel_sgemm_4x4_lib4.i: kernel/generic/kernel_sgemm_4x4_lib4.c.i
@@ -1873,7 +1873,7 @@ kernel/generic/kernel_sgemm_4x4_lib4.i: kernel/generic/kernel_sgemm_4x4_lib4.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_sgemm_4x4_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.i
 .PHONY : kernel/generic/kernel_sgemm_4x4_lib4.c.i
 
 kernel/generic/kernel_sgemm_4x4_lib4.s: kernel/generic/kernel_sgemm_4x4_lib4.c.s
@@ -1882,7 +1882,7 @@ kernel/generic/kernel_sgemm_4x4_lib4.s: kernel/generic/kernel_sgemm_4x4_lib4.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_sgemm_4x4_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.s
 .PHONY : kernel/generic/kernel_sgemm_4x4_lib4.c.s
 
 kernel/generic/kernel_sgemm_8x4_lib8.o: kernel/generic/kernel_sgemm_8x4_lib8.c.o
@@ -1891,7 +1891,7 @@ kernel/generic/kernel_sgemm_8x4_lib8.o: kernel/generic/kernel_sgemm_8x4_lib8.c.o
 
 # target to build an object file
 kernel/generic/kernel_sgemm_8x4_lib8.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.o
 .PHONY : kernel/generic/kernel_sgemm_8x4_lib8.c.o
 
 kernel/generic/kernel_sgemm_8x4_lib8.i: kernel/generic/kernel_sgemm_8x4_lib8.c.i
@@ -1900,7 +1900,7 @@ kernel/generic/kernel_sgemm_8x4_lib8.i: kernel/generic/kernel_sgemm_8x4_lib8.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_sgemm_8x4_lib8.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.i
 .PHONY : kernel/generic/kernel_sgemm_8x4_lib8.c.i
 
 kernel/generic/kernel_sgemm_8x4_lib8.s: kernel/generic/kernel_sgemm_8x4_lib8.c.s
@@ -1909,7 +1909,7 @@ kernel/generic/kernel_sgemm_8x4_lib8.s: kernel/generic/kernel_sgemm_8x4_lib8.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_sgemm_8x4_lib8.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.s
 .PHONY : kernel/generic/kernel_sgemm_8x4_lib8.c.s
 
 kernel/generic/kernel_spack_lib4.o: kernel/generic/kernel_spack_lib4.c.o
@@ -1918,7 +1918,7 @@ kernel/generic/kernel_spack_lib4.o: kernel/generic/kernel_spack_lib4.c.o
 
 # target to build an object file
 kernel/generic/kernel_spack_lib4.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.o
 .PHONY : kernel/generic/kernel_spack_lib4.c.o
 
 kernel/generic/kernel_spack_lib4.i: kernel/generic/kernel_spack_lib4.c.i
@@ -1927,7 +1927,7 @@ kernel/generic/kernel_spack_lib4.i: kernel/generic/kernel_spack_lib4.c.i
 
 # target to preprocess a source file
 kernel/generic/kernel_spack_lib4.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.i
 .PHONY : kernel/generic/kernel_spack_lib4.c.i
 
 kernel/generic/kernel_spack_lib4.s: kernel/generic/kernel_spack_lib4.c.s
@@ -1936,7 +1936,7 @@ kernel/generic/kernel_spack_lib4.s: kernel/generic/kernel_spack_lib4.c.s
 
 # target to generate assembly for a file
 kernel/generic/kernel_spack_lib4.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.s
 .PHONY : kernel/generic/kernel_spack_lib4.c.s
 
 kernel/kernel_align_x64.o: kernel/kernel_align_x64.S.o
@@ -1945,7 +1945,7 @@ kernel/kernel_align_x64.o: kernel/kernel_align_x64.S.o
 
 # target to build an object file
 kernel/kernel_align_x64.S.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/kernel_align_x64.S.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/CMakeFiles/blasfeo.dir/build.make blasfeo/CMakeFiles/blasfeo.dir/kernel/kernel_align_x64.S.o
 .PHONY : kernel/kernel_align_x64.S.o
 
 # Help Target
@@ -2167,6 +2167,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

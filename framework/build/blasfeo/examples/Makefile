@@ -70,10 +70,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninjak/Scaricati/ik_tests
+CMAKE_SOURCE_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninjak/Scaricati/ik_tests/build
+CMAKE_BINARY_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -148,14 +148,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Scaricati/ik_tests/build/CMakeFiles /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples//CMakeFiles/progress.marks
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Scaricati/ik_tests/build/CMakeFiles 0
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples//CMakeFiles/progress.marks
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/clean
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/preinstall
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/preinstall
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 blasfeo/examples/CMakeFiles/getting_started.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/getting_started.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/getting_started.dir/rule
 .PHONY : blasfeo/examples/CMakeFiles/getting_started.dir/rule
 
 # Convenience name for target.
@@ -190,12 +190,12 @@ getting_started: blasfeo/examples/CMakeFiles/getting_started.dir/rule
 
 # fast build rule for target.
 getting_started/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/build
 .PHONY : getting_started/fast
 
 # Convenience name for target.
 blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/rule
 .PHONY : blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/rule
 
 # Convenience name for target.
@@ -205,12 +205,12 @@ example_s_lu_factorization: blasfeo/examples/CMakeFiles/example_s_lu_factorizati
 
 # fast build rule for target.
 example_s_lu_factorization/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build
 .PHONY : example_s_lu_factorization/fast
 
 # Convenience name for target.
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/rule
 .PHONY : blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/rule
 
 # Convenience name for target.
@@ -220,12 +220,12 @@ example_d_lq_factorization: blasfeo/examples/CMakeFiles/example_d_lq_factorizati
 
 # fast build rule for target.
 example_d_lq_factorization/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build
 .PHONY : example_d_lq_factorization/fast
 
 # Convenience name for target.
 blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/rule
 .PHONY : blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/rule
 
 # Convenience name for target.
@@ -235,12 +235,12 @@ example_d_lu_factorization: blasfeo/examples/CMakeFiles/example_d_lu_factorizati
 
 # fast build rule for target.
 example_d_lu_factorization/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build
 .PHONY : example_d_lu_factorization/fast
 
 # Convenience name for target.
 blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/rule
 .PHONY : blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/rule
 
 # Convenience name for target.
@@ -250,12 +250,12 @@ example_s_riccati_recursion: blasfeo/examples/CMakeFiles/example_s_riccati_recur
 
 # fast build rule for target.
 example_s_riccati_recursion/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build
 .PHONY : example_s_riccati_recursion/fast
 
 # Convenience name for target.
 blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/rule:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/rule
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/rule
 .PHONY : blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/rule
 
 # Convenience name for target.
@@ -265,7 +265,7 @@ example_d_riccati_recursion: blasfeo/examples/CMakeFiles/example_d_riccati_recur
 
 # fast build rule for target.
 example_d_riccati_recursion/fast:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build
 .PHONY : example_d_riccati_recursion/fast
 
 example_d_lq_factorization.o: example_d_lq_factorization.c.o
@@ -274,7 +274,7 @@ example_d_lq_factorization.o: example_d_lq_factorization.c.o
 
 # target to build an object file
 example_d_lq_factorization.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o
 .PHONY : example_d_lq_factorization.c.o
 
 example_d_lq_factorization.i: example_d_lq_factorization.c.i
@@ -283,7 +283,7 @@ example_d_lq_factorization.i: example_d_lq_factorization.c.i
 
 # target to preprocess a source file
 example_d_lq_factorization.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.i
 .PHONY : example_d_lq_factorization.c.i
 
 example_d_lq_factorization.s: example_d_lq_factorization.c.s
@@ -292,7 +292,7 @@ example_d_lq_factorization.s: example_d_lq_factorization.c.s
 
 # target to generate assembly for a file
 example_d_lq_factorization.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.s
 .PHONY : example_d_lq_factorization.c.s
 
 example_d_lu_factorization.o: example_d_lu_factorization.c.o
@@ -301,7 +301,7 @@ example_d_lu_factorization.o: example_d_lu_factorization.c.o
 
 # target to build an object file
 example_d_lu_factorization.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/example_d_lu_factorization.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/example_d_lu_factorization.c.o
 .PHONY : example_d_lu_factorization.c.o
 
 example_d_lu_factorization.i: example_d_lu_factorization.c.i
@@ -310,7 +310,7 @@ example_d_lu_factorization.i: example_d_lu_factorization.c.i
 
 # target to preprocess a source file
 example_d_lu_factorization.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/example_d_lu_factorization.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/example_d_lu_factorization.c.i
 .PHONY : example_d_lu_factorization.c.i
 
 example_d_lu_factorization.s: example_d_lu_factorization.c.s
@@ -319,7 +319,7 @@ example_d_lu_factorization.s: example_d_lu_factorization.c.s
 
 # target to generate assembly for a file
 example_d_lu_factorization.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/example_d_lu_factorization.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/example_d_lu_factorization.c.s
 .PHONY : example_d_lu_factorization.c.s
 
 example_d_riccati_recursion.o: example_d_riccati_recursion.c.o
@@ -328,7 +328,7 @@ example_d_riccati_recursion.o: example_d_riccati_recursion.c.o
 
 # target to build an object file
 example_d_riccati_recursion.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/example_d_riccati_recursion.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/example_d_riccati_recursion.c.o
 .PHONY : example_d_riccati_recursion.c.o
 
 example_d_riccati_recursion.i: example_d_riccati_recursion.c.i
@@ -337,7 +337,7 @@ example_d_riccati_recursion.i: example_d_riccati_recursion.c.i
 
 # target to preprocess a source file
 example_d_riccati_recursion.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/example_d_riccati_recursion.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/example_d_riccati_recursion.c.i
 .PHONY : example_d_riccati_recursion.c.i
 
 example_d_riccati_recursion.s: example_d_riccati_recursion.c.s
@@ -346,7 +346,7 @@ example_d_riccati_recursion.s: example_d_riccati_recursion.c.s
 
 # target to generate assembly for a file
 example_d_riccati_recursion.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/example_d_riccati_recursion.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/example_d_riccati_recursion.c.s
 .PHONY : example_d_riccati_recursion.c.s
 
 example_s_lu_factorization.o: example_s_lu_factorization.c.o
@@ -355,7 +355,7 @@ example_s_lu_factorization.o: example_s_lu_factorization.c.o
 
 # target to build an object file
 example_s_lu_factorization.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/example_s_lu_factorization.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/example_s_lu_factorization.c.o
 .PHONY : example_s_lu_factorization.c.o
 
 example_s_lu_factorization.i: example_s_lu_factorization.c.i
@@ -364,7 +364,7 @@ example_s_lu_factorization.i: example_s_lu_factorization.c.i
 
 # target to preprocess a source file
 example_s_lu_factorization.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/example_s_lu_factorization.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/example_s_lu_factorization.c.i
 .PHONY : example_s_lu_factorization.c.i
 
 example_s_lu_factorization.s: example_s_lu_factorization.c.s
@@ -373,7 +373,7 @@ example_s_lu_factorization.s: example_s_lu_factorization.c.s
 
 # target to generate assembly for a file
 example_s_lu_factorization.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/example_s_lu_factorization.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/build.make blasfeo/examples/CMakeFiles/example_s_lu_factorization.dir/example_s_lu_factorization.c.s
 .PHONY : example_s_lu_factorization.c.s
 
 example_s_riccati_recursion.o: example_s_riccati_recursion.c.o
@@ -382,7 +382,7 @@ example_s_riccati_recursion.o: example_s_riccati_recursion.c.o
 
 # target to build an object file
 example_s_riccati_recursion.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/example_s_riccati_recursion.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/example_s_riccati_recursion.c.o
 .PHONY : example_s_riccati_recursion.c.o
 
 example_s_riccati_recursion.i: example_s_riccati_recursion.c.i
@@ -391,7 +391,7 @@ example_s_riccati_recursion.i: example_s_riccati_recursion.c.i
 
 # target to preprocess a source file
 example_s_riccati_recursion.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/example_s_riccati_recursion.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/example_s_riccati_recursion.c.i
 .PHONY : example_s_riccati_recursion.c.i
 
 example_s_riccati_recursion.s: example_s_riccati_recursion.c.s
@@ -400,7 +400,7 @@ example_s_riccati_recursion.s: example_s_riccati_recursion.c.s
 
 # target to generate assembly for a file
 example_s_riccati_recursion.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/example_s_riccati_recursion.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/example_s_riccati_recursion.c.s
 .PHONY : example_s_riccati_recursion.c.s
 
 getting_started.o: getting_started.c.o
@@ -409,7 +409,7 @@ getting_started.o: getting_started.c.o
 
 # target to build an object file
 getting_started.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/getting_started.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/getting_started.c.o
 .PHONY : getting_started.c.o
 
 getting_started.i: getting_started.c.i
@@ -418,7 +418,7 @@ getting_started.i: getting_started.c.i
 
 # target to preprocess a source file
 getting_started.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/getting_started.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/getting_started.c.i
 .PHONY : getting_started.c.i
 
 getting_started.s: getting_started.c.s
@@ -427,7 +427,7 @@ getting_started.s: getting_started.c.s
 
 # target to generate assembly for a file
 getting_started.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/getting_started.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/getting_started.dir/build.make blasfeo/examples/CMakeFiles/getting_started.dir/getting_started.c.s
 .PHONY : getting_started.c.s
 
 tools.o: tools.c.o
@@ -436,8 +436,8 @@ tools.o: tools.c.o
 
 # target to build an object file
 tools.c.o:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/tools.c.o
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/tools.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/tools.c.o
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/tools.c.o
 .PHONY : tools.c.o
 
 tools.i: tools.c.i
@@ -446,8 +446,8 @@ tools.i: tools.c.i
 
 # target to preprocess a source file
 tools.c.i:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/tools.c.i
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/tools.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/tools.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/tools.c.i
 .PHONY : tools.c.i
 
 tools.s: tools.c.s
@@ -456,8 +456,8 @@ tools.s: tools.c.s
 
 # target to generate assembly for a file
 tools.c.s:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/tools.c.s
-	cd /home/ninjak/Scaricati/ik_tests/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/tools.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_s_riccati_recursion.dir/tools.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(MAKE) $(MAKESILENT) -f blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/build.make blasfeo/examples/CMakeFiles/example_d_riccati_recursion.dir/tools.c.s
 .PHONY : tools.c.s
 
 # Help Target
@@ -510,6 +510,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

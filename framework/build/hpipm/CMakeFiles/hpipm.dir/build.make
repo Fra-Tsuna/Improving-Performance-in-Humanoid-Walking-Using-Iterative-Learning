@@ -65,10 +65,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninjak/Scaricati/ik_tests
+CMAKE_SOURCE_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninjak/Scaricati/ik_tests/build
+CMAKE_BINARY_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build
 
 # Include any dependencies generated for this target.
 include hpipm/CMakeFiles/hpipm.dir/depend.make
@@ -81,1121 +81,1121 @@ include hpipm/CMakeFiles/hpipm.dir/flags.make
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o: ../hpipm/cond/d_cast_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cast_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cast_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cast_qcqp.c > CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cast_qcqp.c > CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cast_qcqp.c -o CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cast_qcqp.c -o CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.o: ../hpipm/cond/d_cond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cond.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cond.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/d_cond.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond.c > CMakeFiles/hpipm.dir/cond/d_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond.c > CMakeFiles/hpipm.dir/cond/d_cond.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/d_cond.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond.c -o CMakeFiles/hpipm.dir/cond/d_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond.c -o CMakeFiles/hpipm.dir/cond/d_cond.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o: ../hpipm/cond/d_cond_aux.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_aux.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_aux.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/d_cond_aux.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_aux.c > CMakeFiles/hpipm.dir/cond/d_cond_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_aux.c > CMakeFiles/hpipm.dir/cond/d_cond_aux.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/d_cond_aux.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_aux.c -o CMakeFiles/hpipm.dir/cond/d_cond_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_aux.c -o CMakeFiles/hpipm.dir/cond/d_cond_aux.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o: ../hpipm/cond/d_cond_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.o: ../hpipm/cond/d_part_cond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_part_cond.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_part_cond.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/d_part_cond.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond.c > CMakeFiles/hpipm.dir/cond/d_part_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond.c > CMakeFiles/hpipm.dir/cond/d_part_cond.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/d_part_cond.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond.c -o CMakeFiles/hpipm.dir/cond/d_part_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond.c -o CMakeFiles/hpipm.dir/cond/d_part_cond.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o: ../hpipm/cond/d_part_cond_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o: ../hpipm/cond/s_cast_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cast_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cast_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cast_qcqp.c > CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cast_qcqp.c > CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cast_qcqp.c -o CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cast_qcqp.c -o CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.o: ../hpipm/cond/s_cond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cond.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cond.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/s_cond.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond.c > CMakeFiles/hpipm.dir/cond/s_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond.c > CMakeFiles/hpipm.dir/cond/s_cond.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/s_cond.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond.c -o CMakeFiles/hpipm.dir/cond/s_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond.c -o CMakeFiles/hpipm.dir/cond/s_cond.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o: ../hpipm/cond/s_cond_aux.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_aux.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_aux.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/s_cond_aux.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_aux.c > CMakeFiles/hpipm.dir/cond/s_cond_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_aux.c > CMakeFiles/hpipm.dir/cond/s_cond_aux.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/s_cond_aux.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_aux.c -o CMakeFiles/hpipm.dir/cond/s_cond_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_aux.c -o CMakeFiles/hpipm.dir/cond/s_cond_aux.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o: ../hpipm/cond/s_cond_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.o: ../hpipm/cond/s_part_cond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_part_cond.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_part_cond.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/s_part_cond.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond.c > CMakeFiles/hpipm.dir/cond/s_part_cond.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond.c > CMakeFiles/hpipm.dir/cond/s_part_cond.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/s_part_cond.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond.c -o CMakeFiles/hpipm.dir/cond/s_part_cond.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond.c -o CMakeFiles/hpipm.dir/cond/s_part_cond.c.s
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o: ../hpipm/cond/s_part_cond_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond_qcqp.c > CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond_qcqp.c -o CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o: ../hpipm/dense_qp/d_dense_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o: ../hpipm/dense_qp/d_dense_qcqp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_dim.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_dim.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o: ../hpipm/dense_qp/d_dense_qcqp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o: ../hpipm/dense_qp/d_dense_qcqp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_res.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_res.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_res.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_res.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o: ../hpipm/dense_qp/d_dense_qcqp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_sol.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_sol.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o: ../hpipm/dense_qp/d_dense_qcqp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_utils.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_utils.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o: ../hpipm/dense_qp/d_dense_qp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o: ../hpipm/dense_qp/d_dense_qp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_dim.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_dim.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o: ../hpipm/dense_qp/d_dense_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o: ../hpipm/dense_qp/d_dense_qp_kkt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_kkt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_kkt.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_kkt.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_kkt.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_kkt.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_kkt.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o: ../hpipm/dense_qp/d_dense_qp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_res.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_res.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_res.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_res.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o: ../hpipm/dense_qp/d_dense_qp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_sol.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_sol.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o: ../hpipm/dense_qp/d_dense_qp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_utils.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_utils.c > CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o: ../hpipm/dense_qp/s_dense_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o: ../hpipm/dense_qp/s_dense_qcqp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_dim.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_dim.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o: ../hpipm/dense_qp/s_dense_qcqp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o: ../hpipm/dense_qp/s_dense_qcqp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_res.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_res.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_res.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_res.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o: ../hpipm/dense_qp/s_dense_qcqp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_sol.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_sol.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o: ../hpipm/dense_qp/s_dense_qcqp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_utils.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_utils.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o: ../hpipm/dense_qp/s_dense_qp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o: ../hpipm/dense_qp/s_dense_qp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_dim.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_dim.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_dim.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o: ../hpipm/dense_qp/s_dense_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_ipm.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_ipm.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o: ../hpipm/dense_qp/s_dense_qp_kkt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_kkt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_kkt.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_kkt.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_kkt.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_kkt.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_kkt.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o: ../hpipm/dense_qp/s_dense_qp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_res.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_res.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_res.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_res.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o: ../hpipm/dense_qp/s_dense_qp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_sol.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_sol.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_sol.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o: ../hpipm/dense_qp/s_dense_qp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_utils.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_utils.c > CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_utils.c -o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o: ../hpipm/ipm_core/d_core_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm.c > CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm.c > CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm.c -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm.c -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o: ../hpipm/ipm_core/d_core_qp_ipm_aux.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm_aux.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm_aux.c
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm_aux.c > CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm_aux.c > CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm_aux.c -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm_aux.c -o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o: ../hpipm/ipm_core/s_core_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm.c > CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm.c > CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm.c -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm.c -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o: ../hpipm/ipm_core/s_core_qp_ipm_aux.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm_aux.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm_aux.c
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm_aux.c > CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm_aux.c > CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm_aux.c -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm_aux.c -o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o: ../hpipm/ocp_qp/d_ocp_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o: ../hpipm/ocp_qp/d_ocp_qcqp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o: ../hpipm/ocp_qp/d_ocp_qcqp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o: ../hpipm/ocp_qp/d_ocp_qcqp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_res.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_res.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o: ../hpipm/ocp_qp/d_ocp_qcqp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o: ../hpipm/ocp_qp/d_ocp_qcqp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o: ../hpipm/ocp_qp/d_ocp_qp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o: ../hpipm/ocp_qp/d_ocp_qp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o: ../hpipm/ocp_qp/d_ocp_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o: ../hpipm/ocp_qp/d_ocp_qp_kkt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_kkt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_kkt.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o: ../hpipm/ocp_qp/d_ocp_qp_red.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_red.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_red.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_red.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_red.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_red.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_red.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o: ../hpipm/ocp_qp/d_ocp_qp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_res.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_res.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o: ../hpipm/ocp_qp/d_ocp_qp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o: ../hpipm/ocp_qp/d_ocp_qp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o: ../hpipm/ocp_qp/s_ocp_qcqp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o: ../hpipm/ocp_qp/s_ocp_qcqp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o: ../hpipm/ocp_qp/s_ocp_qcqp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o: ../hpipm/ocp_qp/s_ocp_qcqp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_res.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_res.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o: ../hpipm/ocp_qp/s_ocp_qcqp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o: ../hpipm/ocp_qp/s_ocp_qcqp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o: ../hpipm/ocp_qp/s_ocp_qp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o: ../hpipm/ocp_qp/s_ocp_qp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_dim.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o: ../hpipm/ocp_qp/s_ocp_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o: ../hpipm/ocp_qp/s_ocp_qp_kkt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_kkt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_kkt.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o: ../hpipm/ocp_qp/s_ocp_qp_red.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_red.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_red.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_red.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_red.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_red.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_red.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o: ../hpipm/ocp_qp/s_ocp_qp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_res.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_res.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_res.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o: ../hpipm/ocp_qp/s_ocp_qp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_sol.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o: ../hpipm/ocp_qp/s_ocp_qp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_utils.c
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_utils.c > CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.i
 
 hpipm/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_utils.c -o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o: ../hpipm/tree_ocp_qp/d_tree_ocp_qp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o: ../hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o: ../hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o: ../hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o: ../hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o: ../hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c > CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o: ../hpipm/tree_ocp_qp/s_tree_ocp_qp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o: ../hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o: ../hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o: ../hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o: ../hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o: ../hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c > CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.s
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o: ../hpipm/tree_ocp_qp/scenario_tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/scenario_tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/scenario_tree.c
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/scenario_tree.c > CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/scenario_tree.c > CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.i
 
 hpipm/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/scenario_tree.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/scenario_tree.c -o CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.s
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o: ../hpipm/auxiliary/aux_mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_mem.c
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_mem.c > CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_mem.c > CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.i
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_mem.c -o CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_mem.c -o CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.s
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o: ../hpipm/auxiliary/aux_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_string.c
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/auxiliary/aux_string.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_string.c > CMakeFiles/hpipm.dir/auxiliary/aux_string.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_string.c > CMakeFiles/hpipm.dir/auxiliary/aux_string.c.i
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/auxiliary/aux_string.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_string.c -o CMakeFiles/hpipm.dir/auxiliary/aux_string.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_string.c -o CMakeFiles/hpipm.dir/auxiliary/aux_string.c.s
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.o: hpipm/CMakeFiles/hpipm.dir/flags.make
 hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.o: ../hpipm/auxiliary/timing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/auxiliary/timing.c.o -c /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/timing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hpipm.dir/auxiliary/timing.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/timing.c
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hpipm.dir/auxiliary/timing.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/timing.c > CMakeFiles/hpipm.dir/auxiliary/timing.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/timing.c > CMakeFiles/hpipm.dir/auxiliary/timing.c.i
 
 hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hpipm.dir/auxiliary/timing.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/timing.c -o CMakeFiles/hpipm.dir/auxiliary/timing.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/timing.c -o CMakeFiles/hpipm.dir/auxiliary/timing.c.s
 
 # Object files for target hpipm
 hpipm_OBJECTS = \
@@ -1377,9 +1377,9 @@ hpipm/libhpipm.a: hpipm/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o
 hpipm/libhpipm.a: hpipm/CMakeFiles/hpipm.dir/auxiliary/timing.c.o
 hpipm/libhpipm.a: hpipm/CMakeFiles/hpipm.dir/build.make
 hpipm/libhpipm.a: hpipm/CMakeFiles/hpipm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking C static library libhpipm.a"
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && $(CMAKE_COMMAND) -P CMakeFiles/hpipm.dir/cmake_clean_target.cmake
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hpipm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking C static library libhpipm.a"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && $(CMAKE_COMMAND) -P CMakeFiles/hpipm.dir/cmake_clean_target.cmake
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hpipm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hpipm/CMakeFiles/hpipm.dir/build: hpipm/libhpipm.a
@@ -1387,10 +1387,10 @@ hpipm/CMakeFiles/hpipm.dir/build: hpipm/libhpipm.a
 .PHONY : hpipm/CMakeFiles/hpipm.dir/build
 
 hpipm/CMakeFiles/hpipm.dir/clean:
-	cd /home/ninjak/Scaricati/ik_tests/build/hpipm && $(CMAKE_COMMAND) -P CMakeFiles/hpipm.dir/cmake_clean.cmake
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm && $(CMAKE_COMMAND) -P CMakeFiles/hpipm.dir/cmake_clean.cmake
 .PHONY : hpipm/CMakeFiles/hpipm.dir/clean
 
 hpipm/CMakeFiles/hpipm.dir/depend:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ninjak/Scaricati/ik_tests /home/ninjak/Scaricati/ik_tests/hpipm /home/ninjak/Scaricati/ik_tests/build /home/ninjak/Scaricati/ik_tests/build/hpipm /home/ninjak/Scaricati/ik_tests/build/hpipm/CMakeFiles/hpipm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/hpipm/CMakeFiles/hpipm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hpipm/CMakeFiles/hpipm.dir/depend
 

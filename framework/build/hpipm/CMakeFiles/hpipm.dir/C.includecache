@@ -740,7 +740,7 @@ hpipm_s_tree_ocp_qp_dim.h
 
 ../hpipm/include/hpipm_tree.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_mem.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_mem.c
 mmintrin.h
 -
 xmmintrin.h
@@ -754,13 +754,13 @@ smmintrin.h
 immintrin.h
 -
 
-/home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/aux_string.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/aux_string.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/auxiliary/timing.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/auxiliary/timing.c
 ../include/hpipm_timing.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_timing.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_timing.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cast_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cast_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -774,21 +774,21 @@ blasfeo_d_blas.h
 blasfeo_d_aux.h
 -
 ../include/hpipm_d_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_dim.h
 ../include/hpipm_d_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp.h
 ../include/hpipm_d_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_sol.h
 ../include/hpipm_d_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_dim.h
 ../include/hpipm_d_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp.h
 ../include/hpipm_d_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_sol.h
 x_cast_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cast_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cast_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond.c
 stdlib.h
 -
 stdio.h
@@ -818,9 +818,9 @@ hpipm_d_cond_aux.h
 hpipm_aux_mem.h
 -
 x_cond.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_aux.c
 math.h
 -
 stdlib.h
@@ -836,19 +836,19 @@ blasfeo_d_blas.h
 blasfeo_d_aux.h
 -
 ../include/hpipm_d_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp.h
 ../include/hpipm_d_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_sol.h
 ../include/hpipm_d_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp.h
 ../include/hpipm_d_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_sol.h
 ../include/hpipm_d_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond.h
 x_cond_aux.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond_aux.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/d_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_cond_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -862,29 +862,29 @@ blasfeo_d_blas.h
 blasfeo_d_aux.h
 -
 ../include/hpipm_d_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_dim.h
 ../include/hpipm_d_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp.h
 ../include/hpipm_d_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_sol.h
 ../include/hpipm_d_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_dim.h
 ../include/hpipm_d_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp.h
 ../include/hpipm_d_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_sol.h
 ../include/hpipm_d_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond.h
 ../include/hpipm_d_cond_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_aux.h
 ../include/hpipm_d_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_qcqp.h
 ../include/hpipm_aux_mem.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_aux_mem.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_aux_mem.h
 x_cond_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond.c
 stdlib.h
 -
 stdio.h
@@ -898,25 +898,25 @@ blasfeo_d_blas.h
 blasfeo_d_aux.h
 -
 ../include/hpipm_d_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_dim.h
 ../include/hpipm_d_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp.h
 ../include/hpipm_d_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_sol.h
 ../include/hpipm_d_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp.h
 ../include/hpipm_d_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_sol.h
 ../include/hpipm_d_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond.h
 ../include/hpipm_d_part_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_part_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_part_cond.h
 ../include/hpipm_d_cond_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_aux.h
 x_part_cond.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_part_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_part_cond.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/d_part_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/d_part_cond_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -930,37 +930,37 @@ blasfeo_d_blas.h
 blasfeo_d_aux.h
 -
 ../include/hpipm_d_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_dim.h
 ../include/hpipm_d_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp.h
 ../include/hpipm_d_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_sol.h
 ../include/hpipm_d_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp.h
 ../include/hpipm_d_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_sol.h
 ../include/hpipm_d_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond.h
 ../include/hpipm_d_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_dim.h
 ../include/hpipm_d_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp.h
 ../include/hpipm_d_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_sol.h
 ../include/hpipm_d_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp.h
 ../include/hpipm_d_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_sol.h
 ../include/hpipm_d_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_qcqp.h
 ../include/hpipm_d_part_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_part_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_part_cond_qcqp.h
 ../include/hpipm_d_cond_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_aux.h
 x_part_cond_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_part_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_part_cond_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cast_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cast_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -974,21 +974,21 @@ blasfeo_s_blas.h
 blasfeo_s_aux.h
 -
 ../include/hpipm_s_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_dim.h
 ../include/hpipm_s_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp.h
 ../include/hpipm_s_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_sol.h
 ../include/hpipm_s_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_dim.h
 ../include/hpipm_s_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp.h
 ../include/hpipm_s_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_sol.h
 x_cast_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cast_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cast_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond.c
 stdlib.h
 -
 stdio.h
@@ -1018,9 +1018,9 @@ hpipm_s_cond_aux.h
 hpipm_aux_mem.h
 -
 x_cond.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_aux.c
 math.h
 -
 stdlib.h
@@ -1036,19 +1036,19 @@ blasfeo_s_blas.h
 blasfeo_s_aux.h
 -
 ../include/hpipm_s_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp.h
 ../include/hpipm_s_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_sol.h
 ../include/hpipm_s_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp.h
 ../include/hpipm_s_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_sol.h
 ../include/hpipm_s_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond.h
 x_cond_aux.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond_aux.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/s_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_cond_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -1062,29 +1062,29 @@ blasfeo_s_blas.h
 blasfeo_s_aux.h
 -
 ../include/hpipm_s_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_dim.h
 ../include/hpipm_s_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp.h
 ../include/hpipm_s_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_sol.h
 ../include/hpipm_s_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_dim.h
 ../include/hpipm_s_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp.h
 ../include/hpipm_s_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_sol.h
 ../include/hpipm_s_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond.h
 ../include/hpipm_s_cond_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_aux.h
 ../include/hpipm_s_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_qcqp.h
 ../include/hpipm_aux_mem.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_aux_mem.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_aux_mem.h
 x_cond_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond.c
 stdlib.h
 -
 stdio.h
@@ -1098,25 +1098,25 @@ blasfeo_s_blas.h
 blasfeo_s_aux.h
 -
 ../include/hpipm_s_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_dim.h
 ../include/hpipm_s_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp.h
 ../include/hpipm_s_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_sol.h
 ../include/hpipm_s_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp.h
 ../include/hpipm_s_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_sol.h
 ../include/hpipm_s_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond.h
 ../include/hpipm_s_part_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_part_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_part_cond.h
 ../include/hpipm_s_cond_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_aux.h
 x_part_cond.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_part_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_part_cond.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/s_part_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/s_part_cond_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -1130,49 +1130,49 @@ blasfeo_s_blas.h
 blasfeo_s_aux.h
 -
 ../include/hpipm_s_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_dim.h
 ../include/hpipm_s_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp.h
 ../include/hpipm_s_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_sol.h
 ../include/hpipm_s_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp.h
 ../include/hpipm_s_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_sol.h
 ../include/hpipm_s_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond.h
 ../include/hpipm_s_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_dim.h
 ../include/hpipm_s_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp.h
 ../include/hpipm_s_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_sol.h
 ../include/hpipm_s_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp.h
 ../include/hpipm_s_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_sol.h
 ../include/hpipm_s_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_qcqp.h
 ../include/hpipm_s_part_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_part_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_part_cond_qcqp.h
 ../include/hpipm_s_cond_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_aux.h
 x_part_cond_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_part_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_part_cond_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cast_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cast_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond_aux.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_cond_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_part_cond.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_part_cond.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/cond/x_part_cond_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/cond/x_part_cond_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -1192,9 +1192,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_dim.c
 stdlib.h
 -
 stdio.h
@@ -1208,9 +1208,9 @@ hpipm_d_dense_qcqp_dim.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -1260,9 +1260,9 @@ hpipm_d_dense_qcqp_ipm.h
 hpipm_d_dense_qcqp_utils.h
 -
 x_dense_qcqp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_res.c
 stdlib.h
 -
 stdio.h
@@ -1286,9 +1286,9 @@ hpipm_d_dense_qcqp_res.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_sol.c
 stdlib.h
 -
 stdio.h
@@ -1308,9 +1308,9 @@ hpipm_d_dense_qcqp_sol.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qcqp_utils.c
 stdlib.h
 -
 stdio.h
@@ -1334,9 +1334,9 @@ hpipm_d_dense_qcqp_sol.h
 hpipm_d_dense_qcqp_res.h
 -
 x_dense_qcqp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp.c
 stdlib.h
 -
 stdio.h
@@ -1356,9 +1356,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_dense_qp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_dim.c
 stdlib.h
 -
 stdio.h
@@ -1368,9 +1368,9 @@ hpipm_d_dense_qp_dim.h
 hpipm_aux_string.h
 -
 x_dense_qp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -1406,9 +1406,9 @@ hpipm_d_dense_qp_kkt.h
 hpipm_aux_mem.h
 -
 x_dense_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_kkt.c
 math.h
 -
 blasfeo_target.h
@@ -1436,9 +1436,9 @@ hpipm_d_core_qp_ipm.h
 hpipm_d_core_qp_ipm_aux.h
 -
 x_dense_qp_kkt.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_res.c
 stdlib.h
 -
 stdio.h
@@ -1462,9 +1462,9 @@ hpipm_d_dense_qp_res.h
 hpipm_aux_mem.h
 -
 x_dense_qp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_sol.c
 stdlib.h
 -
 stdio.h
@@ -1484,9 +1484,9 @@ hpipm_d_dense_qp_sol.h
 hpipm_aux_mem.h
 -
 x_dense_qp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/d_dense_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/d_dense_qp_utils.c
 stdlib.h
 -
 stdio.h
@@ -1510,11 +1510,11 @@ hpipm_d_dense_qp_sol.h
 hpipm_d_dense_qp_res.h
 -
 hpipm_d_dense_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/hpipm_d_dense_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/hpipm_d_dense_qp_ipm.h
 x_dense_qp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp.c
 stdlib.h
 -
 stdio.h
@@ -1534,9 +1534,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_dim.c
 stdlib.h
 -
 stdio.h
@@ -1550,9 +1550,9 @@ hpipm_s_dense_qcqp_dim.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -1602,9 +1602,9 @@ hpipm_s_dense_qcqp_ipm.h
 hpipm_s_dense_qcqp_utils.h
 -
 x_dense_qcqp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_res.c
 stdlib.h
 -
 stdio.h
@@ -1628,9 +1628,9 @@ hpipm_s_dense_qcqp_res.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_sol.c
 stdlib.h
 -
 stdio.h
@@ -1650,9 +1650,9 @@ hpipm_s_dense_qcqp_sol.h
 hpipm_aux_mem.h
 -
 x_dense_qcqp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qcqp_utils.c
 stdlib.h
 -
 stdio.h
@@ -1676,9 +1676,9 @@ hpipm_s_dense_qcqp_sol.h
 hpipm_s_dense_qcqp_res.h
 -
 x_dense_qcqp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp.c
 stdlib.h
 -
 stdio.h
@@ -1698,9 +1698,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_dense_qp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_dim.c
 stdlib.h
 -
 stdio.h
@@ -1710,9 +1710,9 @@ hpipm_s_dense_qp_dim.h
 hpipm_aux_string.h
 -
 x_dense_qp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -1748,9 +1748,9 @@ hpipm_s_dense_qp_kkt.h
 hpipm_aux_mem.h
 -
 x_dense_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_kkt.c
 math.h
 -
 blasfeo_target.h
@@ -1778,9 +1778,9 @@ hpipm_s_core_qp_ipm.h
 hpipm_s_core_qp_ipm_aux.h
 -
 x_dense_qp_kkt.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_res.c
 stdlib.h
 -
 stdio.h
@@ -1804,9 +1804,9 @@ hpipm_s_dense_qp_res.h
 hpipm_aux_mem.h
 -
 x_dense_qp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_sol.c
 stdlib.h
 -
 stdio.h
@@ -1826,9 +1826,9 @@ hpipm_s_dense_qp_sol.h
 hpipm_aux_mem.h
 -
 x_dense_qp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/s_dense_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/s_dense_qp_utils.c
 stdlib.h
 -
 stdio.h
@@ -1852,347 +1852,347 @@ hpipm_s_dense_qp_sol.h
 hpipm_s_dense_qp_res.h
 -
 hpipm_s_dense_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/hpipm_s_dense_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/hpipm_s_dense_qp_ipm.h
 x_dense_qp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qcqp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/dense_qp/x_dense_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/dense_qp/x_dense_qp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_aux_mem.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_aux_mem.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp.h
 hpipm_d_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_sol.h
 hpipm_d_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp.h
 hpipm_d_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_dim.h
 hpipm_d_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_sol.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_aux.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp.h
 hpipm_d_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_sol.h
 hpipm_d_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp.h
 hpipm_d_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_dim.h
 hpipm_d_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_sol.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_core_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_core_qp_ipm.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_core_qp_ipm_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_core_qp_ipm_aux.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_dense_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_dense_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_dense_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_dense_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_ocp_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_part_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_part_cond.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_part_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_part_cond_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_d_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_cond_qcqp.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_dense_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp.h
 hpipm_s_dense_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_sol.h
 hpipm_s_ocp_qp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp.h
 hpipm_s_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_dim.h
 hpipm_s_ocp_qp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_sol.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_aux.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_dense_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp.h
 hpipm_s_dense_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_sol.h
 hpipm_s_ocp_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp.h
 hpipm_s_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_dim.h
 hpipm_s_ocp_qcqp_sol.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_sol.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_core_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_core_qp_ipm.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_core_qp_ipm_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_core_qp_ipm_aux.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_dense_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_dense_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_dense_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_dense_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_dense_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_ocp_qcqp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qcqp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qcqp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_sol.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_sol.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_ocp_qp_dim.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_ocp_qp_dim.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_ocp_qp_dim.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_part_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_part_cond.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_cond.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_part_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_part_cond_qcqp.h
 blasfeo_target.h
 -
 blasfeo_common.h
 -
 hpipm_s_cond_qcqp.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_cond_qcqp.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_cond_qcqp.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_scenario_tree.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_scenario_tree.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_timing.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_timing.h
 blasfeo_timing.h
 -
 
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_tree.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_tree.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm.c
 stdlib.h
 -
 stdio.h
 -
 ../include/hpipm_d_core_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_core_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_core_qp_ipm.h
 ../include/hpipm_d_core_qp_ipm_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_core_qp_ipm_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_core_qp_ipm_aux.h
 x_core_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/x_core_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/x_core_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/d_core_qp_ipm_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/d_core_qp_ipm_aux.c
 ../include/hpipm_d_core_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_d_core_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_d_core_qp_ipm.h
 x_core_qp_ipm_aux.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/x_core_qp_ipm_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/x_core_qp_ipm_aux.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm.c
 stdlib.h
 -
 stdio.h
 -
 ../include/hpipm_s_core_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_core_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_core_qp_ipm.h
 ../include/hpipm_s_core_qp_ipm_aux.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_core_qp_ipm_aux.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_core_qp_ipm_aux.h
 x_core_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/x_core_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/x_core_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/s_core_qp_ipm_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/s_core_qp_ipm_aux.c
 ../include/hpipm_s_core_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_s_core_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_s_core_qp_ipm.h
 x_core_qp_ipm_aux.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/x_core_qp_ipm_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/x_core_qp_ipm_aux.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/x_core_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/x_core_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ipm_core/x_core_qp_ipm_aux.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ipm_core/x_core_qp_ipm_aux.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp.c
 stdio.h
 -
 stdlib.h
@@ -2212,9 +2212,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_dim.c
 stdlib.h
 -
 stdio.h
@@ -2228,9 +2228,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -2278,9 +2278,9 @@ hpipm_d_ocp_qcqp_res.h
 hpipm_d_ocp_qcqp_ipm.h
 -
 x_ocp_qcqp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_res.c
 stdlib.h
 -
 stdio.h
@@ -2300,9 +2300,9 @@ hpipm_d_ocp_qcqp_res.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_sol.c
 stdlib.h
 -
 stdio.h
@@ -2324,9 +2324,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qcqp_utils.c
 stdlib.h
 -
 stdio.h
@@ -2348,11 +2348,11 @@ hpipm_d_ocp_qp.h
 hpipm_d_ocp_qcqp_sol.h
 -
 hpipm_d_ocp_qcqp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/hpipm_d_ocp_qcqp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/hpipm_d_ocp_qcqp_ipm.h
 x_ocp_qcqp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp.c
 stdio.h
 -
 stdlib.h
@@ -2372,9 +2372,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_dim.c
 stdlib.h
 -
 stdio.h
@@ -2386,9 +2386,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -2426,9 +2426,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_kkt.c
 math.h
 -
 blasfeo_target.h
@@ -2452,9 +2452,9 @@ hpipm_d_core_qp_ipm.h
 hpipm_d_core_qp_ipm_aux.h
 -
 x_ocp_qp_kkt.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_red.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_red.c
 stdio.h
 -
 stdlib.h
@@ -2480,9 +2480,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_red.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_red.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_red.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_res.c
 stdlib.h
 -
 stdio.h
@@ -2502,9 +2502,9 @@ hpipm_d_ocp_qp_res.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_sol.c
 stdlib.h
 -
 stdio.h
@@ -2526,9 +2526,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/d_ocp_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/d_ocp_qp_utils.c
 stdlib.h
 -
 stdio.h
@@ -2550,11 +2550,11 @@ hpipm_d_ocp_qp.h
 hpipm_d_ocp_qp_sol.h
 -
 hpipm_d_ocp_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/hpipm_d_ocp_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/hpipm_d_ocp_qp_ipm.h
 x_ocp_qp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp.c
 stdio.h
 -
 stdlib.h
@@ -2574,9 +2574,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_dim.c
 stdlib.h
 -
 stdio.h
@@ -2590,9 +2590,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -2640,9 +2640,9 @@ hpipm_s_ocp_qcqp_res.h
 hpipm_s_ocp_qcqp_ipm.h
 -
 x_ocp_qcqp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_res.c
 stdlib.h
 -
 stdio.h
@@ -2662,9 +2662,9 @@ hpipm_s_ocp_qcqp_res.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_sol.c
 stdlib.h
 -
 stdio.h
@@ -2686,9 +2686,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qcqp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qcqp_utils.c
 stdlib.h
 -
 stdio.h
@@ -2710,11 +2710,11 @@ hpipm_s_ocp_qp.h
 hpipm_s_ocp_qcqp_sol.h
 -
 hpipm_s_ocp_qcqp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/hpipm_s_ocp_qcqp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/hpipm_s_ocp_qcqp_ipm.h
 x_ocp_qcqp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp.c
 stdio.h
 -
 stdlib.h
@@ -2734,9 +2734,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_dim.c
 stdlib.h
 -
 stdio.h
@@ -2748,9 +2748,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -2788,9 +2788,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_kkt.c
 math.h
 -
 blasfeo_target.h
@@ -2814,9 +2814,9 @@ hpipm_s_core_qp_ipm.h
 hpipm_s_core_qp_ipm_aux.h
 -
 x_ocp_qp_kkt.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_red.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_red.c
 stdio.h
 -
 stdlib.h
@@ -2842,9 +2842,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_red.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_red.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_red.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_res.c
 stdlib.h
 -
 stdio.h
@@ -2864,9 +2864,9 @@ hpipm_s_ocp_qp_res.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_sol.c
 stdlib.h
 -
 stdio.h
@@ -2888,9 +2888,9 @@ hpipm_aux_string.h
 hpipm_aux_mem.h
 -
 x_ocp_qp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/s_ocp_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/s_ocp_qp_utils.c
 stdlib.h
 -
 stdio.h
@@ -2912,39 +2912,39 @@ hpipm_s_ocp_qp.h
 hpipm_s_ocp_qp_sol.h
 -
 hpipm_s_ocp_qp_ipm.h
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/hpipm_s_ocp_qp_ipm.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/hpipm_s_ocp_qp_ipm.h
 x_ocp_qp_utils.c
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qcqp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qcqp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_red.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_red.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/ocp_qp/x_ocp_qp_utils.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/ocp_qp/x_ocp_qp_utils.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp.c
 stdlib.h
 -
 stdio.h
@@ -2964,9 +2964,9 @@ hpipm_d_tree_ocp_qp_dim.h
 hpipm_d_tree_ocp_qp.h
 -
 x_tree_ocp_qp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_dim.c
 hpipm_tree.h
 -
 hpipm_scenario_tree.h
@@ -2974,9 +2974,9 @@ hpipm_scenario_tree.h
 hpipm_d_tree_ocp_qp_dim.h
 -
 x_tree_ocp_qp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -3006,9 +3006,9 @@ hpipm_d_core_qp_ipm.h
 hpipm_d_core_qp_ipm_aux.h
 -
 x_tree_ocp_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_kkt.c
 math.h
 -
 blasfeo_target.h
@@ -3034,9 +3034,9 @@ hpipm_d_core_qp_ipm.h
 hpipm_d_core_qp_ipm_aux.h
 -
 x_tree_ocp_qp_kkt.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_res.c
 stdlib.h
 -
 stdio.h
@@ -3052,9 +3052,9 @@ hpipm_d_tree_ocp_qp_dim.h
 hpipm_d_tree_ocp_qp_res.h
 -
 x_tree_ocp_qp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/d_tree_ocp_qp_sol.c
 stdlib.h
 -
 stdio.h
@@ -3074,9 +3074,9 @@ hpipm_d_tree_ocp_qp.h
 hpipm_d_tree_ocp_qp_sol.h
 -
 x_tree_ocp_qp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp.c
 stdlib.h
 -
 stdio.h
@@ -3096,9 +3096,9 @@ hpipm_s_tree_ocp_qp_dim.h
 hpipm_s_tree_ocp_qp.h
 -
 x_tree_ocp_qp.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_dim.c
 hpipm_tree.h
 -
 hpipm_scenario_tree.h
@@ -3106,9 +3106,9 @@ hpipm_scenario_tree.h
 hpipm_s_tree_ocp_qp_dim.h
 -
 x_tree_ocp_qp_dim.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_ipm.c
 stdlib.h
 -
 stdio.h
@@ -3138,9 +3138,9 @@ hpipm_s_core_qp_ipm.h
 hpipm_s_core_qp_ipm_aux.h
 -
 x_tree_ocp_qp_ipm.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_ipm.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_kkt.c
 math.h
 -
 blasfeo_target.h
@@ -3166,9 +3166,9 @@ hpipm_s_core_qp_ipm.h
 hpipm_s_core_qp_ipm_aux.h
 -
 x_tree_ocp_qp_kkt.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_res.c
 stdlib.h
 -
 stdio.h
@@ -3184,9 +3184,9 @@ hpipm_s_tree_ocp_qp_dim.h
 hpipm_s_tree_ocp_qp_res.h
 -
 x_tree_ocp_qp_res.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/s_tree_ocp_qp_sol.c
 stdlib.h
 -
 stdio.h
@@ -3206,25 +3206,25 @@ hpipm_s_tree_ocp_qp.h
 hpipm_s_tree_ocp_qp_sol.h
 -
 x_tree_ocp_qp_sol.c
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_sol.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/scenario_tree.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/scenario_tree.c
 ../include/hpipm_tree.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_tree.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_tree.h
 ../include/hpipm_scenario_tree.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_scenario_tree.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_scenario_tree.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_dim.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_dim.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_ipm.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_ipm.c
 ../include/hpipm_tree.h
-/home/ninjak/Scaricati/ik_tests/hpipm/include/hpipm_tree.h
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include/hpipm_tree.h
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_kkt.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_kkt.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_res.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_res.c
 
-/home/ninjak/Scaricati/ik_tests/hpipm/tree_ocp_qp/x_tree_ocp_qp_sol.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/tree_ocp_qp/x_tree_ocp_qp_sol.c
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ninjak/Scaricati/ik_tests/blasfeo/examples
+# Install script for directory: /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

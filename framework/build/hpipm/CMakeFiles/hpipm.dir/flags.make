@@ -4,7 +4,7 @@
 # compile C with /bin/x86_64-linux-gnu-gcc-11
 C_DEFINES = -DBOOST_TEST_DYN_LINK
 
-C_INCLUDES = -I/home/ninjak/Scaricati/ik_tests/blasfeo/include -I/home/ninjak/Scaricati/ik_tests/hpipm/include -I/include
+C_INCLUDES = -I/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/include -I/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/hpipm/include -I/include
 
 C_FLAGS =  -O2 -fPIC -DTARGET_GENERIC  -g -std=c++11 -O3
 

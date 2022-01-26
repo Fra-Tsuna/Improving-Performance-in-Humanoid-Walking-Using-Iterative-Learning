@@ -65,10 +65,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninjak/Scaricati/ik_tests
+CMAKE_SOURCE_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninjak/Scaricati/ik_tests/build
+CMAKE_BINARY_DIR = /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build
 
 # Include any dependencies generated for this target.
 include blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/depend.make
@@ -81,16 +81,16 @@ include blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/flags.make
 
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o: blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/flags.make
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o: ../blasfeo/examples/example_d_lq_factorization.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o"
-	cd /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o -c /home/ninjak/Scaricati/ik_tests/blasfeo/examples/example_d_lq_factorization.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.o -c /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/example_d_lq_factorization.c
 
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.i"
-	cd /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Scaricati/ik_tests/blasfeo/examples/example_d_lq_factorization.c > CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.i
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/example_d_lq_factorization.c > CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.i
 
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.s"
-	cd /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Scaricati/ik_tests/blasfeo/examples/example_d_lq_factorization.c -o CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.s
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples && /bin/x86_64-linux-gnu-gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/example_d_lq_factorization.c -o CMakeFiles/example_d_lq_factorization.dir/example_d_lq_factorization.c.s
 
 # Object files for target example_d_lq_factorization
 example_d_lq_factorization_OBJECTS = \
@@ -103,8 +103,8 @@ blasfeo/examples/example_d_lq_factorization: blasfeo/examples/CMakeFiles/example
 blasfeo/examples/example_d_lq_factorization: blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build.make
 blasfeo/examples/example_d_lq_factorization: blasfeo/libblasfeo.a
 blasfeo/examples/example_d_lq_factorization: blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ninjak/Scaricati/ik_tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable example_d_lq_factorization"
-	cd /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example_d_lq_factorization.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable example_d_lq_factorization"
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example_d_lq_factorization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build: blasfeo/examples/example_d_lq_factorization
@@ -112,10 +112,10 @@ blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build: blasfeo/exampl
 .PHONY : blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/build
 
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/clean:
-	cd /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples && $(CMAKE_COMMAND) -P CMakeFiles/example_d_lq_factorization.dir/cmake_clean.cmake
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples && $(CMAKE_COMMAND) -P CMakeFiles/example_d_lq_factorization.dir/cmake_clean.cmake
 .PHONY : blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/clean
 
 blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/depend:
-	cd /home/ninjak/Scaricati/ik_tests/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ninjak/Scaricati/ik_tests /home/ninjak/Scaricati/ik_tests/blasfeo/examples /home/ninjak/Scaricati/ik_tests/build /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples /home/ninjak/Scaricati/ik_tests/build/blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/build/blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : blasfeo/examples/CMakeFiles/example_d_lq_factorization.dir/depend
 

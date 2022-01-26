@@ -24,4 +24,4 @@ blasfeo/examples/CMakeFiles/example_d_lu_factorization.dir/example_d_lu_factoriz
  ../blasfeo/include/blasfeo_target.h
  ../blasfeo/include/blasfeo_timing.h
  ../blasfeo/include/blasfeo_v_aux_ext_dep.h
- /home/ninjak/Scaricati/ik_tests/blasfeo/examples/example_d_lu_factorization.c
+ /home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/example_d_lu_factorization.c

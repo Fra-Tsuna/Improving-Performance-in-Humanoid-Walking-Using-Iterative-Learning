@@ -138,7 +138,7 @@ sys/time.h
 blasfeo_target.h
 ../blasfeo/include/blasfeo_target.h
 
-/home/ninjak/Scaricati/ik_tests/blasfeo/examples/example_d_lq_factorization.c
+/home/ninjak/Documenti/Git/Improving-Performance-in-Humanoid-Walking-Using-Iterative-Learning/framework/blasfeo/examples/example_d_lq_factorization.c
 stdlib.h
 -
 stdio.h
