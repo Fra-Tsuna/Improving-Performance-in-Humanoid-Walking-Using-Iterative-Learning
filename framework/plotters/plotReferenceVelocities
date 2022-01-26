@@ -1,0 +1,19 @@
+set multiplot layout 2,1 rowsfirst
+set yrange [-0.1:0.3]
+
+plot "../data/referenceVelocities.txt" using 1 with lines title "reference velocity x", \
+     "../data/referenceVelocities.txt" using 2 with lines title "reference velocity y", \
+     "../data/referenceVelocities.txt" using 1 with lines title "reference velocity omega"
+
+#set xrange [0:10]
+#set yrange [0:1000]
+#plot "../data/footstepPlan.txt" using 7 with boxes title "planned timings"
+
+set xrange [-0.5:2.0]
+set yrange [-0.5:0.5]
+set size ratio -1
+plot "../data/footstepPlan.txt" using 1:2 with points title "p", \
+     "../data/selectedFootsteps.txt" using 1:2 with points title "s", \
+     "../data/integratedTrajectory.txt" using 1:2 with lines title "i"
+
+pause 3

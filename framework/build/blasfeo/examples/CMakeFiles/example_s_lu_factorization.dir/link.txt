@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-11  -DLA_HIGH_PERFORMANCE -DK_MAX_STACK=300 -DBLAS_API -DUSE_C99_MATH -DEXT_DEP -DMACRO_LEVEL=1 -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC -DTARGET_X64_INTEL_HASWELL -m64 -mavx -mavx2 -mfma -g -rdynamic CMakeFiles/example_s_lu_factorization.dir/example_s_lu_factorization.c.o -o example_s_lu_factorization  ../libblasfeo.a -lm 

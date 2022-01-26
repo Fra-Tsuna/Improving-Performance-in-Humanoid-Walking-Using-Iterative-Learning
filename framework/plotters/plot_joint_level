@@ -1,0 +1,11 @@
+set multiplot layout 2,1 rowsfirst
+
+plot "../data/zmpx.txt" using 1 with lines title "zmp x", \
+     "../data/xu.txt" using 1 with lines title "xu", \
+     "../data/xc.txt" using 1 with lines title "xc"
+
+plot "../data/zmpy.txt" using 1 with lines title "zmp y", \
+     "../data/yu.txt" using 1 with lines title "yu", \
+     "../data/yc.txt" using 1 with lines title "yc"
+
+pause -1 "Hit any key to continue"

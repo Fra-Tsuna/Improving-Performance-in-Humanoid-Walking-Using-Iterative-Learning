@@ -1,0 +1,11 @@
+set multiplot layout 3,2 columnsfirst
+
+plot "../data/left_x.txt" using 1 with lines title "left x"
+plot "../data/left_y.txt" using 1 with lines title "left y"
+plot "../data/left_z.txt" using 1 with lines title "left z"
+
+plot "../data/right_x.txt" using 1 with lines title "right x"
+plot "../data/right_y.txt" using 1 with lines title "right y"
+plot "../data/right_z.txt" using 1 with lines title "right z"
+
+pause -1 "Hit any key to continue"

@@ -1,0 +1,178 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "blasfeo/examples/example_s_riccati_recursion"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"blasfeo/examples/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -DLA_HIGH_PERFORMANCE -DK_MAX_STACK=300 -DBLAS_API -DUSE_C99_MATH -DEXT_DEP -DMACRO_LEVEL=1 -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC -DTARGET_X64_INTEL_HASWELL -m64 -mavx -mavx2 -mfma -g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-std=c++11"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "BOOST_TEST_DYN_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/ninjak/Scaricati/ik_tests/blasfeo/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ninjak/Scaricati/ik_tests/hpipm/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "blasfeo::@7adcafcbcb8b2920a0b8"
+		}
+	],
+	"id" : "example_s_riccati_recursion::@c09f85e2765af10cd812",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DLA_HIGH_PERFORMANCE -DK_MAX_STACK=300 -DBLAS_API -DUSE_C99_MATH -DEXT_DEP -DMACRO_LEVEL=1 -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC -DTARGET_X64_INTEL_HASWELL -m64 -mavx -mavx2 -mfma -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libblasfeo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "example_s_riccati_recursion",
+	"nameOnDisk" : "example_s_riccati_recursion",
+	"paths" : 
+	{
+		"build" : "blasfeo/examples",
+		"source" : "blasfeo/examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blasfeo/examples/example_s_riccati_recursion.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blasfeo/examples/tools.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

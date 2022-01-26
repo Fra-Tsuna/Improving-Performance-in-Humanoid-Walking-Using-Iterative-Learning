@@ -1,0 +1,15 @@
+set multiplot layout 2,2 rowsfirst
+
+plot "../data/current.comPos" using 1 with lines title "measured CoM x" lw 2, \
+     "../data/desired.comPos" using 1 with lines title "desired CoM x" lw 2
+
+plot "../data/current.comPos" using 2 with lines title "measured CoM y" lw 2, \
+     "../data/desired.comPos" using 2 with lines title "desired CoM y" lw 2
+
+plot "../data/current.zmpPos" using 1 with lines title "measured ZMP x" lw 2, \
+     "../data/desired.zmpPos" using 1 with lines title "desired ZMP x" lw 2
+
+plot "../data/current.zmpPos" using 2 with lines title "measured ZMP y" lw 2, \
+     "../data/desired.zmpPos" using 2 with lines title "desired ZMP y" lw 2
+
+pause -1 "Hit any key to continue"
