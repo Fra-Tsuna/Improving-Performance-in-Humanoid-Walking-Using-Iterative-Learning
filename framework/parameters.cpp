@@ -7,8 +7,9 @@
 
 // Times
 const double timeStep = 0.01;
-const double singleSupportDuration = 0.3;
-const double doubleSupportDuration = 0.2;
+const double timeILC = 0.1;
+const double singleSupportDuration = 0.37;
+const double doubleSupportDuration = 0.13;
 const double predictionTime = 1.0;
 const int prev = 200;
 
@@ -52,8 +53,10 @@ const double minStepDuration = 0.6;
 // ****************
 
 const double omega = sqrt(9.81/comTargetHeight);
+const double eta = sqrt(9.81/comTargetHeight);
+const double b = sqrt(comTargetHeight/9.81);
 const int N = round(predictionTime/timeStep);
 const int S = round(singleSupportDuration/timeStep);
 const int D = round(doubleSupportDuration/timeStep);
 const int M = 4; //ceil(N/(S+D));
-const int doubleSupportSamples = 20;
+const int doubleSupportSamples = 13;

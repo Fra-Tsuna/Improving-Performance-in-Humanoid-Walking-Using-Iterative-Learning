@@ -13,12 +13,10 @@ Controller::Controller(dart::dynamics::SkeletonPtr _robot, dart::simulation::Wor
 
     // Initialize walk state
     walkState.iter = 0;
-    walkState.iter = 0;
-    walkState.footstepCounter = 0;
-    walkState.supportFoot = false;
+    walkState.footstepCounter = 0; // useless
+    walkState.supportFoot = false; // useless
 
-    // Plan footsteps
-
+    
     std::vector<Vref> vrefSequence;
 
     for (int i = 0; i < 5000; i++) {
@@ -96,13 +94,20 @@ Controller::Controller(dart::dynamics::SkeletonPtr _robot, dart::simulation::Wor
     logList.push_back(new Logger("current.comVel", &current.com.vel));
     logList.push_back(new Logger("current.zmpPos", &current.zmpPos));
 
+    logList.push_back(new Logger("vrp_trajectory", &currentVRP));
+    logList.push_back(new Logger("dcm_trajectory", &currentDCM));
+
     //test
-    cm = computeCandidateMotion(footstepPlan, desired, 0, 500, 1000);
+    cm = computeCandidateMotion(footstepPlan, desired, 0, 3000, 4000);
+    VRPPlan();
+    DCMPlan();
 }
 
 Controller::~Controller() {}
 
 void Controller::update() {
+    if (walkState.iter >= 3000) return;
+    // std::cout << walkState.iter << std::endl;
     // This adds a push to the robot
     //if (mWorld->getSimFrames()>=510 && mWorld->getSimFrames()<=520) mBase->addExtForce(Eigen::Vector3d(0,300,0));
 
@@ -173,7 +178,7 @@ void Controller::update() {
     }
 
     // Store the results in files (for plotting)
-    for (int i = 0; i < logList.size(); ++i) {
+    for (int i = 0; i < logList.size()-2; ++i) {
         logList.at(i)->log();
     }
 
@@ -183,6 +188,66 @@ void Controller::update() {
 
     // Update the iteration counters
     ++walkState.iter;
+}
+
+void Controller::VRPPlan() {
+    // Plan footsteps
+    std::cout << "executing VRPPlan" <<std::endl;
+    std::ofstream file13 = std::ofstream(realpath("../data/vrp.txt", NULL), std::ofstream::out);
+    for (int i = 0; i < cm.xz.size(); i++) {
+        currentVRP = Eigen::Vector3d(cm.xz(i), cm.yz(i), comTargetHeight);
+        VRPTrajectory.push_back(currentVRP);
+        logList.at(logList.size()-2)->log();
+        // std::cout << VRPTrajectory[i].x() << " " << VRPTrajectory[i].y() << " " << VRPTrajectory[i].z() << std::endl;
+    }
+}
+
+void Controller::DCMPlan() {
+    std::vector<Eigen::Vector3d>::iterator it;
+    for (int i = VRPTrajectory.size()-1; i >= 0; i--) {
+        int index = footstepPlan->getFootstepIndexAtTime(i);
+        int start = footstepPlan->getFootstepStartTiming(index)+1;
+        int end = footstepPlan->getFootstepEndTiming(index);
+        int stepDuration = footstepPlan->getFootstepDuration(index);
+        int startDS = end - doubleSupportSamples;
+        double SSDuration = (double)(startDS - start + 1)*timeStep;
+        double DSDuration = doubleSupportDuration;
+        int tillEndOfPhase = i <= startDS ? startDS-i : end-i;
+        // if (i == start) std::cout << "i == start" << std::endl;
+        // if (i == end) std::cout << "i == end" << std::endl;
+        if (end >= VRPTrajectory.size()) {
+            currentDCM = VRPTrajectory.at(start);
+            it = DCMTrajectory.begin();
+            DCMTrajectory.insert(it, currentDCM);
+            logList.at(logList.size()-1)->log();
+            continue;
+        }
+        double alpha, beta, gamma, phaseTime;
+        if (i <= startDS) { // we're in single support phase
+            phaseTime = (double) (i - start)*timeStep;
+            alpha = 1 + (-phaseTime - b + exp(eta*(phaseTime-SSDuration))*b)/SSDuration;
+            beta = phaseTime/SSDuration + b/SSDuration - exp(eta*(phaseTime-SSDuration))*(1+b/SSDuration);
+            gamma = exp(eta*(phaseTime-SSDuration));
+
+            // std::cout << i << " + " << tillEndOfPhase << ": " << DCMTrajectory.at(tillEndOfPhase).x() << " " << DCMTrajectory.at(tillEndOfPhase).y() << " " << DCMTrajectory.at(tillEndOfPhase).z() << std::endl;
+            currentDCM = (alpha+beta) * VRPTrajectory.at(start) + gamma*DCMTrajectory.at(tillEndOfPhase);
+            // std::cout << i << ": " << currentDCM.x() << " " << currentDCM.y() << " " << currentDCM.z() << std::endl;
+        } else { // we're in double support phase
+            phaseTime = (double) (i - startDS - 1)*timeStep;
+            alpha = 1 + (-phaseTime - b + exp(eta*(phaseTime-DSDuration))*b)/DSDuration;
+            beta = phaseTime/DSDuration + b/DSDuration - exp(eta*(phaseTime-DSDuration))*(1+b/DSDuration);
+            gamma = exp(eta*(phaseTime-DSDuration));
+
+            // std::cout << i << " + " << tillEndOfPhase << ": " << DCMTrajectory.at(tillEndOfPhase).x() << " " << DCMTrajectory.at(tillEndOfPhase).y() << " " << DCMTrajectory.at(tillEndOfPhase).z() << std::endl;
+            currentDCM = alpha * VRPTrajectory.at(startDS) + beta * VRPTrajectory.at(end) + gamma * DCMTrajectory.at(tillEndOfPhase);
+            // std::cout << i << ": " << currentDCM.x() << " " << currentDCM.y() << " " << currentDCM.z() << std::endl;
+        }
+        // std::cout << start << ": " << VRPTrajectory.at(start).x() << " " << VRPTrajectory.at(start).y() << " " << VRPTrajectory.at(start).z() << std::endl;
+        // std::cout << end << ": " << VRPTrajectory.at(end).x() << " " << VRPTrajectory.at(end).y() << " " << VRPTrajectory.at(end).z() << std::endl;
+        it = DCMTrajectory.begin();
+        DCMTrajectory.insert(it, currentDCM);
+        logList.at(logList.size()-1)->log();
+    }
 }
 
 Eigen::MatrixXd Controller::getJacobian() {

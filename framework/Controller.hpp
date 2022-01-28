@@ -24,6 +24,8 @@ public:
   Eigen::MatrixXd getJacobianDeriv();
 
   void setInitialConfiguration();
+  void VRPPlan();
+  void DCMPlan();
 
   Eigen::VectorXd getJointAccelerations(State desired, State current, WalkState walkState);
 
@@ -47,12 +49,17 @@ private:
   State current;
   State initial;
   WalkState walkState;
+  PlanningConstants constants;
 
   FootstepPlan* footstepPlan;
 
   std::vector<Logger*> logList;
 
   CandidateMotion cm;
+  Eigen::Vector3d currentVRP;
+  std::vector<Eigen::Vector3d> VRPTrajectory;
+  Eigen::Vector3d currentDCM;
+  std::vector<Eigen::Vector3d> DCMTrajectory;
 
   Eigen::VectorXd initialConfiguration;
 

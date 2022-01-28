@@ -424,7 +424,7 @@ title("VRP and DCM desired on 2d plane");
     
 
 %% DCM disturbed
-b_dis = 0.9*b;
+b_dis = 0.5*b;
 b = b_dis;
 
 DCM_disturbed = zeros(3,N,length(t));
@@ -565,6 +565,7 @@ for i=1:N/2 %1
                 DCM_adj(:,i,index_tt) = alpha_t*Vl(:,1)+...
                     beta_t*Vl(:,2)+gamma_t*DCM_mid; %26
             end
+            % introduce error from here
             % for the DCM controller
             DCM_adj_dot = eta*(DCM_adj(:,i,index_tt)-VRP_adj(:,i,index_tt));
             if index_tt == 1
@@ -594,8 +595,8 @@ for i=1:N/2 %1
             CoM_dot(:,i,index_tt) = -eta*(CoM(:,i,index_tt)-DCM(:,i,index_tt));
 
             % simulated disturbed CoM measurements
-%             CoM_dis(:,i,index_tt) = prev_CoM - 1/b_dis*(prev_CoM - prev_DCM)*Ts;
-            CoM_dis(:,i,index_tt) = CoM(:,i,index_tt) + 0.002*rand(2,1);
+            CoM_dis(:,i,index_tt) = prev_CoM - 1/b_dis*(prev_CoM - prev_DCM)*Ts;
+%             CoM_dis(:,i,index_tt) = CoM(:,i,index_tt) + 0.002*rand(2,1);
             CoM_dot_dis(:,i,index_tt) = CoM_dot(:,i,index_tt);
 
             % DCM disturbed from CoM disturbed
