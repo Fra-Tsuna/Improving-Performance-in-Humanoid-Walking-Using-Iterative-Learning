@@ -11,7 +11,7 @@ struct endEffector {
 // Contains the state of the LIP robot
 struct State {
     endEffector com, leftFoot, rightFoot;
-    Eigen::Vector3d zmpPos;
+    Eigen::Vector3d zmpPos, vrpPos, dcmPos, dcmVel;
 
     inline Eigen::VectorXd getComPose() {
 	Eigen::VectorXd comPose(6);
@@ -120,25 +120,6 @@ struct WalkState {
     bool supportFoot;
     double simulationTime;
     int iter, footstepCounter, indInitial;
-};
-
-struct PlanningConstants {
-    double mass = 60.0;
-    double zCoM = 0.8;
-    double g0 = 9.81;
-    double b = sqrt(zCoM/g0);
-    double eta = sqrt(g0/zCoM);
-    int nFootsteps = 20;
-    double tStep = 1.2;
-    double deltaX = 0.3, deltaY = 0.25;
-    Eigen::Matrix2f RDelta = Eigen::Matrix2f::Identity();
-    double kl = 1.0, kf = 1.0, kDCM = 4.0;
-    double TIter = 2*tStep;
-    int NIters = nFootsteps/2;
-    double Ts = 0.001, TIlc = 0.01;
-    double SSRatio = 0.9/tStep;
-    double TSS = SSRatio*tStep;
-    double TDS = (1-SSRatio)*tStep;
 };
 
 struct Vref {

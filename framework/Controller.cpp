@@ -42,6 +42,7 @@ Controller::Controller(dart::dynamics::SkeletonPtr _robot, dart::simulation::Wor
     current.com.ang_acc = mBase->getCOMSpatialAcceleration().head(3);
 
     current.zmpPos = current.com.pos - current.com.acc / (omega*omega);
+    current.dcmPos = current.com.pos + b*current.com.vel;
 
     current.leftFoot.pos = mLeftFoot->getCOM();
     current.leftFoot.vel = mLeftFoot->getCOMLinearVelocity();
@@ -94,13 +95,17 @@ Controller::Controller(dart::dynamics::SkeletonPtr _robot, dart::simulation::Wor
     logList.push_back(new Logger("current.comVel", &current.com.vel));
     logList.push_back(new Logger("current.zmpPos", &current.zmpPos));
 
-    logList.push_back(new Logger("vrp_trajectory", &currentVRP));
-    logList.push_back(new Logger("dcm_trajectory", &currentDCM));
-
     //test
     cm = computeCandidateMotion(footstepPlan, desired, 0, 3000, 4000);
     VRPPlan();
     DCMPlan();
+    desired.dcmPos = DCMTrajectory.at(0);
+    desired.vrpPos = VRPTrajectory.at(0);
+    desired.dcmVel = eta*(DCMTrajectory.at(0) - VRPTrajectory.at(0));
+    DCMCommanded = desired.dcmPos;
+    for (int i = 0; i < footstepPlan->getFootstepEndTiming(1); i+=round(timeILC/timeStep)) { // 4
+        VRPWindow.push_back(VRPTrajectory.at(i));
+    }
 }
 
 Controller::~Controller() {}
@@ -113,6 +118,14 @@ void Controller::update() {
 
     //if (mWorld->getSimFrames()==500) system("gnuplot ../plotters/plot");
     walkState.simulationTime = mWorld->getSimFrames();
+    int index = footstepPlan->getFootstepIndexAtTime(walkState.iter);
+    learningIter = index/2; // 1
+    learningIterSamples = footstepPlan->getFootstepDuration(learningIter*2) + footstepPlan->getFootstepDuration(learningIter*2+1);
+    learningIterDuration = (double) learningIterSamples * timeStep;
+    globalTime = (double) walkState.iter*timeStep; // 2
+
+    VRPCommanded = desired.vrpPos + zeta * (current.dcmPos - desired.dcmPos);
+    
 
     // Retrieve current state in the world frame
 
@@ -124,6 +137,7 @@ void Controller::update() {
     current.com.ang_acc = mBase->getCOMSpatialAcceleration().head(3);
 
     current.zmpPos = current.com.pos - current.com.acc / (omega*omega); //getZmpFromExternalForces(); //
+    current.dcmPos = current.com.pos + b*current.com.vel;
 
     current.leftFoot.pos = mLeftFoot->getCOM();
     current.leftFoot.vel = mLeftFoot->getCOMLinearVelocity();
@@ -140,9 +154,55 @@ void Controller::update() {
     current.rightFoot.ang_acc = mRightFoot->getCOMSpatialAcceleration().head(3);
 
     // Extract next desired state from the plan
+    if (walkState.iter == 0) { // 3
+        desired.vrpPos = VRPWindow.at(0); // 5
+        desired.dcmPos = DCMTrajectory.at(0); // 6
+    } else { // 7
+        k = (int) floor(globalTime/timeILC);
+        ILCIter = walkState.iter - footstepPlan->getFootstepStartTiming(learningIter*2); // 9
+        ILCTime = (double) ILCIter*timeStep; // 9
+        if (ILCIter == 0) { // 10
+            if (learningIter < learningIterations) { // 11
+                desired.vrpPos = VRPWindow.at(1);
+                futureVRP = VRPTrajectory.at(walkState.iter + learningIterSamples - 1) +
+                            kf * (desired.vrpPos - VRPTrajectory.at(walkState.iter-1)) + 
+                            kl * (VRPTrajectory.at(walkState.iter-1) - VRPCommanded); // 13
+                VRPWindow.erase(VRPWindow.begin()); // 14
+                VRPWindow.push_back(futureVRP); // 14
+            } else { // 15
+                VRPWindow.erase(VRPWindow.begin()); // 16
+                VRPWindow.push_back(VRPWindow.at(VRPWindow.size()-1)); // 16
+            } // 17
+            desired.vrpPos = (1 - ILCTime/learningIterDuration) * VRPWindow.at(0) + ILCTime/learningIterDuration * VRPWindow.at(1); // 18
+            if (learningIter < learningIterations) { // 19
+                desired.dcmPos = DCMTrajectory.at(learningIterSamples + k); // 20
+            } else { // 21
+                desired.dcmPos = VRPWindow.at(VRPWindow.size()-1); // 22
+            }
+            // 23
+            double c = b/learningIterDuration;
+            double alpha = 1 - c + exp(-1/c)*c;
+            double beta = c - exp(-1/c)*(1+c);
+            double gamma = exp(-1/c);
+            for (int j = learningIterSamples-1; j > 2; j--) { // 24
+                desired.dcmPos = alpha * VRPWindow.at(j-1) + beta * VRPWindow.at(j) + gamma * desired.dcmPos; // 25
+            }
+            alpha = 1 - ILCTime/learningIterDuration - c + exp(eta * (ILCTime - learningIterDuration))*c;
+            beta = ILCTime/learningIterDuration + c - exp(eta * (ILCTime - learningIterDuration))*(1+c);
+            gamma = exp(eta * (ILCTime - learningIterDuration));
+            desired.dcmPos = alpha * VRPWindow.at(0) + beta * VRPWindow.at(1) + gamma * desired.dcmPos; // 26
+        }
+    }
 
-    desired.com.pos = Eigen::Vector3d(cm.xc(walkState.iter), cm.yc(walkState.iter), cm.zc(walkState.iter));
-    desired.com.vel = Eigen::Vector3d(cm.xc_dot(walkState.iter), cm.yc_dot(walkState.iter), cm.zc_dot(walkState.iter));
+    desired.dcmVel = eta * (desired.dcmPos - desired.vrpPos);
+
+    desired.com.pos = desired.com.pos - eta * (desired.com.pos - DCMCommanded)*timeStep;
+    DCMCommandedDot =  desired.dcmVel + kDCM * (desired.dcmPos - DCMCommanded);
+    DCMCommanded = DCMCommanded + DCMCommandedDot * timeStep;
+    desired.com.vel = -eta * (desired.com.pos - DCMCommanded);
+
+    
+    // how to compute below?
     desired.com.acc = Eigen::Vector3d(cm.xc_ddot(walkState.iter), cm.yc_ddot(walkState.iter), cm.zc_ddot(walkState.iter));
     desired.com.ang_pos = Eigen::Vector3d(cm.torso_roll(walkState.iter), cm.torso_pitch(walkState.iter), cm.torso_yaw(walkState.iter));
     desired.com.ang_vel = Eigen::Vector3d(cm.torso_roll_dot(walkState.iter), cm.torso_pitch_dot(walkState.iter), cm.torso_yaw_dot(walkState.iter));
@@ -191,9 +251,9 @@ void Controller::update() {
 }
 
 void Controller::VRPPlan() {
-    // Plan footsteps
     std::cout << "executing VRPPlan" <<std::endl;
-    std::ofstream file13 = std::ofstream(realpath("../data/vrp.txt", NULL), std::ofstream::out);
+    Eigen::Vector3d currentVRP;
+    logList.push_back(new Logger("vrp_trajectory", &currentVRP));
     for (int i = 0; i < cm.xz.size(); i++) {
         currentVRP = Eigen::Vector3d(cm.xz(i), cm.yz(i), comTargetHeight);
         VRPTrajectory.push_back(currentVRP);
@@ -203,7 +263,10 @@ void Controller::VRPPlan() {
 }
 
 void Controller::DCMPlan() {
+    std::cout << "executing DCMPlan" <<std::endl;
     std::vector<Eigen::Vector3d>::iterator it;
+    Eigen::Vector3d currentDCM;
+    logList.push_back(new Logger("dcm_trajectory", &currentDCM));
     for (int i = VRPTrajectory.size()-1; i >= 0; i--) {
         int index = footstepPlan->getFootstepIndexAtTime(i);
         int start = footstepPlan->getFootstepStartTiming(index)+1;
@@ -216,6 +279,7 @@ void Controller::DCMPlan() {
         // if (i == start) std::cout << "i == start" << std::endl;
         // if (i == end) std::cout << "i == end" << std::endl;
         if (end >= VRPTrajectory.size()) {
+            learningIterations = index/2;
             currentDCM = VRPTrajectory.at(start);
             it = DCMTrajectory.begin();
             DCMTrajectory.insert(it, currentDCM);

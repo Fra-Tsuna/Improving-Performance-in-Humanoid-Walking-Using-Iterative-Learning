@@ -60,3 +60,7 @@ const int S = round(singleSupportDuration/timeStep);
 const int D = round(doubleSupportDuration/timeStep);
 const int M = 4; //ceil(N/(S+D));
 const int doubleSupportSamples = 13;
+const double kf = 1.0;
+const double kl = 1.0;
+const double kDCM = 4.0;
+const double zeta = 1 + kDCM*b;

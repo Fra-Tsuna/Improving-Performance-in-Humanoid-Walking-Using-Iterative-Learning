@@ -49,17 +49,18 @@ private:
   State current;
   State initial;
   WalkState walkState;
-  PlanningConstants constants;
 
   FootstepPlan* footstepPlan;
 
   std::vector<Logger*> logList;
 
   CandidateMotion cm;
-  Eigen::Vector3d currentVRP;
   std::vector<Eigen::Vector3d> VRPTrajectory;
-  Eigen::Vector3d currentDCM;
   std::vector<Eigen::Vector3d> DCMTrajectory;
+  Eigen::Vector3d VRPCommanded, DCMCommanded, DCMCommandedDot, futureVRP;
+  std::vector<Eigen::Vector3d> VRPWindow;
+  int learningIterations, learningIter, ILCIter, learningIterSamples, k;
+  double globalTime, ILCTime, learningIterDuration;
 
   Eigen::VectorXd initialConfiguration;
 
