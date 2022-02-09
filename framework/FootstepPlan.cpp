@@ -35,11 +35,11 @@ void FootstepPlan::plan(std::vector<Vref> vrefSequence, Eigen::VectorXd initialL
     
     int timingIndex = 0;
     while (timingIndex < vrefSequence.size()) {
-        double velocityMagnitude = sqrt(vrefSequence.at(timingIndex).x * vrefSequence.at(timingIndex).x + vrefSequence.at(timingIndex).y * vrefSequence.at(timingIndex).y);
-        double stepDuration = averageTime*(1 - (velocityMagnitude - averageVel)/(alpha + velocityMagnitude));
-        if (stepDuration >= maxStepDuration) stepDuration = maxStepDuration;
-        if (stepDuration <= minStepDuration) stepDuration = minStepDuration;
-
+        // double velocityMagnitude = sqrt(vrefSequence.at(timingIndex).x * vrefSequence.at(timingIndex).x + vrefSequence.at(timingIndex).y * vrefSequence.at(timingIndex).y);
+        // double stepDuration = averageTime*(1 - (velocityMagnitude - averageVel)/(alpha + velocityMagnitude));
+        // if (stepDuration >= maxStepDuration) stepDuration = maxStepDuration;
+        // if (stepDuration <= minStepDuration) stepDuration = minStepDuration;
+        double stepDuration = singleSupportDuration + doubleSupportDuration;
         timingIndex = timingIndex + (int)(stepDuration / timeStep);
         stepStartingSequence.push_back(timingIndex);
     }

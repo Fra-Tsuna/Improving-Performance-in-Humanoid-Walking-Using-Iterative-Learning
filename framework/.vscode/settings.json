@@ -83,6 +83,13 @@
         "coordinatesystemnode": "cpp",
         "uniform": "cpp",
         "fstream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "camera": "cpp",
+        "colormask": "cpp",
+        "displaysettings": "cpp",
+        "glextensions": "cpp",
+        "image": "cpp",
+        "material": "cpp",
+        "stateset": "cpp"
     }
 }
