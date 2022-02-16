@@ -27,6 +27,7 @@ public:
   void VRPPlan();
   void DCMPlan();
   void CoMPlan();
+  CandidateMotion computeCMForFootstep(FootstepPlan* plan, State current, int startTime);
 
   Eigen::VectorXd getJointAccelerations(State desired, State current, WalkState walkState);
 

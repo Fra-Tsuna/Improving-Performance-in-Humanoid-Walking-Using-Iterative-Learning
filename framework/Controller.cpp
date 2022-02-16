@@ -116,8 +116,11 @@ Controller::Controller(dart::dynamics::SkeletonPtr _robot, dart::simulation::Wor
 Controller::~Controller() {}
 
 void Controller::update() {
+    double wind_vel = 44/3.6;
+    double pressure = 0.613*wind_vel*wind_vel;
+    double Force = pressure * 1.5 * 0.2 * 0.8;
     // This adds a push to the robot
-    if (mWorld->getSimFrames()>=400 && mWorld->getSimFrames()<=2700) mBase->addExtForce(Eigen::Vector3d(0,20,0));
+    if (mWorld->getSimFrames()>=400 && mWorld->getSimFrames()<=2700) mBase->addExtForce(Eigen::Vector3d(0,Force,0));
 
     //if (mWorld->getSimFrames()==500) system("gnuplot ../plotters/plot");
     walkState.simulationTime = mWorld->getSimFrames();
@@ -220,7 +223,6 @@ void Controller::update() {
         gamma = exp(eta * (ILCTime - timeILC));
         desired.dcmPos = alpha * VRPWindow.at(0) + beta * VRPWindow.at(1) + gamma * desired.dcmPos; // 26
     }
-    // logVars();
 
     desired.dcmVel = eta * (desired.dcmPos - desired.vrpPos);
 
@@ -280,6 +282,174 @@ void Controller::update() {
     }
     // Update the iteration counters
     ++walkState.iter;
+}
+
+CandidateMotion Controller::computeCMForFootstep(FootstepPlan* plan, State current, int startTime) {
+    Eigen::VectorXd previousFootstepPos, currentFootstepPos, nextFootstepPos;
+    CandidateMotion cm;
+    int C = plan->getFootstepDuration(plan->getFootstepIndexAtTime(startTime+1));
+
+    cm.left_x.resize(C);
+    cm.left_y.resize(C);
+    cm.left_z.resize(C);
+    cm.right_x.resize(C);
+    cm.right_y.resize(C);
+    cm.right_z.resize(C);
+
+    cm.left_x_dot.resize(C);
+    cm.left_y_dot.resize(C);
+    cm.left_z_dot.resize(C);
+    cm.right_x_dot.resize(C);
+    cm.right_y_dot.resize(C);
+    cm.right_z_dot.resize(C);
+
+    cm.left_x_ddot.resize(C);
+    cm.left_y_ddot.resize(C);
+    cm.left_z_ddot.resize(C);
+    cm.right_x_ddot.resize(C);
+    cm.right_y_ddot.resize(C);
+    cm.right_z_ddot.resize(C);
+
+
+    int currentIndex = plan->getFootstepIndexAtTime(startTime + 1);
+    previousFootstepPos = plan->isSupportFootLeft(currentIndex)?current.rightFoot.pos:current.leftFoot.pos;
+    currentFootstepPos = plan->isSupportFootLeft(currentIndex)?current.leftFoot.pos:current.rightFoot.pos;
+    nextFootstepPos = plan->getFootstepPosition(currentIndex + 1);
+    std::cout << currentIndex << " left= " << plan->isSupportFootLeft(currentIndex) 
+    << ": " << previousFootstepPos(0) << ", " << previousFootstepPos(1) 
+    << " | " << currentFootstepPos(0) << ", " << currentFootstepPos(1) 
+    << " | " << nextFootstepPos(0) << ", " << nextFootstepPos(1) 
+    << std::endl;
+
+
+    for (int i = 0; i < C; i++) {
+
+        // if (currentIndex == 0) previousFootstepPos = plan->getFootstepPosition(currentIndex + 1);
+        // else previousFootstepPos = plan->getFootstepPosition(currentIndex - 1);
+
+
+        double actualStepHeight = currentIndex == 0 ? 0 : stepHeight;
+
+        if (i < C - doubleSupportSamples) { // we are in single support
+            double stepCompletion = (double)i/(C-doubleSupportSamples);
+
+            // double stepCompletion = double(startTime + i - plan->getFootstepStartTiming(currentIndex)) /
+            //        double(plan->getFootstepEndTiming(currentIndex) - plan->getFootstepStartTiming(currentIndex) - doubleSupportSamples);
+
+            // std::cout << i << ", " << C << ", " << stepCompletion << std::endl;
+
+            double dsDuration = double(C - doubleSupportSamples);
+
+            if (plan->isSupportFootLeft(currentIndex)) { 
+                // move right foot
+                cm.left_x(i) = currentFootstepPos(0);
+                cm.left_y(i) = currentFootstepPos(1);
+                cm.left_z(i) = 0.0;
+                cm.right_x(i) = nextFootstepPos(0) * stepCompletion + previousFootstepPos(0) * (1 - stepCompletion);
+                cm.right_y(i) = nextFootstepPos(1) * stepCompletion + previousFootstepPos(1) * (1 - stepCompletion);
+                cm.right_z(i) = 4 * actualStepHeight * stepCompletion * (1 - stepCompletion);
+
+                cm.left_x_dot(i) = 0.0;
+                cm.left_y_dot(i) = 0.0;
+                cm.left_z_dot(i) = 0.0;
+                cm.right_x_dot(i) = (nextFootstepPos(0) - previousFootstepPos(0)) / dsDuration;
+                cm.right_y_dot(i) = (nextFootstepPos(1) - previousFootstepPos(1)) / dsDuration;
+                cm.right_z_dot(i) = 4 * actualStepHeight * (1 - 2 * stepCompletion) / dsDuration;
+
+                cm.left_x_ddot(i) = 0.0;
+                cm.left_y_ddot(i) = 0.0;
+                cm.left_z_ddot(i) = 0.0;
+                cm.right_x_ddot(i) = 0.0;
+                cm.right_y_ddot(i) = 0.0;
+                cm.right_z_ddot(i) = - 8 * actualStepHeight / (dsDuration * dsDuration);
+            } else {
+                // move left foot
+                cm.left_x(i) = nextFootstepPos(0) * stepCompletion + previousFootstepPos(0) * (1 - stepCompletion);
+                cm.left_y(i) = nextFootstepPos(1) * stepCompletion + previousFootstepPos(1) * (1 - stepCompletion);
+                cm.left_z(i) = 4 * actualStepHeight * stepCompletion * (1 - stepCompletion);
+                cm.right_x(i) = currentFootstepPos(0);
+                cm.right_y(i) = currentFootstepPos(1);
+                cm.right_z(i) = 0.0;
+
+                cm.left_x_dot(i) = (nextFootstepPos(0) - previousFootstepPos(0)) / dsDuration;
+                cm.left_y_dot(i) = (nextFootstepPos(1) - previousFootstepPos(1)) / dsDuration;
+                cm.left_z_dot(i) = 4 * actualStepHeight * (1 - 2 * stepCompletion) / dsDuration;
+                cm.right_x_dot(i) = 0.0;
+                cm.right_y_dot(i) = 0.0;
+                cm.right_z_dot(i) = 0.0;
+
+                cm.left_x_ddot(i) = 0.0;
+                cm.left_y_ddot(i) = 0.0;
+                cm.left_z_ddot(i) = 0.0;
+                cm.right_x_ddot(i) = 0.0;
+                cm.right_y_ddot(i) = 0.0;
+                cm.right_z_ddot(i) = - 8 * actualStepHeight / (dsDuration * dsDuration);
+            }
+        } else { // we are in double support
+            if (plan->isSupportFootLeft(currentIndex)) { 
+                cm.left_x(i) = currentFootstepPos(0);
+                cm.left_y(i) = currentFootstepPos(1);
+                cm.left_z(i) = 0.0;
+                cm.right_x(i) = nextFootstepPos(0);
+                cm.right_y(i) = nextFootstepPos(1);
+                cm.right_z(i) = 0.0;
+            } else {
+                cm.left_x(i) = nextFootstepPos(0);
+                cm.left_y(i) = nextFootstepPos(1);
+                cm.left_z(i) = 0.0;
+                cm.right_x(i) = currentFootstepPos(0);
+                cm.right_y(i) = currentFootstepPos(1);
+                cm.right_z(i) = 0.0;
+            }
+            cm.left_x_dot(i) = 0.0;
+            cm.left_y_dot(i) = 0.0;
+            cm.left_z_dot(i) = 0.0;
+            cm.right_x_dot(i) = 0.0;
+            cm.right_y_dot(i) = 0.0;
+            cm.right_z_dot(i) = 0.0;
+
+            cm.left_x_ddot(i) = 0.0;
+            cm.left_y_ddot(i) = 0.0;
+            cm.left_z_ddot(i) = 0.0;
+            cm.right_x_ddot(i) = 0.0;
+            cm.right_y_ddot(i) = 0.0;
+            cm.right_z_ddot(i) = 0.0;
+        }
+    }
+
+    // Orientation (temporarily zero, orientation is fixed)
+
+    cm.left_roll = Eigen::VectorXd::Zero(C);
+    cm.left_pitch = Eigen::VectorXd::Zero(C);
+    cm.left_yaw = Eigen::VectorXd::Zero(C);
+    cm.left_roll_dot = Eigen::VectorXd::Zero(C);
+    cm.left_pitch_dot = Eigen::VectorXd::Zero(C);
+    cm.left_yaw_dot = Eigen::VectorXd::Zero(C);
+    cm.left_roll_ddot = Eigen::VectorXd::Zero(C);
+    cm.left_pitch_ddot = Eigen::VectorXd::Zero(C);
+    cm.left_yaw_ddot = Eigen::VectorXd::Zero(C);
+
+    cm.right_roll = Eigen::VectorXd::Zero(C);
+    cm.right_pitch = Eigen::VectorXd::Zero(C);
+    cm.right_yaw = Eigen::VectorXd::Zero(C);
+    cm.right_roll_dot = Eigen::VectorXd::Zero(C);
+    cm.right_pitch_dot = Eigen::VectorXd::Zero(C);
+    cm.right_yaw_dot = Eigen::VectorXd::Zero(C);
+    cm.right_roll_ddot = Eigen::VectorXd::Zero(C);
+    cm.right_pitch_ddot = Eigen::VectorXd::Zero(C);
+    cm.right_yaw_ddot = Eigen::VectorXd::Zero(C);
+
+    cm.torso_roll = Eigen::VectorXd::Zero(C);
+    cm.torso_pitch = Eigen::VectorXd::Zero(C);
+    cm.torso_yaw = Eigen::VectorXd::Zero(C);
+    cm.torso_roll_dot = Eigen::VectorXd::Zero(C);
+    cm.torso_pitch_dot = Eigen::VectorXd::Zero(C);
+    cm.torso_yaw_dot = Eigen::VectorXd::Zero(C);
+    cm.torso_roll_ddot = Eigen::VectorXd::Zero(C);
+    cm.torso_pitch_ddot = Eigen::VectorXd::Zero(C);
+    cm.torso_yaw_ddot = Eigen::VectorXd::Zero(C);
+
+    return cm;
 }
 
 void Controller::VRPPlan() {

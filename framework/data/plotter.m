@@ -16,6 +16,22 @@ load current.vrpPos
 load desired.vrpPos
 lw = 1;
 %%
+load left_x.txt
+load left_y.txt
+load right_x.txt
+load right_y.txt
+figure(1)
+subplot(1,2,1)
+hold on
+plot(left_x)
+plot(right_x)
+hold off
+subplot(1,2,2)
+hold on
+plot(left_y)
+plot(right_y)
+hold off
+%%
 figure(3);
 subplot(1,3,1)
 dcm_trajectory = flip(dcm_trajectory, 1);
@@ -123,19 +139,19 @@ for j=1:3
     subplot(1,3,j);
     hold on;
     if j<3
-        plot(1:10,e_c(j,:), 'r-o','LineWidth',lw);
-        plot(1:10,e_m(j,:), 'r--o','LineWidth',lw);
+%         plot(1:10,e_c(j,:), 'b-o','LineWidth',lw);
+        plot(1:10,e_m(j,:), 'b-o','LineWidth',lw);
 %         plot(1:10,e_c_no_ILC(j,:), [colors(2), '--o']);
     else
-        plot(1:10,e_c_norm, 'r-o','LineWidth',lw);
-        plot(1:10,e_m_norm, 'r--o','LineWidth',lw);
+%         plot(1:10,e_c_norm, 'b-o','LineWidth',lw);
+        plot(1:10,e_m_norm, 'b-o','LineWidth',lw);
 %         plot(1:10,e_c_no_ILC_norm, [colors(2), '--o']);
     end
     
-    legend('e_{c,ILC}','e_{m,ILC}');
+    legend('e_{m,ILC}');
     
     grid on;
-    hold off;
+%     hold off;
     if j == 1
         title("Commanded Error with and without ILC on x axis");
     elseif j == 2

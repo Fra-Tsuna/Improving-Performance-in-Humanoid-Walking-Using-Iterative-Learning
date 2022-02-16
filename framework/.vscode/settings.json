@@ -90,6 +90,14 @@
         "glextensions": "cpp",
         "image": "cpp",
         "material": "cpp",
-        "stateset": "cpp"
+        "stateset": "cpp",
+        "cstring": "cpp",
+        "complex": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "iomanip": "cpp",
+        "mutex": "cpp",
+        "typeindex": "cpp"
     }
 }
