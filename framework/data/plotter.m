@@ -16,20 +16,42 @@ load current.vrpPos
 load desired.vrpPos
 lw = 1;
 %%
-load left_x.txt
-load left_y.txt
-load right_x.txt
-load right_y.txt
+load left_desired
+load left_current
+load right_current
+load right_desired
 figure(1)
-subplot(1,2,1)
+subplot(1,3,1)
 hold on
-plot(left_x)
-plot(right_x)
+plot(left_desired(:,1))
+plot(left_current(:,1))
 hold off
-subplot(1,2,2)
+subplot(1,3,2)
 hold on
-plot(left_y)
-plot(right_y)
+plot(left_desired(:,2))
+plot(left_current(:,2))
+hold off
+subplot(1,3,3)
+hold on
+plot(left_desired(:,3))
+plot(left_current(:,3))
+hold off
+
+figure(2)
+subplot(1,3,1)
+hold on
+plot(right_desired(:,1))
+plot(right_current(:,1))
+hold off
+subplot(1,3,2)
+hold on
+plot(right_desired(:,2))
+plot(right_current(:,2))
+hold off
+subplot(1,3,3)
+hold on
+plot(right_desired(:,3))
+plot(right_current(:,3))
 hold off
 %%
 figure(3);
