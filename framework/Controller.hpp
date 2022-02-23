@@ -59,11 +59,13 @@ private:
   CandidateMotion cm;
   std::vector<Eigen::Vector3d> VRPTrajectory;
   std::vector<Eigen::Vector3d> DCMTrajectory;
-  Eigen::Vector3d VRPCommanded, DCMCommanded, DCMCommandedDot, futureVRP;
+  Eigen::Vector3d VRPCommanded, DCMCommanded, DCMCommandedDot, futureVRP, extForce;
   Eigen::Vector3d kl = Eigen::Vector3d(kl_x,kl_y,kl_z);
+  Eigen::Vector3d kf = Eigen::Vector3d(kf_x,kf_y,kf_z);
   double alfa;
   Eigen::Matrix3d RDelta;
   std::vector<Eigen::Vector3d> VRPWindow;
+  int n_loggers;
   int learningIterations, learningIter, ILCIter, learningIterSamples, k, stepIter, endOfLearning, nextIter = 0;
   double globalTime, ILCTime, learningIterDuration, time;
   void logVars(){

@@ -94,10 +94,12 @@ Controller::Controller(dart::dynamics::SkeletonPtr _robot, dart::simulation::Wor
     logList.push_back(new Logger("current.comPos", &current.com.pos));
     logList.push_back(new Logger("current.vrpPos", &current.vrpPos));
     logList.push_back(new Logger("VRPCommanded", &VRPCommanded));
-    logList.push_back(new Logger("left_current", &current.leftFoot.pos));
-    logList.push_back(new Logger("left_desired", &desired.leftFoot.pos));
-    logList.push_back(new Logger("right_current", &current.rightFoot.pos));
-    logList.push_back(new Logger("right_desired", &desired.rightFoot.pos));
+    logList.push_back(new Logger("left_current", &current.leftFoot.vel));
+    logList.push_back(new Logger("left_desired", &desired.leftFoot.vel));
+    logList.push_back(new Logger("right_current", &current.rightFoot.vel));
+    logList.push_back(new Logger("right_desired", &desired.rightFoot.vel));
+    logList.push_back(new Logger("acceleration", &extForce));
+    n_loggers=11;
     
 
     endOfLearning = footstepPlan->getFootstepEndTiming(desiredSteps);
@@ -116,20 +118,24 @@ Controller::Controller(dart::dynamics::SkeletonPtr _robot, dart::simulation::Wor
     for (int i = 0; i < footstepPlan->getFootstepEndTiming(1); i+=round(timeILC/timeStep)) { // 4
         VRPWindow.push_back(VRPTrajectory.at(i));
     }
+    // std::cout << "it doesn't work without this" << std::endl;
 }
 
 Controller::~Controller() {}
 
 void Controller::update() {
-    double wind_vel = 44/3.6;
+    double wind_vel = 42/3.6;
     double pressure = 0.613*wind_vel*wind_vel;
     double Force = pressure * 1.5 * 0.2 * 0.8;
+    // std::cout << int(Force) << std::endl;
     // This adds a push to the robot
-    if (mWorld->getSimFrames()>=400 && mWorld->getSimFrames()<=1200) mBase->addExtForce(Eigen::Vector3d(0,10,0));
-    if (mWorld->getSimFrames()>=1600&& mWorld->getSimFrames()<=2700) mBase->addExtForce(Eigen::Vector3d(0,-10,0));
+    if (mWorld->getSimFrames()>=400 && mWorld->getSimFrames()<=900) extForce = Eigen::Vector3d(0,int(Force),0);
+    else if (mWorld->getSimFrames()>=1300) extForce = Eigen::Vector3d(0,-int(Force),0);
+    else extForce = Eigen::Vector3d(0,0,0);
+    mBase->addExtForce(extForce);
     int index;
     //if (mWorld->getSimFrames()==500) system("gnuplot ../plotters/plot");
-    walkState.simulationTime = mWorld->getSimFrames();
+    // walkState.simulationTime = mWorld->getSimFrames();
     if (walkState.iter < endOfLearning) {
         index = footstepPlan->getFootstepIndexAtTime(walkState.iter+1);
         if (learningIter < index/2) {
@@ -199,7 +205,7 @@ void Controller::update() {
                 desired.vrpPos = VRPWindow.at(0); // 12
                 // with VRPc
                 futureVRP = VRPTrajectory.at(walkState.iter + learningIterSamples - 1) +
-                            kf * RDelta * (desired.vrpPos - VRPTrajectory.at(walkState.iter-1)) + 
+                            kf.cwiseProduct(RDelta * (desired.vrpPos - VRPTrajectory.at(walkState.iter-1))) + 
                             kl.cwiseProduct(RDelta * (VRPTrajectory.at(walkState.iter-1) - VRPCommanded)); // 13
                 // with VRPm
                 // futureVRP = VRPTrajectory.at(walkState.iter + learningIterSamples) +
@@ -283,7 +289,7 @@ void Controller::update() {
     }
 
     // Store the results in files (for plotting)
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < n_loggers; ++i) {
         logList.at(i)->log();
     }
 
@@ -470,7 +476,7 @@ void Controller::VRPPlan() {
     logList.push_back(new Logger("vrp_trajectory", &currentVRP));
     for (int i = 0; i < cm.xz.size(); i++) {
         currentVRP = Eigen::Vector3d(cm.xz(i), cm.yz(i), comTargetHeight);
-        logList.at(10)->log();
+        logList.at(n_loggers)->log();
         VRPTrajectory.push_back(currentVRP);
         // std::cout << currentVRP.x() << " " << currentVRP.y() << " " << currentVRP.z() << std::endl;
     }
@@ -497,7 +503,7 @@ void Controller::DCMPlan() {
             currentDCM = VRPTrajectory.at(start);
             it = DCMTrajectory.begin();
             DCMTrajectory.insert(it, currentDCM);
-            logList.at(11)->log();
+            logList.at(n_loggers+1)->log();
             continue;
         }
         double alpha, beta, gamma, phaseTime;
@@ -524,7 +530,7 @@ void Controller::DCMPlan() {
         // std::cout << end << ": " << VRPTrajectory.at(end).x() << " " << VRPTrajectory.at(end).y() << " " << VRPTrajectory.at(end).z() << std::endl;
         it = DCMTrajectory.begin();
         DCMTrajectory.insert(it, currentDCM);
-        logList.at(11)->log();
+        logList.at(n_loggers+1)->log();
     }
 }
 
@@ -533,10 +539,10 @@ void Controller::CoMPlan() {
     Eigen::Vector3d currentCoM = current.com.pos;
     logList.push_back(new Logger("com_trajectory", &currentCoM));
     for (int i = 0; i < VRPTrajectory.size(); i++) {
-        logList.at(12)->log();
-        currentCoM = currentCoM - eta * (currentCoM - DCMTrajectory.at(i))*timeStep;
+        logList.at(n_loggers+2)->log();
+        currentCoM = currentCoM - eta * (currentCoM - DCMTrajectory.at(std::max(0,i-1)))*timeStep;
     }
-    logList.at(12)->log();
+    logList.at(n_loggers+2)->log();
 }
 Eigen::MatrixXd Controller::getJacobian() {
 
